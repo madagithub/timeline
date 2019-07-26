@@ -40,6 +40,9 @@ class Config:
 			lines = [pyfribidi.log2vis(s) for s in lines]
 		return lines
 
+	def getDots(self):
+		return self.config['dots']
+
 	def getLanguages(self):
 		return self.config['languages']
 

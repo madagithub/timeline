@@ -42,6 +42,12 @@ class Utilities:
 			Utilities.drawTextOnLeftX(screen, textBox, (position[0], position[1] + i * lineGap))
 
 	@staticmethod
+	def drawTextsOnRightX(screen, textBoxes, position, lineGap):
+		for i in range(len(textBoxes)):
+			textBox = textBoxes[i]
+			Utilities.drawTextOnLeftX(screen, textBox, (position[0] - textBox.get_width(), position[1] + i * lineGap))
+
+	@staticmethod
 	def renderTextList(config, font, key, color=(255, 255, 255)):
 		textBoxes = []
 		for text in config.getTextList(key):

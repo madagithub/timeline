@@ -2,18 +2,22 @@ import pygame
 from pygame.locals import *
 
 import time
-
 import platform
+from functools import partial
 
 if platform.system() == 'Linux':
 	import evdev
 	from evdev import InputDevice, categorize, ecodes
 
 from common.Config import Config
+from common.Utilities import Utilities
 from common.Button import Button
 from common.TouchScreen import TouchScreen
 
 CONFIG_FILENAME = 'assets/config/config.json'
+
+DOT_TEXT_COLOR = (252, 175, 138)
+DOT_SELECTED_TEXT_COLOR = (0, 65, 40)
 
 class Timeline:
 	def __init__(self):
@@ -29,6 +33,8 @@ class Timeline:
 		pygame.init()
 		pygame.mouse.set_visible(False)
 
+		self.loadFonts()
+
 		self.screen = pygame.display.set_mode((1920, 1080), pygame.FULLSCREEN)
 		self.cursor = pygame.image.load('assets/images/cursor.png').convert_alpha()
 
@@ -42,26 +48,43 @@ class Timeline:
 
 		self.background = pygame.image.load('assets/images/background.png').convert()
 
-		dot = pygame.image.load('assets/images/dot-normal.png').convert()
-		dotSelected = pygame.image.load('assets/images/dot-tapped.png').convert()
+		self.dotImage = pygame.image.load('assets/images/dot-normal.png').convert()
+		self.dotTappedImage = pygame.image.load('assets/images/dot-tapped.png').convert()
 
+		# TODO: Add languages support (currently only Hebrew is needed)
 		self.languageButtons = []
 
-		#languages = self.config.getLanguages()
-		#for i in range(len(languages)):
-		#	language = None
+		self.dots = self.config.getDots()
+		self.dotButtons = []
 
-		#dots = self.config.getDots()
-		#for i in range(len(dots)):
-		#	dot = dots[i]
+		for i in range(len(self.dots)):
+			dot = self.dots[i]
+			x = dot['x']
+			y = dot['y']
+			dotButton = Button(self.screen, Rect(x - self.dotImage.get_width() // 2, y - self.dotImage.get_height() // 2, self.dotImage.get_width(), self.dotImage.get_height()), 
+				self.dotImage, self.dotTappedImage, str(i + 1), DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, self.numbersFont, partial(self.dotClicked, i))
+			self.dotButtons.append(dotButton)
+			self.buttons.append(dotButton)
 
 		self.selectedDotIndex = 0
-		#self.loadDot()
+		self.loadDot()
 
 		self.loop()
 
+	def loadFonts(self):
+		languageData = self.config.getLanguage()
+		self.numbersFont = pygame.font.Font(languageData['fonts']['numbersFont']['filename'], languageData['fonts']['numbersFont']['size'])
+		self.headerFont = pygame.font.Font(languageData['fonts']['headerFont']['filename'], languageData['fonts']['headerFont']['size'])
+		self.textFont = pygame.font.Font(languageData['fonts']['textFont']['filename'], languageData['fonts']['textFont']['size'])
+
+	def dotClicked(self, index):
+		self.selectedDotIndex = index
+		self.loadDot()
+
 	def loadDot(self):
-		self.currText = None
+		dot = self.dots[self.selectedDotIndex]
+		self.currTexts = Utilities.renderTextList(self.config, self.textFont, dot['textKey'])
+		self.currHeader = self.headerFont.render(self.config.getText(dot['headerKey']), True, (255, 255 ,255))
 
 	def onMouseDown(self, pos):
 		for button in self.buttons:
@@ -76,6 +99,9 @@ class Timeline:
 
 	def draw(self, dt):
 		self.screen.blit(self.background, (0, 0))
+
+		self.screen.blit(self.currHeader, (1789, 906))
+		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1791, 960), 50)		
 
 		for button in self.buttons:
 			button.draw()
