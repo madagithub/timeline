@@ -100,8 +100,8 @@ class Timeline:
 	def draw(self, dt):
 		self.screen.blit(self.background, (0, 0))
 
-		self.screen.blit(self.currHeader, (1789, 906))
-		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1791, 960), 50)		
+		self.screen.blit(self.currHeader, (1788 - self.currHeader.get_width(), 895))
+		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)		
 
 		for button in self.buttons:
 			button.draw()
