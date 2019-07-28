@@ -18,6 +18,7 @@ CONFIG_FILENAME = 'assets/config/config.json'
 
 DOT_TEXT_COLOR = (252, 175, 138)
 DOT_SELECTED_TEXT_COLOR = (0, 65, 40)
+TEXT_COLOR = (0, 65, 40)
 
 class Timeline:
 	def __init__(self):
@@ -48,8 +49,9 @@ class Timeline:
 
 		self.background = pygame.image.load('assets/images/background.png').convert()
 
-		self.dotImage = pygame.image.load('assets/images/dot-normal.png').convert()
-		self.dotTappedImage = pygame.image.load('assets/images/dot-tapped.png').convert()
+		self.dotImage = pygame.image.load('assets/images/dot-normal.png').convert_alpha()
+		self.dotTappedImage = pygame.image.load('assets/images/dot-tapped.png').convert_alpha()
+		self.dotSelectedImage = pygame.image.load('assets/images/dot-selected.png').convert_alpha()
 
 		# TODO: Add languages support (currently only Hebrew is needed)
 		self.languageButtons = []
@@ -83,8 +85,18 @@ class Timeline:
 
 	def loadDot(self):
 		dot = self.dots[self.selectedDotIndex]
-		self.currTexts = Utilities.renderTextList(self.config, self.textFont, dot['textKey'])
-		self.currHeader = self.headerFont.render(self.config.getText(dot['headerKey']), True, (255, 255 ,255))
+		self.currTexts = Utilities.renderTextList(self.config, self.textFont, dot['textKey'], TEXT_COLOR)
+		self.currHeader = self.headerFont.render(self.config.getText(dot['headerKey']), True, TEXT_COLOR)
+
+		for i in range(len(self.dotButtons)):
+			if i == self.selectedDotIndex:
+				self.dotButtons[i].image = self.dotSelectedImage
+				self.dotButtons[i].color = DOT_SELECTED_TEXT_COLOR
+				self.dotButtons[i].createText(self.dotButtons[i].text, self.dotButtons[i].font)
+			else:
+				self.dotButtons[i].image = self.dotImage
+				self.dotButtons[i].color = DOT_TEXT_COLOR
+				self.dotButtons[i].createText(self.dotButtons[i].text, self.dotButtons[i].font)
 
 	def onMouseDown(self, pos):
 		for button in self.buttons:
@@ -101,7 +113,11 @@ class Timeline:
 		self.screen.blit(self.background, (0, 0))
 
 		self.screen.blit(self.currHeader, (1788 - self.currHeader.get_width(), 895))
-		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)		
+		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)
+
+		self.screen.blit(self.dotSelectedImage, (1857 - self.dotSelectedImage.get_width() // 2, 911 - self.dotSelectedImage.get_height() // 2))
+		selectedNumberTextBox = self.numbersFont.render(str(self.selectedDotIndex + 1), True, TEXT_COLOR)
+		self.screen.blit(selectedNumberTextBox, (1857 - selectedNumberTextBox.get_width() // 2, 911 - selectedNumberTextBox.get_height() // 2))
 
 		for button in self.buttons:
 			button.draw()

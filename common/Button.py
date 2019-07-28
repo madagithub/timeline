@@ -6,6 +6,8 @@ from common.Utilities import Utilities
 class Button:
 	def __init__(self, screen, rect, image, tappedImage, text, color, selectedColor, font, onClickCallback):
 		self.screen = screen
+		self.font = font
+		self.text = text
 		self.rect = rect
 		self.image = image
 		self.tappedImage = tappedImage
