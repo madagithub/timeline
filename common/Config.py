@@ -37,7 +37,7 @@ class Config:
 	def getTextList(self, key):
 		lines = self.config['texts'][self.languagePrefix][key].split('\n')
 		if self.getLanguage()['rtl']:
-			lines = [pyfribidi.log2vis(s) for s in lines]
+			lines = [pyfribidi.log2vis(s).replace('\u200f', '') for s in lines]
 		return lines
 
 	def getDots(self):
