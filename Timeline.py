@@ -48,13 +48,22 @@ class Timeline:
 				self.config.setTouch(False)
 
 		self.background = pygame.image.load('assets/images/background.png').convert()
+		self.illustration = pygame.image.load('assets/images/illustration.png').convert()
 
 		self.dotImage = pygame.image.load('assets/images/dot-normal.png').convert_alpha()
 		self.dotTappedImage = pygame.image.load('assets/images/dot-tapped.png').convert_alpha()
 		self.dotSelectedImage = pygame.image.load('assets/images/dot-selected.png').convert_alpha()
 
 		# TODO: Add languages support (currently only Hebrew is needed)
-		self.languageButtons = []
+		#self.languageButtons = []
+		languageButtonImage = pygame.image.load('assets/images/language-button-normal.png').convert()
+		languageButtonTappedImage = pygame.image.load('assets/images/language-button-tapped.png').convert()
+		for i in range(len(self.config.getLanguages())):
+			language = self.config.getLanguages()[i]
+			languageFont = pygame.font.Font(language['fonts']['textFont']['filename'], language['fonts']['textFont']['size'])
+			languageButton = Button(self.screen, Rect(i * 63 + 15, 1010, languageButtonImage.get_width(), languageButtonImage.get_height()), 
+				languageButtonImage, languageButtonTappedImage, language['buttonText'], DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, languageFont, partial(self.languageClicked, i))
+			self.buttons.append(languageButton)
 
 		self.dots = self.config.getDots()
 		self.dotButtons = []
@@ -81,6 +90,11 @@ class Timeline:
 
 	def dotClicked(self, index):
 		self.selectedDotIndex = index
+		self.loadDot()
+
+	def languageClicked(self, index):
+		self.config.changeLanguage(index)
+		self.loadFonts()
 		self.loadDot()
 
 	def loadDot(self):
@@ -111,9 +125,14 @@ class Timeline:
 
 	def draw(self, dt):
 		self.screen.blit(self.background, (0, 0))
+		self.screen.blit(self.illustration, (0, 0))
 
 		self.screen.blit(self.currHeader, (1788 - self.currHeader.get_width(), 895))
-		Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)
+
+		if self.config.isRtl():
+			Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)
+		else:
+			Utilities.drawTextsOnLeftX(self.screen, self.currTexts, (210, 951), 40)
 
 		self.screen.blit(self.dotSelectedImage, (1857 - self.dotSelectedImage.get_width() // 2, 911 - self.dotSelectedImage.get_height() // 2))
 		selectedNumberTextBox = self.numbersFont.render(str(self.selectedDotIndex + 1), True, TEXT_COLOR)
