@@ -13,6 +13,7 @@ from common.Config import Config
 from common.Utilities import Utilities
 from common.Button import Button
 from common.TouchScreen import TouchScreen
+from common.LanguageButton import LanguageButton
 
 CONFIG_FILENAME = 'assets/config/config.json'
 
@@ -48,21 +49,26 @@ class Timeline:
 				self.config.setTouch(False)
 
 		self.background = pygame.image.load('assets/images/background.png').convert()
-		self.illustration = pygame.image.load('assets/images/illustration.png').convert()
 
 		self.dotImage = pygame.image.load('assets/images/dot-normal.png').convert_alpha()
 		self.dotTappedImage = pygame.image.load('assets/images/dot-tapped.png').convert_alpha()
 		self.dotSelectedImage = pygame.image.load('assets/images/dot-selected.png').convert_alpha()
 
-		# TODO: Add languages support (currently only Hebrew is needed)
-		#self.languageButtons = []
 		languageButtonImage = pygame.image.load('assets/images/language-button-normal.png').convert()
 		languageButtonTappedImage = pygame.image.load('assets/images/language-button-tapped.png').convert()
+		languageButtonSelectedImage = pygame.image.load('assets/images/language-button-tapped.png').convert()
+
+		self.languageButtons = []
 		for i in range(len(self.config.getLanguages())):
 			language = self.config.getLanguages()[i]
 			languageFont = pygame.font.Font(language['fonts']['textFont']['filename'], language['fonts']['textFont']['size'])
-			languageButton = Button(self.screen, Rect(i * 63 + 15, 1010, languageButtonImage.get_width(), languageButtonImage.get_height()), 
-				languageButtonImage, languageButtonTappedImage, language['buttonText'], DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, languageFont, partial(self.languageClicked, i))
+
+			languageButton = LanguageButton(self.screen, Rect(i * 63 + 15, 1010, languageButtonImage.get_width(), languageButtonImage.get_height()), 
+				languageButtonImage, languageButtonTappedImage, languageButtonSelectedImage, language['buttonText'], DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, languageFont, partial(self.languageClicked, i))
+			if language['prefix'] == self.config.languagePrefix:
+				languageButton.visible = False
+
+			self.languageButtons.append(languageButton)
 			self.buttons.append(languageButton)
 
 		self.dots = self.config.getDots()
@@ -95,7 +101,16 @@ class Timeline:
 	def languageClicked(self, index):
 		self.config.changeLanguage(index)
 		self.loadFonts()
+		self.onLanguageChanged()
 		self.loadDot()
+
+	def onLanguageChanged(self):
+		languages = self.config.getLanguages()
+		for i in range(len(languages)):
+			if i == self.config.languageIndex:
+				self.languageButtons[i].visible = False
+			else:
+				self.languageButtons[i].visible = True
 
 	def loadDot(self):
 		dot = self.dots[self.selectedDotIndex]
@@ -125,18 +140,19 @@ class Timeline:
 
 	def draw(self, dt):
 		self.screen.blit(self.background, (0, 0))
-		self.screen.blit(self.illustration, (0, 0))
-
-		self.screen.blit(self.currHeader, (1788 - self.currHeader.get_width(), 895))
 
 		if self.config.isRtl():
+			self.screen.blit(self.currHeader, (1788 - self.currHeader.get_width(), 895))
 			Utilities.drawTextsOnRightX(self.screen, self.currTexts, (1788, 951), 40)
+			dotX = 1857
 		else:
-			Utilities.drawTextsOnLeftX(self.screen, self.currTexts, (210, 951), 40)
+			self.screen.blit(self.currHeader, (320, 895))
+			Utilities.drawTextsOnLeftX(self.screen, self.currTexts, (320, 951), 40)
+			dotX = 240
 
-		self.screen.blit(self.dotSelectedImage, (1857 - self.dotSelectedImage.get_width() // 2, 911 - self.dotSelectedImage.get_height() // 2))
+		self.screen.blit(self.dotSelectedImage, (dotX - self.dotSelectedImage.get_width() // 2, 911 - self.dotSelectedImage.get_height() // 2))
 		selectedNumberTextBox = self.numbersFont.render(str(self.selectedDotIndex + 1), True, TEXT_COLOR)
-		self.screen.blit(selectedNumberTextBox, (1857 - selectedNumberTextBox.get_width() // 2, 911 - selectedNumberTextBox.get_height() // 2))
+		self.screen.blit(selectedNumberTextBox, (dotX - selectedNumberTextBox.get_width() // 2, 911 - selectedNumberTextBox.get_height() // 2))
 
 		for button in self.buttons:
 			button.draw()

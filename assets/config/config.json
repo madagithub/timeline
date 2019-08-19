@@ -57,7 +57,7 @@
 			"fonts": 
 			{
 				"headerFont": {"filename": "assets/fonts/TheSansArabic-Bold.ttf", "size": 34},
-				"textFont": {"filename": "assets/fonts/TheSansArabic-Black.ttf", "size": 30},
+				"textFont": {"filename": "assets/fonts/TheSansArabic-Plain.ttf", "size": 30},
 				"numbersFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 30}	
 			}
 		},
@@ -68,7 +68,7 @@
 			"fonts": 
 			{
 				"headerFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 34},
-				"textFont": {"filename": "assets/fonts/SimplerPro_V3-Regular.ttf", "size": 30},
+				"textFont": {"filename": "assets/fonts/SimplerPro_V3-Regular.ttf", "size": 27},
 				"numbersFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 30}
 			}
 		}
