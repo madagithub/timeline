@@ -93,6 +93,7 @@ class Timeline:
 		self.numbersFont = pygame.font.Font(languageData['fonts']['numbersFont']['filename'], languageData['fonts']['numbersFont']['size'])
 		self.headerFont = pygame.font.Font(languageData['fonts']['headerFont']['filename'], languageData['fonts']['headerFont']['size'])
 		self.textFont = pygame.font.Font(languageData['fonts']['textFont']['filename'], languageData['fonts']['textFont']['size'])
+		self.smallTextFont = pygame.font.Font(languageData['fonts']['smallTextFont']['filename'], languageData['fonts']['smallTextFont']['size'])
 
 	def dotClicked(self, index):
 		self.selectedDotIndex = index
@@ -114,7 +115,8 @@ class Timeline:
 
 	def loadDot(self):
 		dot = self.dots[self.selectedDotIndex]
-		self.currTexts = Utilities.renderTextList(self.config, self.textFont, dot['textKey'], TEXT_COLOR)
+		textFont = self.smallTextFont if dot.get('smallText', False) else self.textFont
+		self.currTexts = Utilities.renderTextList(self.config, textFont, dot['textKey'], TEXT_COLOR)
 		self.currHeader = self.headerFont.render(self.config.getText(dot['headerKey']), True, TEXT_COLOR)
 
 		for i in range(len(self.dotButtons)):
