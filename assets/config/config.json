@@ -197,7 +197,7 @@
             "rtl": false
         },
         {
-            "buttonText": "\u0629",
+            "buttonText": "ع",
             "fonts": {
                 "headerFont": {
                     "filename": "assets/fonts/TheSansArabic-Bold.ttf",
