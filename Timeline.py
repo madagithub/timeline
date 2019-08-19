@@ -56,7 +56,7 @@ class Timeline:
 
 		languageButtonImage = pygame.image.load('assets/images/language-button-normal.png').convert()
 		languageButtonTappedImage = pygame.image.load('assets/images/language-button-tapped.png').convert()
-		languageButtonSelectedImage = pygame.image.load('assets/images/language-button-tapped.png').convert()
+		languageButtonSelectedImage = pygame.image.load('assets/images/language-button-selected.png').convert()
 
 		self.languageButtons = []
 		for i in range(len(self.config.getLanguages())):

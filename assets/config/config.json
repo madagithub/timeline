@@ -1,345 +1,425 @@
 {
-	"touch": true,
-	"touchDeviceName": "Touch",
-	"touchMaxX": 4096,
-	"touchMaxY": 4096,
-	"showFPS": false,
-	"defaultLanguage": "he",
-
-	"dots": [
-		{"x": 1876, "y": 51, "headerKey": "DOT_1_HEADER", "textKey": "DOT_1_TEXT"},
-		{"x": 1758, "y": 175, "headerKey": "DOT_2_HEADER", "textKey": "DOT_2_TEXT"},
-		{"x": 1639, "y": 229, "headerKey": "DOT_3_HEADER", "textKey": "DOT_3_TEXT"},
-		{"x": 1530, "y": 240, "headerKey": "DOT_4_HEADER", "textKey": "DOT_4_TEXT"},
-		{"x": 1795, "y": 333, "headerKey": "DOT_5_HEADER", "textKey": "DOT_5_TEXT"},
-		{"x": 1362, "y": 321, "headerKey": "DOT_6_HEADER", "textKey": "DOT_6_TEXT"},
-		{"x": 1570, "y": 705, "headerKey": "DOT_7_HEADER", "textKey": "DOT_7_TEXT"},
-		{"x": 1000, "y": 154, "headerKey": "DOT_8_HEADER", "textKey": "DOT_8_TEXT"},
-		{"x": 1131, "y": 396, "headerKey": "DOT_9_HEADER", "textKey": "DOT_9_TEXT"},
-		{"x": 1006, "y": 414, "headerKey": "DOT_10_HEADER", "textKey": "DOT_10_TEXT"},
-		{"x": 1168, "y": 628, "headerKey": "DOT_11_HEADER", "textKey": "DOT_11_TEXT"},
-		{"x": 909, "y": 682, "headerKey": "DOT_12_HEADER", "textKey": "DOT_12_TEXT"},
-		{"x": 1162, "y": 504, "headerKey": "DOT_13_HEADER", "textKey": "DOT_13_TEXT"},
-		{"x": 1245, "y": 393, "headerKey": "DOT_14_HEADER", "textKey": "DOT_14_TEXT"},
-		{"x": 991, "y": 586, "headerKey": "DOT_15_HEADER", "textKey": "DOT_15_TEXT"},
-		{"x": 729, "y": 553, "headerKey": "DOT_16_HEADER", "textKey": "DOT_16_TEXT"},
-		{"x": 774, "y": 655, "headerKey": "DOT_17_HEADER", "textKey": "DOT_17_TEXT"},
-		{"x": 939, "y": 291, "headerKey": "DOT_18_HEADER", "textKey": "DOT_18_TEXT"},
-		{"x": 838, "y": 169, "headerKey": "DOT_19_HEADER", "textKey": "DOT_19_TEXT"},
-		{"x": 525, "y": 684, "headerKey": "DOT_20_HEADER", "textKey": "DOT_20_TEXT"},
-		{"x": 609, "y": 436, "headerKey": "DOT_21_HEADER", "textKey": "DOT_21_TEXT"},
-		{"x": 654, "y": 295, "headerKey": "DOT_22_HEADER", "textKey": "DOT_22_TEXT"},
-		{"x": 340, "y": 505, "headerKey": "DOT_23_HEADER", "textKey": "DOT_23_TEXT"},
-		{"x": 307, "y": 579, "headerKey": "DOT_24_HEADER", "textKey": "DOT_24_TEXT"},
-		{"x": 294, "y": 682, "headerKey": "DOT_25_HEADER", "textKey": "DOT_25_TEXT"},
-		{"x": 213, "y": 378, "headerKey": "DOT_26_HEADER", "textKey": "DOT_26_TEXT"},
-		{"x": 117, "y": 523, "headerKey": "DOT_27_HEADER", "textKey": "DOT_27_TEXT"},
-		{"x": 214, "y": 577, "headerKey": "DOT_28_HEADER", "textKey": "DOT_28_TEXT"},
-		{"x": 91, "y": 717, "headerKey": "DOT_29_HEADER", "textKey": "DOT_29_TEXT"}
-	],
-
-	"languages": [
-		{
-			"prefix": "he",
-			"rtl": true,
-			"buttonText": "ע",
-			"fonts": 
-			{
-				"headerFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 34},
-				"textFont": {"filename": "assets/fonts/SimplerPro_V3-Regular.ttf", "size": 30},
-				"numbersFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 30}
-			}
-		},
-		{
-			"prefix": "ar",
-			"rtl": true,
-			"buttonText": "ة",
-			"fonts": 
-			{
-				"headerFont": {"filename": "assets/fonts/TheSansArabic-Bold.ttf", "size": 34},
-				"textFont": {"filename": "assets/fonts/TheSansArabic-Plain.ttf", "size": 30},
-				"numbersFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 30}	
-			}
-		},
-		{
-			"prefix": "en", 
-			"rtl": false,
-			"buttonText": "En",
-			"fonts": 
-			{
-				"headerFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 34},
-				"textFont": {"filename": "assets/fonts/SimplerPro_V3-Regular.ttf", "size": 27},
-				"numbersFont": {"filename": "assets/fonts/SimplerPro_V3-Black.ttf", "size": 30}
-			}
-		}
-	],
-
-	"texts": {
-		"he": {
-			"DOT_1_HEADER": "התחלה וזיכרון ילדות ראשון",
-			"DOT_1_TEXT": "לאונרדו נולד בעיירה וינצ'י שבטוסקנה ב-15 לאפריל 1452, לפיירו דה וינצ'י וקתרינה ליפי.\nלאונרדו נזכר בכתביו, שכשהיה תינוק נחתה ציפור על עריסתו ופתחה את פיו בזנבה.\nזיכרון זה היווה ללאונרדו אות וסימן לעיסוקו הנרחב בציפורים ותעופה.",
-
-			"DOT_2_HEADER": "זיכרון ילדות שני ורמז לסקרנות",
-			"DOT_2_TEXT": "בילדותו נהג לאונרדו לשוטט לבדו בטבע שסביב וינצ'י בה גדל.\nבכתביו הוא מתאר שבאחד משיטוטיו הגיע לפתח מערה, ולמרות שחשש להיכנס לבדו למקום החשוך והלא מוכר,\nבזכות סקרנותו, אזר אומץ להיכנס ולבדוק מה צפון בה. בתוכה גילה מאובן של דג גדול.",
-
-			"DOT_3_HEADER": "מַעֲבָר לפִירֶנְצֶה",
-			"DOT_3_TEXT": "בגיל 12 עבר לאונרדו לגור בפירנצה עם אביו פיירו שהיה נוטריון מכובד.\nכיוון שהוריו לא היו נשואים נמנעה מלאונרדו קבלה למוסדות חינוך מתקדמים, ובגיל 14 נהיה שׁוּלְיָה\nבבית המלאכה של אנדראה דל וורוקיוֹ. שם שָׁקַד על כישוריו בתחומי הציור, ההנדסה ומלאכוֹת נוספות.",
-
-			"DOT_4_HEADER": "אומן בבית המלאכה של וורוקיוֹ",
-			"DOT_4_TEXT": "לבית המלאכה של אנדראה דל וורוקיו, כמו לבתי מלאכה אחרים בתקופת הרנסנס, היו יכולות טכניות מגוונות.\nבמסגרת עבודתו בבית המלאכה השתתף לאונרדו בהתקנת כדור מתכתי מוזהב שמעטר עד היום את כיפת הקתדרלה בפירנצה.\nההתקנה בשנת 1469 הייתה מאתגרת, שֶׁכֵּן היה צריך להרים את הכדור לגובה של יותר ממאה מטרים.",
-
-			"DOT_5_HEADER": "ציור \"הבשׂורה\"",
-			"DOT_5_TEXT": "בין השנים 1475-1472 צייר לאונרדו את \"בשׂוֹרת המלאך למרים\", שהיה אחד הציורים הראשונים המיוחסים לו.\nכיום מוצג הציור בגלריה אוּפִיצִי שבפירנצה. מידותיהם של אלמנטים מסוימים בציור מותאמות\nלהתבוננות מנקודת מבט מסוימת (מצד ימין) כפי שתוכלו ללמוד במוצג \"למה האף גדול?\".",
-
-			"DOT_6_HEADER": "\"ציור נוף\"",
-			"DOT_6_TEXT": "ב-5 באוגוסט 1473 סיים לאונרדו רישום דיו של נוף טוסקני בסביבת נהר האַרְנוֹ שלידו גדל.\nהעתק גדול ממדים של הרישום, עם הסבר מפורט לגביו, מצוי בתערוכה באזור \"אנלוגיות בטבע\".",
-
-			"DOT_7_HEADER": "לאונרדו המוזיקאי",
-			"DOT_7_TEXT": "נוסף על כישוריו האחרים לאונרדו הצטיין כנגן Lirra da Braccio – כלי מיתר הדומה מעט לכינור של ימינו.\nהוא אף תכנן ובנה לעצמו גרסאות מיוחדות של כלי נגינה זה. בזכות כישוריו המוזיקליים הגיע\nלאונרדו למילאנו ב-1482 עם משלחת מפירנצה, ונהיה חלק מחצרו של דוכס מילאנו, לודביקו ספּוֹרצֶה.",
-
-			"DOT_8_HEADER": "השלמת השכלה",
-			"DOT_8_TEXT": "בתקופתו במילאנו החל לאונרדו להשלים את השכלתו הכללית וידיעותיו, התחיל ללמוד לטינית וקרא\nטקסטים \"קלאסיים\" מהעת העתיקה. במהלך חייו נעזר לאונרדו במורים מומחים מהם למד ואיתם שיתף פעולה,\nוגיבש ספרייה מרשימה של יותר מ-100 ספרים בנושאים מגוונים.",
-
-			"DOT_9_HEADER": "מכונות מעופפות",
-			"DOT_9_TEXT": "בשנותיו במילאנו עסק לאונרדו רבות בתכנון מכונות מעופפות שהתבססו על תצפיותיו בציפורים ונסמכו על כישוריו ההנדסיים.\nאיננו יודעים אם לאונרדו אכן ערך ניסוי ממשי כלשהו בתחום תעופת האדם.\nעוד על עיסוקו של לאונרדו בנושא התעופה תוכלו ללמוד באזור \"אנלוגיות בטבע\" של התערוכה.",
-
-			"DOT_10_HEADER": "תכנון פסל סוס ענק (1494-1489)",
-			"DOT_10_TEXT": "בשנת 1493 הציג לאונרדו דגם חימר בגודל מלא (כ-7 מטרים) של פסל שיועד לזיכרו של פרנצ'סקו ספורצה, אביו של דוכס מילאן.\nהפסל הסופי, מארד,  מעולם לא נוצק עקב פלישת צרפת לדוכסות.\nמשקולת ראש הסוס שמאחוריכם מבוססת על רישום של לאונרדו לקראת יציקת פסל הארד.",
-
-			"DOT_11_HEADER": "רישום \"האדם הוויטרובי\" (1492)",
-			"DOT_11_TEXT": "ויטרוביוס, האדריכל הרומאי, טען שאדם בעל פרופורציות מושלמות אפשר לשרטט בו בזמן בתוך מעגל\nשמרכזו יושב על טבורו של האדם, ובתוך ריבוע.\nלאונרדו פתר את החידה הקדומה בכך שהוסיף זוג ידיים וזוג רגליים הַמְּשַׁקְּפִים את תפיסתו של האדם כיצור דינמי ומלא חיוּת.",
-
-			"DOT_12_HEADER": "איורים ל\"פרופורציה האלוהית\" (1498-1496)",
-			"DOT_12_TEXT": "ב-1496 הגיע למילאנו הנזיר הפרנציסקני והמתמטיקאי הידוע לוּקה פצ'יולי.\nהוא ולאונרדו התחברו, ולאונרדו אייר את ספרו של פצ'יולי \"הפרופורציה האלוהית\",לרבּות סדרה מפורסמת של\nאיורי פְּאוֹנִים משוכללים. ההיכרות בין השניים הובילה את לאונרדו להתעמק בגיאומטריה, אותה חָקַר כל חייו.",
-
-			"DOT_13_HEADER": "קודקס מדריד",
-			"DOT_13_TEXT": "הַמַּחְבָּרוֹת הַמְּכֻנּוֹת כיום קודקס מדריד I (1498-1493) וקודקס מדריד II (1505-1493), אותן החל לאונרדו בתקופתו במילאנו,\nהתמקדו בחֵקֶר רכיבים מכאניים בסיסיים ואיור מנגנונים חדשניים.\nהרישומים לרבּים מהמוצגים המכאניים בקומה זו של התערוכה מופיעים בקודקסים אלה.",
-
-			"DOT_14_HEADER": "\"הסעודה האחרונה\"",
-			"DOT_14_TEXT": "בין השנים 1498-1495 צייר לאונרדו בחדר האוכל במנזר שבמילאנו את סצינת \"הסעודה האחרונה\" המפורסמת.\nציור הקיר הוזמן על-ידי הדוכס ספורצה, אשר גילה חוסר סבלנות נוכח איטיוּת מלאכתו של לאונרדו.\nקסמו של הציור נובע משימוש חכם בחוקי הפרספקטיבה, ומאופן הצבת הדמויות עם מחווֹת מותאמות לאופי של כל אחת מהן.",
-
-			"DOT_15_HEADER": "\"מהנדס צבאי\" (1502-חורף 1503)",
-			"DOT_15_TEXT": "כמחווה של שלטונות פירנצה נשלח לאונרדו לסייע, כמהנדס צבאי,\nלסזאר בורג'יה הערמומי והאכזר שעמד בראש צבאות האפיפיור במסעות הכיבוש שלו.\nלאונרדו תכנן עבורו בין השאר גשר מאולתר מקורות עץ (ראו מוצג \"גשר לאונרדו\" בתערוכת \"למה בניינים לא נופלים\" בקומה זו).",
-
-			"DOT_16_HEADER": "לאונרדו ומקיאוולי",
-			"DOT_16_TEXT": "בזמן ששירת את סזאר בורג'יה (1502-חורף 1503), לאונרדו שיתף פעולה עם המדינאי והסופר המפורסם ניקולו\nמקיאוולי שהתלווה גם הוא לבורג'יה כנציג העיר פירנצה.\nבין השאר תכננו השניים להטות את נהר הארנו סביב העיר פיזה, יריבתה של פירנצה.",
-
-			"DOT_17_HEADER": "ה\"מונה ליזה\"",
-			"DOT_17_TEXT": "במהלך 1504 התחיל לאונרדו לצייר את ה\"מונה ליזה\", פורטרט של ליזה ג'ררדיני, אישתו של פרנצ'סקו דל ג'וקונדו,\nסוחר בדים מפירנצה. לאונרדו המשיך לעבוד על ציור זה עד ערוב ימיו.\nעוד על ה\"מונה ליזה\" תוכלו ללמוד במוצג \"איך לצייר פרספקטיבה אווירית?\"",
-
-			"DOT_18_HEADER": "לאונרדו ומיכאלאנג'לו (1504)",
-			"DOT_18_TEXT": "בפירנצה, הוזמנו לאונרדו ומיכאלאנג'לו, שהיה צעיר ממנו ב-20 שנה, לצייר שני קרבות מתולדות העיר.\nהציורים לא שרדו, אבל עותקים מהם מציגים את הבדלי הסגנונות בין שני האומנים.\nלאונרדו גם היה שותף בדיון שעסק במיקום פְּסְלוֹ המפורסם של מיכאלאנג'לו – דָּוִד.",
-
-			"DOT_19_HEADER": "הקודקס על תעופת ציפורים",
-			"DOT_19_TEXT": "חוסר היציבות הפוליטית במילאנו הניע את לאונרדו לחזור לפירנצה בשנת 1500.\nבין השנים 1506-1503 חיבר לאונרדו קודקס המתאר את תובנותיו בנושא תעופת הציפורים ותכנון של רכיבים\nלבניית מכונה מעופפת. אפשר לעיין בגרסה דיגיטלית של הקודקס באזור \"אנלוגיות בטבע\" שבתערוכה.",
-
-			"DOT_20_HEADER": "קודקס לסטר",
-			"DOT_20_TEXT": "בעשור הראשון של המאה ה-16 (1508-1502) חיבר לאונרדו קודקס קצר הַמֻּכָּר כיום כקודקס לסטר.\nקודקס זה מתמקד בזרימת מים וגיאולוגיה, ואף בהשערותיו של לאונרדו בנוגע לאור הירח!\nעוד על גילויו של לאונרדו בתחום המאובנים תוכלו ללמוד במוצג \"איך נוצר מאובן?\" באזור \"אנלוגיות בטבע\" של התערוכה.",
-
-			"DOT_21_HEADER": "אריה מכאני ראשון (1509)",
-			"DOT_21_TEXT": "ממקורות מתקופתו של לאונרדו ואחריה אנו למדים שלאונרדו תכנן וגם בנה במרוצת השנים שלושה אריות מכאניים שונים לכבוד מופעים חגיגיים.\nלצערנו, רישומיו של לאונרדו לאריות לא שרדו.\nהאריה הראשון נבנה לכבוד כניסתו של המלך הצרפתי לואי ה-XII לעיר מילאנו, אליה שב לאונרדו ב-1506.",
-
-			"DOT_22_HEADER": "מחקרים אנטומיים מאוחרים",
-			"DOT_22_TEXT": "לאונרדו חזר וחקר אנטומיה בכלל, ואת האנטומיה האנושית בפרט, בתקופות שונות בחייו.\nבין השנים 1513-1508 הגיע לאונרדו להישגיו הגדולים ביותר בתחום זה, במיוחד בחֵקֶר הלב.\nתוכלו ללמוד על כך עוד באזור \"אנלוגיות בטבע\" בתערוכה.",
-
-			"DOT_23_HEADER": "\"מראות ומתחים\" (1515-1514)",
-			"DOT_23_TEXT": "בתקופתו ברומא, כששירת את ג'וליאנו דה מדיצ'י, אחיו של האפיפיור ליאו ה-X, חקר לאונרדו את האופטיקה של מראות וטכניקות של ייצורן.\nכתביו מאותה תקופה מְסַפְּרִים על מתיחוּת וסכסוכים בינו ובין אחד מעוזריו,\nוכן בינו ובין בונה מראות מתחרה בשם Giovanni degli Specchi.",
-
-			"DOT_24_HEADER": "מכונת ליטוש מראות",
-			"DOT_24_TEXT": "",
-
-			"DOT_25_HEADER": "אריה מכאני שני",
-			"DOT_25_TEXT": "ב1515 בנה לאונרדו אריה מכני שני, עבור קבלת פנים שהעיר ליון ערכה למלך צרפת החדש פרנסואה ה-I.\nעל פי עדויות, ה\"אריה\" הילך, התיישב ובפתח בחזה שלו הופיעו פרחים.\nבאותה שנה הציע פרנסואה ללאונרדו קצבה נדיבה לעבור לצרפת ולשמש כיועצו.",
-
-			"DOT_26_HEADER": "ציורי ה\"מבול\"",
-			"DOT_26_TEXT": "בקיץ 1516 חצו לאונרדו ומלוויו את הרי האלפים כדי להיענות להזמנתו של מלך צרפת, פרנסואה ה-I,  להצטרף לחצרו.\nבצרפת יצר לאונרדו סדרת רישומים של שיטפונות בקנה מידה אפוקליפטי.\nבמוצג \"איך לצייר מבול?\" ממש מימינכם, תוכלו להביט ברישומים אלה מקרוב.",
-
-			"DOT_27_HEADER": "פטרוֹן אחרון",
-			"DOT_27_TEXT": "פטרונו האחרון של לאונרדו, פרנסואה ה-I, שיכן אותו ב-Châteaux de Cloux שבסמוך לארמונו ב-Amboise שבעמק הלואר.\nאת שנותיו האחרונות העביר לאונרדו יחד עם בני לווייתו בנוֹחוּת רבה הודות לנדיבותו של פרנסואה\nשהעריך מאוד את ידיעותיו וכישוריו של לאונרדו.",
-
-			"DOT_28_HEADER": "ממשיך לשאול",
-			"DOT_28_TEXT": "למרות שבריאותו הלכה והידרדרה לא חדל לאונרדו לחקור וללמוד, גם בשנותיו האחרונות.\nבתחתיתו של מה שהוא אולי אחד מדפי מחברתו האחרונים, שבו חקר את שטחו של משולש ישר זווית,\nמופיע המשפט \"בגלל שהמרק מתקרר\" בו מסביר לאונרדו מדוע עליו לקום וללכת...",
-
-			"DOT_29_HEADER": "מחברות אבודות",
-			"DOT_29_TEXT": "לאונרדו הוריש את כתביו לתלמידו פרנצ'סקו מלצי.\nאחרי מותו של לאונרדו ב-2 באפריל 1519, שב מלצי עם מחברותיו של לאונרדו לאיטליה, שָׁם שמר עליהן אך לא פרסם אותן.\nכשמלצי עצמו נפטר ב-1570 הוא הוריש את המחברות לבנו, שלא הכיר בערכן. הבן חילק את המחברות ומכר אותן, כך שהתפזרו ברחבי אירופה."
-		},
-
-		"en": {
-			"DOT_1_HEADER": "Beginning and earliest childhood memory",
-			"DOT_1_TEXT": "Leonardo was born in the town of Vinci in Tuscany on April 15th, 1452, to Piero da Vinci and Caterina di Lippi.\nIn his writings Leonardo mentions that when he was a baby, a bird landed in his cradle and opened his mouth with its tail.\nLeonardo viewed this memory as an omen of his extensive interest in birds and in aviation.",
-
-			"DOT_2_HEADER": "Second childhood memory and hint of his curiosity",
-			"DOT_2_TEXT": "As a child Leonardo would explore the natural landscape around Vinci where he grew up.\nIn his writings he describes that while wandering he came across a cave. Although he was scared of entering a dark and unfamiliar place by himself, he was so curious to find out what it held that he went in despite his fear.\nInside Leonardo found a fossil of a large fish.",
-
-			"DOT_3_HEADER": "Move to Florence",
-			"DOT_3_TEXT": "At the age of twelve Leonardo moved to Florence with his father Piero, a respected notary.\nAs his parents were not married Leonardo was barred from institutes of higher education, and at the age of 14 he became an apprentice at the workshop of Andrea del Verrocchio.\nThere he studiously developed his skills in painting, engineering, and other crafts.",
-
-			"DOT_4_HEADER": "Artisan in Verrocchio’s workshop",
-			"DOT_4_TEXT": "Andrea del Verrocchio’s workshop, similar to other workshops during the Renaissance, employed varied technical skills.\nAs part of his work at the workshop Leonardo helped install the golden metal sphere that decorates the dome of the cathedral in Florence to this day.\nIn the year 1469 this installation was a challenge, as the sphere had to be lifted to a height of over 100 meters.",
-
-			"DOT_5_HEADER": "Painting the Annunciation",
-			"DOT_5_TEXT": "Between the years 1472 and 1475 Leonardo painted The Angel’s Announcement to Mary, one of his earliest paintings.\nThe painting is currently displayed at the Uffizi gallery in Florence. The dimensions of certain elements in the painting are intended for viewing from a certain viewpoint (on the right),\nas you can see in exhibit \"Why is the nose so big?\"",
-
-			"DOT_6_HEADER": "Landscape drawing",
-			"DOT_6_TEXT": "On August 5th, 1473, Leonardo completed an ink drawing of a Tuscan landscape in the region of the Arno river, near which he was raised.\nA large-scale copy of the drawing together with an in-depth explanation can be found in the Analogies in Nature area of the exhibition.",
-
-			"DOT_7_HEADER": "Leonardo the musician",
-			"DOT_7_TEXT": "In addition to his other skills Leonardo excelled at playing the Lira da Braccio – a string instrument similar to the modern violin. He even designed and built himself special versions of it. Thanks to his musical abilities Leonardo arrived in Milan in 1482 with a delegation from Florence. Once there he joined the court of the Duke of Milan, Ludovico Sforza.",
-
-			"DOT_8_HEADER": "Completing his education",
-			"DOT_8_TEXT": "During his time in Milan Leonardo began to complete his general knowledge.\nHe began to learn Latin and read ‘classical’ antique texts.\nThroughout his life Leonardo was assisted by expert teachers from whom he learned and who he collaborated with, and he amassed an impressive library of over 100 books on varied topics.",
-
-			"DOT_9_HEADER": "Flying machines",
-			"DOT_9_TEXT": "During the years he was in Milan Leonardo was very involved in designing flying machines based on his observations of birds and on his engineering skills.\nWe do not know if Leonardo conducted an actual experiment in human flight.\nYou can learn more about Leonardo’s work on aviation in the Analogies in Nature area of the exhibition.",
-
-			"DOT_10_HEADER": "Planning the statue of a giant horse (1489 – 1494)",
-			"DOT_10_TEXT": "In 1493 Leonardo presented a full-size (7 meter) ceramic model of a statue in memory of Francesco Sforza, the Duke of Milan’s father.\nThe final statue was meant to be of bronze, but it was never cast as France invaded the Duchy and the bronze was used for cannon.\nThe horse head weight behind you is based on a sketch Leonardo prepared for the casting of the statue.",
-
-			"DOT_11_HEADER": "The Vitruvian Man sketch (1492)",
-			"DOT_11_TEXT": "Vitruvius, the Roman architect, claimed that a man with perfect proportions can be sketched within a circle at the center of which is the man’s navel, and within a square.\nLeonardo solved the ancient riddle by adding a pair of arms and a pair of legs that reflect his view of man as a dynamic, lively creature.",
-
-			"DOT_12_HEADER": "Divine Proportion",
-			"DOT_12_TEXT": "In 1496 Luca Pacioli, the famous Franciscan monk and mathematician, arrived in Milan and was introduced to Leonardo.\nAs a result of their meeting, Leonardo illustrated his book, The Divine Proportion, including a famous series of complex polyhedrons.\nThe collaboration between the two led Leonardo to a lifelong study of geometry.",
-
-			"DOT_13_HEADER": "Madrid Codices",
-			"DOT_13_TEXT": "The notebooks currently known as Codex Madrid I (1493 – 1498) and Codex Madrid II (1493 – 1505) were begun by Leonardo during his Milan period.\nThey focus on studies of basic mechanic components and drawings of innovative mechanisms.\nThe sketches for many of the mechanical exhibits on this floor appear in these codices.",
-
-			"DOT_14_HEADER": "The Last Supper",
-			"DOT_14_TEXT": "Between 1495 and 1498 Leonardo painted the famous scene of the Last Supper in the dining hall of a monastery in Milan.\nThe wall painting was commissioned by Duke Sforza, who became impatient with the slowness of Leonardo’s work.\nThe painting’s charm lies in clever use of the laws of perspective, and in the way the characters are positioned with gestures typical of each one’s character.",
-
-			"DOT_15_HEADER": "Military Engineer (1502 – winter of 1503)",
-			"DOT_15_TEXT": "As a gesture to the governors of Florence, Leonardo was sent as a military engineer to assist Cesare Borgia,\nthe commander of the Pope’s military conquests, who was considered cunning and cruel.\nLeonardo also designed a makeshift bridge for him built of wooden boards (see the Leonardo’s Bridge exhibit in the Why Don’t Buildings Fall? exhibition on this floor).",
-
-			"DOT_16_HEADER": "Leonardo and Machiavelli",
-			"DOT_16_TEXT": "While serving under Cesare Borgia (from 1502 until the winter of 1503), Leonardo collaborated with famous statesman and author Niccolo Machiavelli,\nwho was also accompanying Borgia as a representative of Florence.\nAmong other things the two planned to divert the river Arno around the city of Pisa, Florence’s rival.",
-
-			"DOT_17_HEADER": "The Mona Lisa",
-			"DOT_17_TEXT": "Leonardo began to paint the Mona Lisa in 1504. It is a portrait of Lisa Gherardini, wife of Francesco del Giocondo, a cloth merchant from Florence.\nLeonardo continued to work on this painting untill the end of his life.\nYou can learn more about the Mona Lisa in the How to Draw an Aerial Perspective exhibition.",
-
-			"DOT_18_HEADER": "Leonardo and Michelangelo",
-			"DOT_18_TEXT": "In Florence, Leonardo and Michelangelo – who was twenty years younger – were invited to paint two of the city's historic battles.\nThe paintings did not survive, but copies made of them show the stylistic differences between the two artists.\nLeonardo also took part in the discussions regarding where to locate Michelangelo's famous status – David.",
-
-			"DOT_19_HEADER": "The Codex on the Flight of Birds",
-			"DOT_19_TEXT": "The lack of political stability in Milan drove Leonardo to return to Florence in the year 1500.\nBetween 1503 and 1506 Leonardo composed a codex describing his insights on the flight of birds and the components for building a flying machine.\nA digital version of the codex can be viewed in the Analogies in Nature area of the exhibition.",
-
-			"DOT_20_HEADER": "Codex Leicester",
-			"DOT_20_TEXT": "During the first decade of the 16th century (1502 to 1508) Leonardo composed a brief codex known as Codex Leicester.\nThis codex focuses on the flow of water and geology, and even on Leonardo’s assumptions regarding moonlight!\nMore on Leonardo’s discoveries on fossils can be seen in the exhibition How are Fossils Formed? in the Analogies in Nature area of the exhibition.",
-
-			"DOT_21_HEADER": "First mechanical lion (1509)",
-			"DOT_21_TEXT": "We know from sources during Leonardo’s lifetime, as well as from later sources, that over the years Leonardo designed and built\nthree different mechanical lions for celebrations. Unfortunately, Leonardo’s sketches of the lions did not survive.\nThe first lion was built in honor of French King Louis XII’s visit to Milan, to which Leonardo returned in 1506.",
-
-			"DOT_22_HEADER": "Later anatomical studies",
-			"DOT_22_TEXT": "Leonardo studied anatomy in general, and especially human anatomy, at various periods of his life.\nBetween 1508 and 1513 Leonardo reached his greatest achievements in this field, especially in the study of the heart.\nYou can learn more about this in the Analogies in Nature area of the exhibition.",
-
-			"DOT_23_HEADER": "Mirrors and Tensions (1514 – 1515)",
-			"DOT_23_TEXT": "During his time in Rome, while he was in the service of Guilano de Medici, the brother of Pope Leo X,\nLeonardo studied the optics of mirrors and techniques for producing them.\nHis writings of that period relate tensions and quarrels between him and one of his assistants, as well as between Leonardo and a competitor by the name of Giovanni degli Specchi.",
-
-			"DOT_24_HEADER": "",
-			"DOT_24_TEXT": "",
-
-			"DOT_25_HEADER": "Second Mechanical Lion",
-			"DOT_25_TEXT": "In 1515 Leonardo designed a second mechanical lion, to welcome the new King of France, Francis I, to Lyon.\nThe \"lion\", reportedly, walked, sat, and produced flowers from its chest.\nThat same year, Francois invited Leonardo to join him in France.",
-
-			"DOT_26_HEADER": "Flood drawings",
-			"DOT_26_TEXT": "In the summer of 1516 Leonardo and his entourage crossed the Alps at the invitation of Francois I, King of France, to join his court.\nIn France Leonardo created a series of sketches of floods on an epic scale.\nIn the exhibition How to Draw a Flood? immediately to your right, you can take a close look at these drawings.",
-
-			"DOT_27_HEADER": "Last patron",
-			"DOT_27_TEXT": "Leonardo’s last patron, Francois I, housed him in the Châteaux de Cloux, near the royal palace in Amboise in the Loire Valley.\nLeonardo, in the company of his entourage, spent his final years in comfort thanks to the generosity of Francois,\nwho greatly admired Leonardo’s knowledge and skills.",
-
-			"DOT_28_HEADER": "Continuously questioning",
-			"DOT_28_TEXT": "Although his health continued to decline, Leonardo never stopped studying and learning, even in his last years.\nAt the bottom of what is possibly one of the last pages of his notebook, in which he studied the area of a right-triangle,\nthe sentence ‘because the soup is getting cold’, explains why Leonardo had to leave…",
-
-			"DOT_29_HEADER": "Lost notebooks",
-			"DOT_29_TEXT": "Leonardo bequeathed his notebooks to his student Francesco Melzi. Melzi returned to Italy after Leonardo’s death on April 2, 1519, taking the notebooks with him.\nIn Italy Melzi guarded them but did not publish them. When Melzi himself passed away in 1570 he left the notebooks to his son, who did not appreciate their value.\nThe son divided the notebooks and sold them, so that they were dispersed throughout Europe."
-		},
-
-		"ar": {
-			"DOT_1_HEADER": "البداية وذكرى أولى للطفولة",
-			"DOT_1_TEXT": "وُلِد ليوناردو في بلدة فينشي في توسكانا في 15 أبريل 1452، لبييرو دا فينشي وكاثرين ليبي.\nيذكر ليوناردو في كتاباته أنه عندما كان طفلاً، حطَّ طائر على سريره وفتح فمه بذيله.\nكانت هذه الحادثة بالنسبة لليوناردو علامة وإشارة له لممارسته الواسعة في الطيور والطيران.",
-
-			"DOT_2_HEADER": "ذكرى طفولة ثانية ورمز للفضول",
-			"DOT_2_TEXT": "كطفل، إعتاد ليوناردو أن يتجول وحده في البرية.\nيصف في كتاباته أنه وصل في أحد تجواله الى مدخل كهف وعلى الرغم من أنه كان يخشى أن يدخل بمفرده الى المكان المظلم والمجهول،\nبفضل فضوله، كانت لديه الشجاعة لاكتشاف ما كان يختبئ فيه ووجد فيه أحفورة لسمكة كبيرة هناك.",
-
-			"DOT_3_HEADER": "الإنتقال لفلورنسا",
-			"DOT_3_TEXT": "في سن الثانية عشرة، إنتقل ليوناردو مع والده بييرو، وهو كاتب عدل محترم الى فلورنسا.\nنظرًا لأن والديه لم يكونا متزوجين، فقد تم رفض ليوناردو من الالتحاق بالمؤسسات التعليمية المتقدمة،\nوأصبح في الرابعة عشرة من العمر متدربًا في ورشة أندريا ديل واروشيو، حيث إستمد مهاراته في الرسم والهندسة والحرف الأخرى.",
-
-			"DOT_4_HEADER": "فنان في ورشة فروكيو",
-			"DOT_4_TEXT": "كانت ورشة عمل أندريا دل فروكيو مثل غيرها من ورشات النهضة الأخرى، ذات قدرات تقنية متنوعة.\nكجزء من عمله في ورشة العمل، شارك ليوناردو في تركيب كرة معدنية ذهبية تزين قبة الكاتدرائية في فلورنسا.\nيعتبر تركيب القبة في عام 1469 أمرا صعبًا ومركبًا، حيث كان يجب رفع الكرة إلى ارتفاع يزيد عن الـ 100 متر.",
-
-			"DOT_5_HEADER": "رسمة \"البشارة\"",
-			"DOT_5_TEXT": "من عام 1472 إلى 1475 رسم ليوناردو بشارة الملاك للسيدة العذراء والتي كانت أولى اللوحات المنسوبة إليه.\nاليوم، يتم عرض اللوحة في معرض أوفيزي في فلورنسا. مقاييس بعض الأغراض في الرسمة ملائمة للنظر إليها\nمن جهة معينة (من اليمين) كما يمكنكم أن تلاحظوا في المعروضة",
-
-			"DOT_6_HEADER": "رسمة منظر طبيعي",
-			"DOT_6_TEXT": "في 5 أغسطس 1473، أكمل ليوناردو رسمًا بالحبر لمنظر طبيعي في توسكانا بالقرب من نهر أرنو الذي نشأ فيه.\nيمكن العثور على نسخة كبيرة الأحجام لهذا الرسم، مع شرح مفصل في المعرض في المنطقة \"تشابهات في الطبيعة\".",
-
-			"DOT_7_HEADER": "ليوناردو الموسيقي",
-			"DOT_7_TEXT": "بالإضافة إلى مواهبه الأخرى برع ليوناردو كعازف لليرا- Lirra da Braccio، وهي آلة موسيقية تشبه إلى حد ما الكمان المعروف اليوم.\nحتى أنه صمم وقام  ببناء إصدارات خاصة من هذه الآلة الموسيقية. بفضل مواهبه الموسيقية، وصل ليوناردو\nإلى ميلانو عام 1482 مع وفد من فلورنسا وأصبح جزءًا من باحة دوق ميلان لودوفيك سفورزا.",
-
-			"DOT_8_HEADER": "إكمال تعليمه",
-			"DOT_8_TEXT": "خلال فترة وجوده في ميلانو، بدأ ليوناردو في إكمال تعليمه ومعرفته\nالعامة وبدأ في دراسة اللاتينية وقراءة النصوص \"الكلاسيكية\" من العصور القديمة.\nتساعد ليوناردو خلال حياته بمدرسون خبراء تعلم منهم وتعاون معهم. خلال حياته، جمع ليوناردو مكتبة رائعة تضم أكثر من 100 كتاب حول مواضيع متنوعة.",
-
-			"DOT_9_HEADER": "الآلات الطائرة",
-			"DOT_9_TEXT": "خلال سنوات عمله في ميلانو، شارك ليوناردو في تصميم آلات الطيران بناءًا على مشاهداته للطيور ومهاراته الهندسية.\nلا نعرف ما إذا كان ليوناردو قد أجرى بالفعل أيّ تجربة حقيقية في مجال الطيران البشري.\nيمكنك معرفة المزيد عن أعمال الطيران لليوناردو في قسم \"النظائر/ التشابهات في الطبيعة\" من المعرض.",
-
-			"DOT_10_HEADER": " تصميم ثمثال حصان ضخم (1489-1494)",
-			"DOT_10_TEXT": "في عام 1493، قدم ليوناردو نموذجًا من الصلصال (صخر طيني) بالحجم الكامل (حوالي 7 أقدام) لتمثال لذكرى فرانشيسكو سبورازا، والد دوق ميلانو.\nالتمثال النهائي المصنوع من البرونز، لم يتم صبه أبداً بسبب غزو فرنسا للدوقية.\nتعتمد كتلة رأس الحصان الذي يقف خلفكم على تسجيل ورسم ليوناردو لقوالب التمثال البرونزي.",
-
-			"DOT_11_HEADER": "تسجيل \"الإنسان الفيتروفي\" (1492)",
-			"DOT_11_TEXT": "ادعى فيتروفيو، المهندس المعماري الروماني، أنه يمكن رسم رجل ذو أبعاد مثالية في وقت واحد في دائرة يقع مركزها على سُرَّة الرجل وداخل مربع أيضًا.\nقام ليوناردو بحل هذا اللغز القديم عن طريق إضافة زوج آخر من الأيدي والأرجل الّتي تعكس تصور\nالإنسان لمخلوق ديناميكي يشبه الحيوان. الإنسا",
-
-			"DOT_12_HEADER": "رسومات توضيحية لـ \"النسبة الإلهية\" (1498-1496)",
-			"DOT_12_TEXT": "في عام 1496، وصل راهب الفرنسيسكان وعالم الرياضيات لوكا باشيولي إلى ميلانو. تعاون هو و ليوناردو،\nوقام ليوناردو برسم كتاب باشيولي المعنون \"النسبة الإلهية\" بالاضافة إلى العديد من سلسلة شهيرة من الرسومات التوضيحية متعددة\nالمقامات المعقدة. أدى التعارف بين الاثنين الى تعمق ليوناردو في الهندسة، الّتي قام ببحثها طوال حياته.",
-
-			"DOT_13_HEADER": "\"مخطوطة مدريد\"",
-			"DOT_13_TEXT": "يشار إلى الدفاتر المعروفة اليوم باسم مخطوطة \"مدريد\" الأولى (1493-1498) ومخطوطة مدريد الثانية (1505-1493)،\nاللذين بدأهما ليوناردو خلال فترة وجوده في ميلانو وركز فيهم على دراسة المكونات الميكانيكية الأساسية وتوضيح الآليات المبتكرة.\nتظهر الرسومات الخاصة للعديد من المعروضات الميكانيكية في هذا الطابق في هذه المخطوطات.",
-
-			"DOT_14_HEADER": "\"العشاء الأخير\"",
-			"DOT_14_TEXT": "من عام 1495 إلى 1498، رسم ليوناردو في غرفة الطعام في دير في ميلانو مشهد \"العشاء الأخير\" الشهير.\nتم طلب اللوحة الجدارية من قبل الدوق سفورازا الذي أثار غضبه بسبب بطء عمله.\nيعود سحر اللوحة الى الاستخدام الذكي لقوانين المنظور والطريقة التي يتم بها تقديم الشخصيات مع الإيماءات المصممة حسب طابع كل منها.",
-
-			"DOT_15_HEADER": "مهندس عسكري (شتاء 1502-1503)",
-			"DOT_15_TEXT": "تكريمًا لسلطات فلورنسا، تم إرسال ليوناردو للمساعدة، كمهندس عسكري إلى سيزار بورجيا الماكر والقاسي والذي ترأس الجيوش البابوية في حملاته.\nصمم ليوناردو له، من بين العديد من الأشياء الأخرى، جسر شعاع خشبي مرتجل\n(انظروا معروضة \"جسر ليوناردو\" في معرض \"لماذا لا تسقط المباني\" في هذا الطابق).",
-
-			"DOT_16_HEADER": "ليوناردو ومكيافيلي",
-			"DOT_16_TEXT": "أثناء خدمته لسيزار بورجيا (شتاء 1502-1503)، تعاون ليوناردو مع رجل الدولة الشهير والمؤلف نيكولو\nمكيافيلي، الذي رافق بورجيا أيضًا كممثل للمدينة في فلورنسا.\nمن بين غيرها من الأشياء الأخرى، خطط الاثنان إزاحة نهر أرنو حول مدينة بيزا المنافسة لفلورنسا.",
-
-			"DOT_17_HEADER": "\"الموناليزا\"",
-			"DOT_17_TEXT": "خلال عام 1504، بدأ ليوناردو في رسم لوحة \"الموناليزا\"، وهي رسمة شخصية لليزا جيرارديني، زوجة فرانشسكو ديل جيوكوندو، تاجر ملابس من فلورنسا.\nواصل ليوناردو العمل على الموناليزا حتى نهاية حياته.\nيمكنك معرفة المزيد عن الموناليزا في المعروضة \"كيفية رسم منظور الهواء؟\"",
-
-			"DOT_18_HEADER": "ليوناردو ومايكل أنجيلو (1504)",
-			"DOT_18_TEXT": "في فلورنسا، تمت دعوة ليوناردو ومايكل انجلو، الذي كان أصغر منه ب 20 عامًا، لرسم معركتين من تاريخ المدينة.\nلم تنجو اللوحات، لكن نُسخ منها توضح اختلافات الأساليب بين الفنانين. كان ليوناردو أيضًا شريكًا\nفي المناقشة الّتي تخصصت بموقع تمثاله الشهير لمايكل أنجيلو- دافيد.",
-
-			"DOT_19_HEADER": "\"مخطوطة تحليق الطيور\"",
-			"DOT_19_TEXT": "عدم الاستقرار السياسي في ميلانو دفع ليوناردو للعودة إلى فلورنسا في عام 1500.\nبين عامي 1503-1506، كتب ليوناردو مخطوطة  يصف رؤيته حول طيران الطيور وتصميم مكونات لتصنيع آلات الطيران.\nيمكن الاطلاع على نسخة رقمية من المخطوطة في قسم \"النظائر/ التشابهات في الطبيعة\" من المعرض.",
-
-			"DOT_20_HEADER": "\"مخطوطة ليستر\"",
-			"DOT_20_TEXT": "في العقد الأول من القرن السادس عشر (1502-1508)، كتب ليوناردو مخطوطة قصيرة تُعرف اليوم بإسم مخطوطة ليستر والتي تركز على تدفق المياه\nوالجيولوجيا وصولا الى فرضيات ليوناردو حول ضوء القمر! يمكنك معرفة المزيد عن إكتشافات ليوناردو في\nمجال الحفريات في \"كيف يتم إنشاء الحفريات؟\" في قسم التشابه في الطبيعة في المعرض.",
-
-			"DOT_21_HEADER": "أسد ميكانيكي أول (1509)",
-			"DOT_21_TEXT": "من مصادر حقبة ليوناردو وما بعدها، تعلمنا أن ليوناردو قام أيضًا بتصميم وبناء ثلاثة أسود ميكانيكية مختلفة على مدار السنين تكريمًا لعروض إحتفالية مختلفة.\nلسوء الحظ، لم تنجو رسومات ليوناردو للأسود. تم بناء الأسد الأول على شرف وصول الملك الفرنسي لويس الثاني عشر\nإلى مدينة ميلانو، والذي عاد إليها ليوناردو في عام 1506.",
-
-			"DOT_22_HEADER": "أبحاث تشريحية متأخرة",
-			"DOT_22_TEXT": "كان ليوناردو يبحث في علم التشريح بشكل عام، وعلم التشريح البشري بشكل خاص، في أوقات مختلفة من حياته.\nخلال الفترة ما بين 1508 و 1513، حقق ليوناردو أعظم إنجازاته في هذا المجال، وخاصة في مجال أبحاث القلب.\nيمكنك معرفة المزيد عن هذا في المعرض في القسم \"النظائر/التشابهات في الطبيعة\".",
-
-			"DOT_23_HEADER": "\"مرايا وتوترات\" (1514-1515)",
-			"DOT_23_TEXT": "خلال الفترة الّتي قضاها في روما، عندما خدم جوليانو دي ميديشي، شقيق البابا ليو العاشر، بحث\nليوناردو في بصريات المرايا وتقنيات البناء.\nتروي كتاباته في تلك الفترة عن التوترات والنزاعات بينه وبين أحد مساعديه، وبينه وبين بناء المرايا المنافس الذي يدعى جيوفاني ديغلي سبيشي.",
-
-			"DOT_24_HEADER": "",
-			"DOT_24_TEXT": "",
-
-			"DOT_25_HEADER": "",
-			"DOT_25_TEXT": "",
-
-			"DOT_26_HEADER": "رسمات \"الطوفان\"",
-			"DOT_26_TEXT": "في صيف عام 1516، عبر ليوناردو وميلو جبال الألب تلبية لدعوة من ملك فرنسا فرانسوا الأول للانضمام إلى باحته.\nفي فرنسا، رسم ليوناردو سلسلة من رسومات الفيضان المروعة.\nفي المعروضة \"كيفية رسم الفيضان؟\" - على يمينك، ستتعرفون على هذه الرسومات عن كثب.",
-
-			"DOT_27_HEADER": "الراعي الأخير",
-			"DOT_27_TEXT": "كان راعي ليوناردو الأخير، فرانسوا الأول يقيم في شاتو دي كلوكس، بالقرب من قصره في أمبواز في وادي لوار.\nقضى ليوناردو ومن رافقه سنواته الأخيرة بشكل مريح للغاية بسبب كرم فرانسوا الذي قدّر معرفة ليوناردو ومهاراته.",
-
-			"DOT_28_HEADER": "يستمر بالتساؤل",
-			"DOT_28_TEXT": "على الرغم من تدهور حالته الصحية، لم يتوقف ليوناردو عن البحث والدراسة، حتى في سنواته الأخيرة.\nفي أسفل ما قد يكون إحدى صفحات دفاتره الأخيرة، والتي بحث فيها مساحة المثلث القائم الزاوية،\nتظهر عبارة \"لأن الحساء يبرد\" يشرح فيه ليوناردو لماذا يجب أن يستيقظ ويذهب ...",
-
-			"DOT_29_HEADER": "دفاتر مفقدوة",
-			"DOT_29_TEXT": "وَرَّث ليوناردو مخطوطاته ودفاتره لتلميذه فرانشيسكو مالزي. بعد وفاة ليوناردو في 2 أبريل 1519،\nعاد مالزي مع مؤلفات ليوناردو إلى إيطاليا، حيث إحتفظ بهم لكنه لم ينشرهم. عندما توفي مالزي نفسه في عام 1570،\nتركها لابنه، الذي لم يفهم قيمتها وقام ببيع بعضها بحيث إنتشرت في جميع أنحاء أوروبا."
-		}
-	}
+    "defaultLanguage": "he",
+    "dots": [
+        {
+            "headerKey": "DOT_1_HEADER",
+            "textKey": "DOT_1_TEXT",
+            "x": 1876,
+            "y": 51
+        },
+        {
+            "headerKey": "DOT_2_HEADER",
+            "textKey": "DOT_2_TEXT",
+            "x": 1758,
+            "y": 175
+        },
+        {
+            "headerKey": "DOT_3_HEADER",
+            "textKey": "DOT_3_TEXT",
+            "x": 1639,
+            "y": 229
+        },
+        {
+            "headerKey": "DOT_4_HEADER",
+            "textKey": "DOT_4_TEXT",
+            "x": 1530,
+            "y": 240
+        },
+        {
+            "headerKey": "DOT_5_HEADER",
+            "textKey": "DOT_5_TEXT",
+            "x": 1795,
+            "y": 333
+        },
+        {
+            "headerKey": "DOT_6_HEADER",
+            "textKey": "DOT_6_TEXT",
+            "x": 1362,
+            "y": 321
+        },
+        {
+            "headerKey": "DOT_7_HEADER",
+            "textKey": "DOT_7_TEXT",
+            "x": 1570,
+            "y": 705
+        },
+        {
+            "headerKey": "DOT_8_HEADER",
+            "textKey": "DOT_8_TEXT",
+            "x": 1000,
+            "y": 154
+        },
+        {
+            "headerKey": "DOT_9_HEADER",
+            "textKey": "DOT_9_TEXT",
+            "x": 1131,
+            "y": 396
+        },
+        {
+            "headerKey": "DOT_10_HEADER",
+            "textKey": "DOT_10_TEXT",
+            "x": 1006,
+            "y": 414
+        },
+        {
+            "headerKey": "DOT_11_HEADER",
+            "textKey": "DOT_11_TEXT",
+            "x": 1168,
+            "y": 628
+        },
+        {
+            "headerKey": "DOT_12_HEADER",
+            "textKey": "DOT_12_TEXT",
+            "x": 909,
+            "y": 682
+        },
+        {
+            "headerKey": "DOT_13_HEADER",
+            "textKey": "DOT_13_TEXT",
+            "x": 1162,
+            "y": 504
+        },
+        {
+            "headerKey": "DOT_14_HEADER",
+            "textKey": "DOT_14_TEXT",
+            "x": 1245,
+            "y": 393
+        },
+        {
+            "headerKey": "DOT_15_HEADER",
+            "textKey": "DOT_15_TEXT",
+            "x": 991,
+            "y": 586
+        },
+        {
+            "headerKey": "DOT_16_HEADER",
+            "textKey": "DOT_16_TEXT",
+            "x": 729,
+            "y": 553
+        },
+        {
+            "headerKey": "DOT_17_HEADER",
+            "textKey": "DOT_17_TEXT",
+            "x": 774,
+            "y": 655
+        },
+        {
+            "headerKey": "DOT_18_HEADER",
+            "textKey": "DOT_18_TEXT",
+            "x": 939,
+            "y": 291
+        },
+        {
+            "headerKey": "DOT_19_HEADER",
+            "textKey": "DOT_19_TEXT",
+            "x": 838,
+            "y": 169
+        },
+        {
+            "headerKey": "DOT_20_HEADER",
+            "textKey": "DOT_20_TEXT",
+            "x": 525,
+            "y": 684
+        },
+        {
+            "headerKey": "DOT_21_HEADER",
+            "textKey": "DOT_21_TEXT",
+            "x": 609,
+            "y": 436
+        },
+        {
+            "headerKey": "DOT_22_HEADER",
+            "textKey": "DOT_22_TEXT",
+            "x": 654,
+            "y": 295
+        },
+        {
+            "headerKey": "DOT_23_HEADER",
+            "textKey": "DOT_23_TEXT",
+            "x": 340,
+            "y": 505
+        },
+        {
+            "headerKey": "DOT_24_HEADER",
+            "textKey": "DOT_24_TEXT",
+            "x": 307,
+            "y": 579
+        },
+        {
+            "headerKey": "DOT_25_HEADER",
+            "textKey": "DOT_25_TEXT",
+            "x": 294,
+            "y": 682
+        },
+        {
+            "headerKey": "DOT_26_HEADER",
+            "textKey": "DOT_26_TEXT",
+            "x": 213,
+            "y": 378
+        },
+        {
+            "headerKey": "DOT_27_HEADER",
+            "textKey": "DOT_27_TEXT",
+            "x": 117,
+            "y": 523
+        },
+        {
+            "headerKey": "DOT_28_HEADER",
+            "textKey": "DOT_28_TEXT",
+            "x": 214,
+            "y": 577
+        },
+        {
+            "headerKey": "DOT_29_HEADER",
+            "textKey": "DOT_29_TEXT",
+            "x": 91,
+            "y": 717
+        }
+    ],
+    "languages": [
+    	{
+            "buttonText": "En",
+            "fonts": {
+                "headerFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Black.ttf",
+                    "size": 34
+                },
+                "numbersFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Black.ttf",
+                    "size": 30
+                },
+                "textFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Regular.ttf",
+                    "size": 27
+                }
+            },
+            "prefix": "en",
+            "rtl": false
+        },
+        {
+            "buttonText": "\u0629",
+            "fonts": {
+                "headerFont": {
+                    "filename": "assets/fonts/TheSansArabic-Bold.ttf",
+                    "size": 34
+                },
+                "numbersFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Black.ttf",
+                    "size": 30
+                },
+                "textFont": {
+                    "filename": "assets/fonts/TheSansArabic-Plain.ttf",
+                    "size": 30
+                }
+            },
+            "prefix": "ar",
+            "rtl": true
+        },
+        {
+            "buttonText": "\u05e2",
+            "fonts": {
+                "headerFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Black.ttf",
+                    "size": 34
+                },
+                "numbersFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Black.ttf",
+                    "size": 30
+                },
+                "textFont": {
+                    "filename": "assets/fonts/SimplerPro_V3-Regular.ttf",
+                    "size": 30
+                }
+            },
+            "prefix": "he",
+            "rtl": true
+        }
+    ],
+    "showFPS": false,
+    "texts": {
+        "ar": {
+            "DOT_10_HEADER": "\u062a\u0635\u0645\u064a\u0645 \u062b\u0645\u062b\u0627\u0644 \u062d\u0635\u0627\u0646 \u0636\u062e\u0645 (1489-1494)",
+            "DOT_10_TEXT": "\u0641\u064a \u0639\u0627\u0645 1493\u060c \u0642\u062f\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0646\u0645\u0648\u0630\u062c\u0627\u064b \u0645\u0646 \u0627\u0644\u0635\u0644\u0635\u0627\u0644 (\u0635\u062e\u0631 \u0637\u064a\u0646\u064a) \u0628\u0627\u0644\u062d\u062c\u0645 \u0627\u0644\u0643\u0627\u0645\u0644 (\u062d\u0648\u0627\u0644\u064a 7 \u0623\u0642\u062f\u0627\u0645) \u0644\u062a\u0645\u062b\u0627\u0644 \u0644\u0630\u0643\u0631\u0649 \u0641\u0631\n\u0627\u0646\u0634\u064a\u0633\u0643\u0648 \u0633\u0628\u0648\u0631\u0627\u0632\u0627\u060c \u0648\u0627\u0644\u062f \u062f\u0648\u0642 \u0645\u064a\u0644\u0627\u0646\u0648. \u0627\u0644\u062a\u0645\u062b\u0627\u0644 \u0627\u0644\u0646\u0647\u0627\u0626\u064a \u0627\u0644\u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u0628\u0631\u0648\u0646\u0632\u060c \u0644\u0645 \u064a\u062a\u0645 \u0635\u0628\u0647 \u0623\u0628\u062f\u0627\u064b \u0628\u0633\u0628\u0628 \u063a\u0632\u0648 \u0641\u0631\u0646\u0633\u0627 \u0644\u0644\u062f\u0648\u0642\u064a\u0629.\n\u062a\u0639\u062a\u0645\u062f \u0643\u062a\u0644\u0629 \u0631\u0623\u0633 \u0627\u0644\u062d\u0635\u0627\u0646 \u0627\u0644\u0630\u064a \u064a\u0642\u0641 \u062e\u0644\u0641\u0643\u0645 \u0639\u0644\u0649 \u062a\u0633\u062c\u064a\u0644 \u0648\u0631\u0633\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u062a\u0645\u062b\u0627\u0644 \u0627\u0644\u0628\u0631\u0648\u0646\u0632\u064a.",
+            "DOT_11_HEADER": "\u062a\u0633\u062c\u064a\u0644 \"\u0627\u0644\u0625\u0646\u0633\u0627\u0646 \u0627\u0644\u0641\u064a\u062a\u0631\u0648\u0641\u064a\" (1492)",
+            "DOT_11_TEXT": "\u0627\u062f\u0639\u0649 \u0641\u064a\u062a\u0631\u0648\u0641\u064a\u0648\u060c \u0627\u0644\u0645\u0647\u0646\u062f\u0633 \u0627\u0644\u0645\u0639\u0645\u0627\u0631\u064a \u0627\u0644\u0631\u0648\u0645\u0627\u0646\u064a\u060c \u0623\u0646\u0647 \u064a\u0645\u0643\u0646 \u0631\u0633\u0645 \u0631\u062c\u0644 \u0630\u0648 \u0623\u0628\u0639\u0627\u062f \u0645\u062b\u0627\u0644\u064a\u0629 \u0641\u064a \u0622\u0646\u064d \u0648\u0627\u062d\u062f\u064d \u0641\u064a \u062f\u0627\u0626\u0631\u0629 \u064a\u0642\u0639 \u0645\u0631\u0643\u0632\u0647\u0627\n\u0639\u0644\u0649 \u0633\u064f\u0631\u064e\u0651\u0629 \u0627\u0644\u0631\u062c\u0644 \u0648\u062f\u0627\u062e\u0644 \u0645\u0631\u0628\u0639 \u0623\u064a\u0636\u0627\u064b. \u0642\u0627\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0628\u062d\u0644 \u0647\u0630\u0627 \u0627\u0644\u0644\u063a\u0632 \u0627\u0644\u0642\u062f\u064a\u0645 \u0639\u0646 \u0637\u0631\u064a\u0642 \u0625\u0636\u0627\u0641\u0629 \u0632\u0648\u062c \u0622\u062e\u0631 \u0645\u0646 \u0627\u0644\u0623\u064a\u062f\u064a\n\u0648\u0627\u0644\u0623\u0631\u062c\u0644 \u0627\u0644\u0651\u062a\u064a \u062a\u0639\u0643\u0633 \u062a\u0635\u0648\u0631 \u0627\u0644\u0625\u0646\u0633\u0627\u0646 \u0644\u0645\u062e\u0644\u0648\u0642 \u062f\u064a\u0646\u0627\u0645\u064a\u0643\u064a \u064a\u0641\u064a\u0636 \u0628\u0627\u0644\u062d\u064a\u0627\u0629.",
+            "DOT_12_HEADER": "\u0631\u0633\u0648\u0645\u0627\u062a \u062a\u0648\u0636\u064a\u062d\u064a\u0629 \u0644\u0640 \"\u0627\u0644\u0646\u0633\u0628\u0629 \u0627\u0644\u0625\u0644\u0647\u064a\u0629\" (1498-1496)",
+            "DOT_12_TEXT": "\u0641\u064a \u0639\u0627\u0645 1496\u060c \u0648\u0635\u0644 \u0631\u0627\u0647\u0628 \u0627\u0644\u0641\u0631\u0646\u0633\u064a\u0633\u0643\u0627\u0646 \u0648\u0639\u0627\u0644\u0645 \u0627\u0644\u0631\u064a\u0627\u0636\u064a\u0627\u062a \u0644\u0648\u0643\u0627 \u0628\u0627\u0634\u064a\u0648\u0644\u064a \u0625\u0644\u0649 \u0645\u064a\u0644\u0627\u0646\u0648. \u062a\u0639\u0627\u0648\u0646 \u0647\u0648 \u0648 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648\u060c\n\u0648\u0642\u0627\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0628\u0631\u0633\u0645 \u0643\u062a\u0627\u0628 \u0628\u0627\u0634\u064a\u0648\u0644\u064a \u0627\u0644\u0645\u0639\u0646\u0648\u0646 \"\u0627\u0644\u0646\u0633\u0628\u0629 \u0627\u0644\u0625\u0644\u0647\u064a\u0629\" \u0628\u0627\u0644\u0627\u0636\u0627\u0641\u0629 \u0625\u0644\u0649 \u0633\u0644\u0633\u0644\u0629 \u0634\u0647\u064a\u0631\u0629 \u0645\u0646 \u0627\u0644\u0631\u0633\u0648\u0645\u0627\u062a \u0627\u0644\u062a\u0648\u0636\u064a\u062d\u064a\u0629 \u0645\u062a\u0639\u062f\u062f\u0629\n\u0627\u0644\u0645\u0642\u0627\u0645\u0627\u062a \u0627\u0644\u0645\u0639\u0642\u062f\u0629. \u0623\u062f\u0649 \u0627\u0644\u062a\u0639\u0627\u0631\u0641 \u0628\u064a\u0646 \u0627\u0644\u0627\u062b\u0646\u064a\u0646 \u0627\u0644\u0649 \u062a\u0639\u0645\u0642 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0627\u0644\u0647\u0646\u062f\u0633\u0629\u060c \u0627\u0644\u0651\u062a\u064a \u0642\u0627\u0645 \u0628\u0628\u062d\u062b\u0647\u0627 \u0637\u0648\u0627\u0644 \u062d\u064a\u0627\u062a\u0647.",
+            "DOT_13_HEADER": "\"\u0645\u062e\u0637\u0648\u0637\u0629 \u0645\u062f\u0631\u064a\u062f\"",
+            "DOT_13_TEXT": "\u064a\u0634\u0627\u0631 \u0625\u0644\u0649 \u0627\u0644\u062f\u0641\u0627\u062a\u0631 \u0627\u0644\u0645\u0639\u0631\u0648\u0641\u0629 \u0627\u0644\u064a\u0648\u0645 \u0628\u0627\u0633\u0645 \u0645\u062e\u0637\u0648\u0637\u0629 \"\u0645\u062f\u0631\u064a\u062f\" \u0627\u0644\u0623\u0648\u0644\u0649 (1493-1498) \u0648\u0645\u062e\u0637\u0648\u0637\u0629 \u0645\u062f\u0631\u064a\u062f \u0627\u0644\u062b\u0627\u0646\u064a\u0629 (1505-1493)\u060c\n\u0627\u0644\u0644\u0630\u064a\u0646 \u0628\u062f\u0623\u0647\u0645\u0627 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u062e\u0644\u0627\u0644 \u0641\u062a\u0631\u0629 \u0648\u062c\u0648\u062f\u0647 \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648 \u0648\u0631\u0643\u0632 \u0641\u064a\u0647\u0645\u0627 \u0639\u0644\u0649 \u062f\u0631\u0627\u0633\u0629 \u0627\u0644\u0645\u0643\u0648\u0646\u0627\u062a \u0627\u0644\u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0648\u062a\u0648\u0636\u064a\u062d \u0627\u0644\u0622\u0644\u064a\u0627\u062a\n\u0627\u0644\u0645\u0628\u062a\u0643\u0631\u0629. \u062a\u0638\u0647\u0631 \u0627\u0644\u0631\u0633\u0648\u0645\u0627\u062a \u0627\u0644\u062e\u0627\u0635\u0629 \u0644\u0644\u0639\u062f\u064a\u062f \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0627\u062a \u0627\u0644\u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a\u0629 \u0641\u064a \u0647\u0630\u0627 \u0627\u0644\u0645\u0639\u0631\u0636 \u0641\u064a \u0647\u0630\u0647 \u0627\u0644\u0645\u062e\u0637\u0648\u0637\u0627\u062a.",
+            "DOT_14_HEADER": "\"\u0627\u0644\u0639\u0634\u0627\u0621 \u0627\u0644\u0623\u062e\u064a\u0631\"",
+            "DOT_14_TEXT": "\u0645\u0646 \u0639\u0627\u0645 1495 \u0625\u0644\u0649 1498\u060c \u0631\u0633\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u063a\u0631\u0641\u0629 \u0627\u0644\u0637\u0639\u0627\u0645 \u0641\u064a \u062f\u064a\u0631 \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648 \u0645\u0634\u0647\u062f \"\u0627\u0644\u0639\u0634\u0627\u0621 \u0627\u0644\u0623\u062e\u064a\u0631\" \u0627\u0644\u0634\u0647\u064a\u0631.\n\u062a\u0645 \u0637\u0644\u0628 \u0627\u0644\u0644\u0648\u062d\u0629 \u0627\u0644\u062c\u062f\u0627\u0631\u064a\u0629 \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u062f\u0648\u0642 \u0633\u0641\u0648\u0631\u0627\u0632\u0627 \u0627\u0644\u0630\u064a \u0623\u062b\u0627\u0631 \u0633\u062e\u0637\u0647 \u0628\u0633\u0628\u0628 \u0628\u0637\u0621 \u0639\u0645\u0644\u0647. \u064a\u0639\u0648\u062f \u0633\u062d\u0631 \u0627\u0644\u0644\u0648\u062d\u0629 \u0627\u0644\u0649 \u0627\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\n\u0627\u0644\u0630\u0643\u064a \u0644\u0642\u0648\u0627\u0646\u064a\u0646 \u0627\u0644\u0645\u0646\u0638\u0648\u0631 \u0648\u0627\u0644\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u062a\u064a \u064a\u062a\u0645 \u0628\u0647\u0627 \u062a\u0642\u062f\u064a\u0645 \u0627\u0644\u0634\u062e\u0635\u064a\u0627\u062a \u0645\u0639 \u0627\u0644\u0625\u064a\u0645\u0627\u0621\u0627\u062a \u0627\u0644\u0645\u0635\u0645\u0645\u0629 \u062d\u0633\u0628 \u0637\u0627\u0628\u0639 \u0643\u0644 \u0645\u0646\u0647\u0627.",
+            "DOT_15_HEADER": "\u0645\u0647\u0646\u062f\u0633 \u0639\u0633\u0643\u0631\u064a (\u0634\u062a\u0627\u0621 1502-1503)",
+            "DOT_15_TEXT": "\u062a\u0643\u0631\u064a\u0645\u0627\u064b \u0644\u0633\u0644\u0637\u0627\u062a \u0641\u0644\u0648\u0631\u0646\u0633\u0627\u060c \u062a\u0645 \u0625\u0631\u0633\u0627\u0644 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0644\u0645\u0633\u0627\u0639\u062f\u0629\u060c \u0643\u0645\u0647\u0646\u062f\u0633 \u0639\u0633\u0643\u0631\u064a \u0625\u0644\u0649 \u0633\u064a\u0632\u0627\u0631 \u0628\u0648\u0631\u062c\u064a\u0627 \u0627\u0644\u0645\u0627\u0643\u0631 \u0648\u0627\u0644\u0642\u0627\u0633\u064a \u0648\u0627\u0644\u0630\u064a \u062a\u0631\u0623\u0633\n\u0627\u0644\u062c\u064a\u0648\u0634 \u0627\u0644\u0628\u0627\u0628\u0648\u064a\u0629 \u0641\u064a \u062d\u0645\u0644\u0627\u062a\u0647. \u0635\u0645\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0647\u060c \u0645\u0646 \u0628\u064a\u0646 \u0627\u0644\u0639\u062f\u064a\u062f \u0645\u0646 \u0627\u0644\u0623\u0634\u064a\u0627\u0621 \u0627\u0644\u0623\u062e\u0631\u0649\u060c \u062c\u0633\u0631 \u0634\u0639\u0627\u0639 \u062e\u0634\u0628\u064a \u0645\u0631\u062a\u062c\u0644\n(\u0627\u0646\u0638\u0631\u0648\u0627 \u0645\u0639\u0631\u0648\u0636\u0629 \"\u062c\u0633\u0631 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648\" \u0641\u064a \u0645\u0639\u0631\u0636 \"\u0644\u0645\u0627\u0630\u0627 \u0644\u0627 \u062a\u0633\u0642\u0637 \u0627\u0644\u0645\u0628\u0627\u0646\u064a\" \u0641\u064a \u0647\u0630\u0627 \u0627\u0644\u0637\u0627\u0628\u0642).",
+            "DOT_16_HEADER": "\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0643\u064a\u0627\u0641\u064a\u0644\u064a",
+            "DOT_16_TEXT": "\u0623\u062b\u0646\u0627\u0621 \u062e\u062f\u0645\u062a\u0647 \u0644\u0633\u064a\u0632\u0627\u0631 \u0628\u0648\u0631\u062c\u064a\u0627 (\u0634\u062a\u0627\u0621 1502-1503)\u060c \u062a\u0639\u0627\u0648\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u0639 \u0631\u062c\u0644 \u0627\u0644\u062f\u0648\u0644\u0629 \u0627\u0644\u0634\u0647\u064a\u0631 \u0648\u0627\u0644\u0645\u0624\u0644\u0641 \u0646\u064a\u0643\u0648\u0644\u0648\n\u0645\u0643\u064a\u0627\u0641\u064a\u0644\u064a\u060c \u0627\u0644\u0630\u064a \u0631\u0627\u0641\u0642 \u0628\u0648\u0631\u062c\u064a\u0627 \u0623\u064a\u0636\u0627\u064b \u0643\u0645\u0645\u062b\u0644 \u0644\u0644\u0645\u062f\u064a\u0646\u0629 \u0641\u064a \u0641\u0644\u0648\u0631\u0646\u0633\u0627.\n\u0645\u0646 \u0628\u064a\u0646 \u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u0627\u0644\u0623\u0634\u064a\u0627\u0621 \u0627\u0644\u0623\u062e\u0631\u0649\u060c \u062e\u0637\u0637 \u0627\u0644\u0627\u062b\u0646\u0627\u0646 \u0644\u0625\u0632\u0627\u062d\u0629 \u062c\u0631\u064a\u0627\u0646 \u0646\u0647\u0631 \u0623\u0631\u0646\u0648 \u062d\u0648\u0644 \u0645\u062f\u064a\u0646\u0629 \u0628\u064a\u0632\u0627 \u0627\u0644\u0645\u0646\u0627\u0641\u0633\u0629 \u0644\u0641\u0644\u0648\u0631\u0646\u0633\u0627.",
+            "DOT_17_HEADER": "\"\u0627\u0644\u0645\u0648\u0646\u0627\u0644\u064a\u0632\u0627\"",
+            "DOT_17_TEXT": "\u062e\u0644\u0627\u0644 \u0639\u0627\u0645 1504\u060c \u0628\u062f\u0623 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0631\u0633\u0645 \u0644\u0648\u062d\u0629 \"\u0627\u0644\u0645\u0648\u0646\u0627\u0644\u064a\u0632\u0627\"\u060c \u0648\u0647\u064a \u0631\u0633\u0645\u0629 \u0634\u062e\u0635\u064a\u0629 \u0644\u0644\u064a\u0632\u0627 \u062c\u064a\u0631\u0627\u0631\u062f\u064a\u0646\u064a\u060c \u0632\u0648\u062c\u0629 \u0641\u0631\u0627\u0646\u0634\u0633\u0643\u0648\n\u062f\u064a\u0644 \u062c\u064a\u0648\u0643\u0648\u0646\u062f\u0648\u060c \u062a\u0627\u062c\u0631 \u0645\u0644\u0627\u0628\u0633 \u0645\u0646 \u0641\u0644\u0648\u0631\u0646\u0633\u0627. \u0648\u0627\u0635\u0644 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0627\u0644\u0639\u0645\u0644 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0646\u0627\u0644\u064a\u0632\u0627 \u062d\u062a\u0649 \u0646\u0647\u0627\u064a\u0629 \u062d\u064a\u0627\u062a\u0647.\n\u064a\u0645\u0643\u0646\u0643 \u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0645\u0632\u064a\u062f \u0639\u0646 \u0627\u0644\u0645\u0648\u0646\u0627\u0644\u064a\u0632\u0627 \u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \"\u0643\u064a\u0641\u064a\u0629 \u0631\u0633\u0645 \u0645\u0646\u0638\u0648\u0631 \u0627\u0644\u062c\u0648\u061f\"",
+            "DOT_18_HEADER": "\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0627\u064a\u0643\u0644 \u0623\u0646\u062c\u064a\u0644\u0648 (1504)",
+            "DOT_18_TEXT": "\u0641\u064a \u0641\u0644\u0648\u0631\u0646\u0633\u0627\u060c \u062a\u0645\u062a \u062f\u0639\u0648\u0629 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0627\u064a\u0643\u0644 \u0627\u0646\u062c\u0644\u0648\u060c \u0627\u0644\u0630\u064a \u0643\u0627\u0646 \u0623\u0635\u063a\u0631 \u0645\u0646\u0647 \u0628 20 \u0639\u0627\u0645\u064b\u0627\u060c \u0644\u0631\u0633\u0645 \u0645\u0639\u0631\u0643\u062a\u064a\u0646 \u0645\u0646 \u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u062f\u064a\u0646\u0629.\n\u0644\u0645 \u062a\u0646\u062c\u0648 \u0627\u0644\u0644\u0648\u062d\u0627\u062a\u060c \u0644\u0643\u0646 \u0646\u064f\u0633\u062e \u0645\u0646\u0647\u0627 \u062a\u0648\u0636\u062d \u0627\u062e\u062a\u0644\u0627\u0641\u0627\u062a \u0627\u0644\u0623\u0633\u0627\u0644\u064a\u0628 \u0628\u064a\u0646 \u0627\u0644\u0641\u0646\u0627\u0646\u064a\u0646. \u0643\u0627\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0623\u064a\u0636\u0627\u064b \u0634\u0631\u064a\u0643\u0627\u064b\n\u0641\u064a \u0627\u0644\u0645\u0646\u0627\u0642\u0634\u0629 \u0627\u0644\u0651\u062a\u064a \u062a\u062e\u0635\u0635\u062a \u0628\u0645\u0648\u0642\u0639 \u062a\u0645\u062b\u0627\u0644\u0647 \u0627\u0644\u0634\u0647\u064a\u0631 \u0644\u0645\u0627\u064a\u0643\u0644 \u0623\u0646\u062c\u064a\u0644\u0648- \u062f\u0627\u0641\u064a\u062f.",
+            "DOT_19_HEADER": "\"\u0645\u062e\u0637\u0648\u0637\u0629 \u062a\u062d\u0644\u064a\u0642 \u0627\u0644\u0637\u064a\u0648\u0631\"",
+            "DOT_19_TEXT": "\u0639\u062f\u0645 \u0627\u0644\u0627\u0633\u062a\u0642\u0631\u0627\u0631 \u0627\u0644\u0633\u064a\u0627\u0633\u064a \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648 \u062f\u0641\u0639 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0644\u0639\u0648\u062f\u0629 \u0625\u0644\u0649 \u0641\u0644\u0648\u0631\u0646\u0633\u0627 \u0641\u064a \u0639\u0627\u0645 1500. \u0628\u064a\u0646 \u0639\u0627\u0645\u064a 1503-1506\u060c\n\u0643\u062a\u0628 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u062e\u0637\u0648\u0637\u0629  \u064a\u0635\u0641 \u0631\u0624\u064a\u062a\u0647 \u062d\u0648\u0644 \u0637\u064a\u0631\u0627\u0646 \u0627\u0644\u0637\u064a\u0648\u0631 \u0648\u062a\u0635\u0645\u064a\u0645 \u0645\u0643\u0648\u0646\u0627\u062a \u0644\u062a\u0635\u0646\u064a\u0639 \u0622\u0644\u0627\u062a \u0627\u0644\u0637\u064a\u0631\u0627\u0646.\n\u064a\u0645\u0643\u0646 \u0627\u0644\u0627\u0637\u0644\u0627\u0639 \u0639\u0644\u0649 \u0646\u0633\u062e\u0629 \u0631\u0642\u0645\u064a\u0629 \u0645\u0646 \u0627\u0644\u0645\u062e\u0637\u0648\u0637\u0629 \u0641\u064a \u0642\u0633\u0645 \"\u0627\u0644\u0646\u0638\u0627\u0626\u0631/ \u0627\u0644\u062a\u0634\u0627\u0628\u0647\u0627\u062a \u0641\u064a \u0627\u0644\u0637\u0628\u064a\u0639\u0629\" \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0636.",
+            "DOT_1_HEADER": "\u0627\u0644\u0628\u062f\u0627\u064a\u0629 \u0648\u0630\u0643\u0631\u0649 \u0623\u0648\u0644\u0649 \u0644\u0644\u0637\u0641\u0648\u0644\u0629",
+            "DOT_1_TEXT": "\u0648\u064f\u0644\u0650\u062f \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0628\u0644\u062f\u0629 \u0641\u064a\u0646\u0634\u064a \u0641\u064a \u062a\u0648\u0633\u0643\u0627\u0646\u0627 \u0641\u064a 15 \u0623\u0628\u0631\u064a\u0644 1452\u060c \u0644\u0628\u064a\u064a\u0631\u0648 \u062f\u0627 \u0641\u064a\u0646\u0634\u064a \u0648\u0643\u0627\u062b\u0631\u064a\u0646 \u0644\u064a\u0628\u064a.\n\u064a\u0630\u0643\u0631 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0643\u062a\u0627\u0628\u0627\u062a\u0647 \u0623\u0646\u0647 \u0639\u0646\u062f\u0645\u0627 \u0643\u0627\u0646 \u0637\u0641\u0644\u0627\u064b\u060c \u062d\u0637\u064e\u0651 \u0637\u0627\u0626\u0631 \u0639\u0644\u0649 \u0633\u0631\u064a\u0631\u0647 \u0648\u0641\u062a\u062d \u0641\u0645\u0647 \u0628\u0630\u064a\u0644\u0647.\n\u0643\u0627\u0646\u062a \u0647\u0630\u0647 \u0627\u0644\u062d\u0627\u062f\u062b\u0629 \u0628\u0627\u0644\u0646\u0633\u0628\u0629 \u0644\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0639\u0644\u0627\u0645\u0629 \u0648\u0625\u0634\u0627\u0631\u0629 \u0644\u0647 \u0644\u0645\u0645\u0627\u0631\u0633\u062a\u0647 \u0627\u0644\u0648\u0627\u0633\u0639\u0629 \u0641\u064a \u0627\u0644\u0637\u064a\u0648\u0631 \u0648\u0627\u0644\u0637\u064a\u0631\u0627\u0646.",
+            "DOT_20_HEADER": "\"\u0645\u062e\u0637\u0648\u0637\u0629 \u0644\u064a\u0633\u062a\u0631\"",
+            "DOT_20_TEXT": "\u0641\u064a \u0627\u0644\u0639\u0642\u062f \u0627\u0644\u0623\u0648\u0644 \u0645\u0646 \u0627\u0644\u0642\u0631\u0646 \u0627\u0644\u0633\u0627\u062f\u0633 \u0639\u0634\u0631 (1502-1508)\u060c \u0643\u062a\u0628 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u062e\u0637\u0648\u0637\u0629 \u0642\u0635\u064a\u0631\u0629 \u062a\u064f\u0639\u0631\u0641 \u0627\u0644\u064a\u0648\u0645 \u0628\u0625\u0633\u0645 \u0645\u062e\u0637\u0648\u0637\u0629\n\u0644\u064a\u0633\u062a\u0631 \u0648\u0627\u0644\u062a\u064a \u062a\u0631\u0643\u0632 \u0639\u0644\u0649 \u062a\u062f\u0641\u0642 \u0627\u0644\u0645\u064a\u0627\u0647 \u0648\u0627\u0644\u062c\u064a\u0648\u0644\u0648\u062c\u064a\u0627 \u0648\u0635\u0648\u0644\u0627 \u0627\u0644\u0649 \u0641\u0631\u0636\u064a\u0627\u062a \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u062d\u0648\u0644 \u0636\u0648\u0621 \u0627\u0644\u0642\u0645\u0631! \u064a\u0645\u0643\u0646\u0643 \u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0645\u0632\u064a\u062f\n\u0639\u0646 \u0625\u0643\u062a\u0634\u0627\u0641\u0627\u062a \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0645\u062c\u0627\u0644 \u0627\u0644\u0623\u062d\u0641\u0648\u0631\u064a\u0627\u062a \u0641\u064a \"\u0643\u064a\u0641 \u062a\u062a\u0643\u0648\u0646 \u0627\u0644\u0623\u062d\u0641\u0648\u0631\u064a\u0627\u062a\u061f\" \u0641\u064a \u0642\u0633\u0645 \u0627\u0644\u062a\u0634\u0627\u0628\u0647 \u0641\u064a \u0627\u0644\u0637\u0628\u064a\u0639\u0629 \u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0636.",
+            "DOT_21_HEADER": "\u0623\u0633\u062f \u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a \u0623\u0648\u0644 (1509)",
+            "DOT_21_TEXT": "\u0645\u0646 \u0645\u0635\u0627\u062f\u0631 \u062d\u0642\u0628\u0629 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0627 \u0628\u0639\u062f\u0647\u0627\u060c \u062a\u0639\u0644\u0645\u0646\u0627 \u0623\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0642\u0627\u0645 \u0623\u064a\u0636\u0627\u064b \u0628\u062a\u0635\u0645\u064a\u0645 \u0648\u0628\u0646\u0627\u0621 \u062b\u0644\u0627\u062b\u0629 \u0623\u0633\u0648\u062f \u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a\u0629 \u0645\u062e\u062a\u0644\u0641\u0629 \u0639\u0644\u0649 \u0645\u062f\u0627\u0631\n\u0627\u0644\u0633\u0646\u064a\u0646 \u062a\u0643\u0631\u064a\u0645\u0627\u064b \u0644\u0639\u0631\u0648\u0636 \u0625\u062d\u062a\u0641\u0627\u0644\u064a\u0629 \u0645\u062e\u062a\u0644\u0641\u0629. \u0644\u0633\u0648\u0621 \u0627\u0644\u062d\u0638\u060c \u0644\u0645 \u062a\u0646\u062c\u0648 \u0631\u0633\u0648\u0645\u0627\u062a \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0644\u0623\u0633\u0648\u062f. \u062a\u0645 \u0628\u0646\u0627\u0621 \u0627\u0644\u0623\u0633\u062f \u0627\u0644\u0623\u0648\u0644 \u0639\u0644\u0649 \u0634\u0631\u0641\n\u0648\u0635\u0648\u0644 \u0627\u0644\u0645\u0644\u0643 \u0627\u0644\u0641\u0631\u0646\u0633\u064a \u0644\u0648\u064a\u0633 \u0627\u0644\u062b\u0627\u0646\u064a \u0639\u0634\u0631 \u0625\u0644\u0649 \u0645\u062f\u064a\u0646\u0629 \u0645\u064a\u0644\u0627\u0646\u0648\u060c \u0648\u0627\u0644\u0630\u064a \u0639\u0627\u062f \u0625\u0644\u064a\u0647\u0627 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0639\u0627\u0645 1506.",
+            "DOT_22_HEADER": "\u0623\u0628\u062d\u0627\u062b \u062a\u0634\u0631\u064a\u062d\u064a\u0629 \u0645\u062a\u0623\u062e\u0631\u0629",
+            "DOT_22_TEXT": "\u0643\u0627\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u064a\u0628\u062d\u062b \u0641\u064a \u0639\u0644\u0645 \u0627\u0644\u062a\u0634\u0631\u064a\u062d \u0628\u0634\u0643\u0644 \u0639\u0627\u0645\u060c \u0648\u0639\u0644\u0645 \u0627\u0644\u062a\u0634\u0631\u064a\u062d \u0627\u0644\u0628\u0634\u0631\u064a \u0628\u0634\u0643\u0644 \u062e\u0627\u0635\u060c \u0641\u064a \u0623\u0648\u0642\u0627\u062a \u0645\u062e\u062a\u0644\u0641\u0629 \u0645\u0646 \u062d\u064a\u0627\u062a\u0647.\n\u062e\u0644\u0627\u0644 \u0627\u0644\u0641\u062a\u0631\u0629 \u0645\u0627 \u0628\u064a\u0646 1508 \u0648 1513\u060c \u062d\u0642\u0642 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0623\u0639\u0638\u0645 \u0625\u0646\u062c\u0627\u0632\u0627\u062a\u0647 \u0641\u064a \u0647\u0630\u0627 \u0627\u0644\u0645\u062c\u0627\u0644\u060c \u0648\u062e\u0627\u0635\u0629 \u0641\u064a \u0645\u062c\u0627\u0644 \u0623\u0628\u062d\u0627\u062b \u0627\u0644\u0642\u0644\u0628.\n\u064a\u0645\u0643\u0646\u0643 \u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0645\u0632\u064a\u062f \u0639\u0646 \u0647\u0630\u0627 \u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0636 \u0641\u064a \u0627\u0644\u0642\u0633\u0645 \"\u0627\u0644\u0646\u0638\u0627\u0626\u0631/\u0627\u0644\u062a\u0634\u0627\u0628\u0647\u0627\u062a \u0641\u064a \u0627\u0644\u0637\u0628\u064a\u0639\u0629\".",
+            "DOT_23_HEADER": "\"\u0645\u0631\u0627\u064a\u0627 \u0648\u062a\u0648\u062a\u0631\u0627\u062a\" (1514-1515)",
+            "DOT_23_TEXT": "\u062e\u0644\u0627\u0644 \u0627\u0644\u0641\u062a\u0631\u0629 \u0627\u0644\u062a\u0651\u064a \u0642\u0636\u0627\u0647\u0627 \u0641\u064a \u0631\u0648\u0645\u0627\u060c \u0639\u0646\u062f \u062e\u062f\u0645\u062a\u0647 \u0644\u062c\u0648\u0644\u064a\u0627\u0646\u0648 \u062f\u064a \u0645\u064a\u062f\u064a\u0634\u064a\u060c \u0634\u0642\u064a\u0642 \u0627\u0644\u0628\u0627\u0628\u0627 \u0644\u064a\u0648 \u0627\u0644\u0639\u0627\u0634\u0631\u060c \u0628\u062d\u062b\n\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0639\u0644\u0645 \u0628\u0635\u0631\u064a\u0627\u062a \u0627\u0644\u0645\u0631\u0627\u064a\u0627 \u0648\u062a\u0642\u0646\u064a\u0627\u062a \u0627\u0644\u0628\u0646\u0627\u0621. \u062a\u0631\u0648\u064a \u0643\u062a\u0627\u0628\u0627\u062a\u0647 \u0641\u064a \u062a\u0644\u0643 \u0627\u0644\u0641\u062a\u0631\u0629 \u0639\u0646 \u0627\u0644\u062a\u0648\u062a\u0631\u0627\u062a \u0648\u0627\u0644\u0646\u0632\u0627\u0639\u0627\u062a \u0628\u064a\u0646\u0647 \u0648\u0628\u064a\u0646\n\u0623\u062d\u062f \u0645\u0633\u0627\u0639\u062f\u064a\u0647\u060c \u0648\u0628\u064a\u0646\u0647 \u0648\u0628\u064a\u0646 \u0635\u0627\u0646\u0639 \u0627\u0644\u0645\u0631\u0627\u064a\u0627 \u0627\u0644\u0645\u0646\u0627\u0641\u0633 \u0627\u0644\u0630\u064a \u064a\u062f\u0639\u0649 \u062c\u064a\u0648\u0641\u0627\u0646\u064a \u062f\u064a\u063a\u0644\u064a \u0633\u0628\u064a\u0634\u064a.",
+            "DOT_24_HEADER": "\u062a\u0644\u0645\u064a\u0639 \u0627\u0644\u0645\u0631\u0627\u064a\u0627",
+            "DOT_24_TEXT": "\u062e\u0644\u0627\u0644 \u0641\u062a\u0631\u0629 \u0648\u062c\u0648\u062f\u0647 \u0641\u064a \u0631\u0648\u0645\u0627\u060c \u0635\u0645\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0622\u0644\u0627\u062a \u0645\u062e\u062a\u0644\u0641\u0629 \u0644\u062a\u0644\u0645\u064a\u0639 \u0627\u0644\u0645\u0631\u0627\u064a\u0627 \u0627\u0644\u0645\u0642\u0639\u0631\u0629. \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u0627\u064a\u0627\u060c\n\u0627\u0644\u0651\u062a\u064a \u064a\u0645\u0643\u0646 \u0623\u0646 \u062a\u0631\u0643\u0632 \u0627\u0644\u0636\u0648\u0621 \u0648\u0627\u0644\u062d\u0631\u0627\u0631\u0629 \u0641\u064a \u0646\u0642\u0637\u0629 \u0645\u0627\u060c \u0643\u0627\u0646\u062a \u0645\u0648\u0636\u0639 \u0625\u0647\u062a\u0645\u0627\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0627\u0644\u0630\u064a \u0643\u0627\u0646 \u064a\u0623\u0645\u0644 \u0641\u064a\n\u0625\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627 \u0643\u0622\u0644\u064a\u0629 \u062a\u062f\u0641\u0626\u0629 \u0644\u0644\u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0627\u062a \u0627\u0644\u0635\u0646\u0627\u0639\u064a\u0629 \u0648\u0627\u0644\u0639\u0633\u0643\u0631\u064a\u0629.",
+            "DOT_25_HEADER": "\u0627\u0644\u0623\u0633\u062f \u0627\u0644\u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a \u0627\u0644\u062b\u0627\u0646\u064a",
+            "DOT_25_TEXT": "\u0641\u064a \u0639\u0627\u0645 1515 \u0628\u0646\u0649 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0623\u0633\u062f\u064b\u0627 \u0645\u064a\u0643\u0627\u0646\u064a\u0643\u064a\u064b\u0627 \u062b\u0627\u0646\u064a\u064b\u0627\u060c \u0644\u0644\u0625\u0633\u062a\u0642\u0628\u0627\u0644 \u0627\u0644\u0630\u064a \u0642\u0627\u0645\u062a \u0628\u0647 \u0645\u062f\u064a\u0646\u0629 \u0644\u064a\u0648\u0646 \u0644\u0644\u0645\u0644\u0643 \u0627\u0644\u0641\u0631\u0646\u0633\u064a \u0627\u0644\u062c\u062f\u064a\u062f \u0641\u0631\u0627\u0646\u0633\u0648\u0627\n \u0627\u0644\u0623\u0648\u0644. \u0648\u0648\u0641\u0642\u064b\u0627 \u0644\u0644\u0623\u062f\u0644\u0629\u060c \u0633\u0627\u0631 \"\u0627\u0644\u0623\u0633\u062f\u060c \u0648\u062c\u0644\u0633\u060c \u0648\u0638\u0647\u0631\u062a \u0627\u0644\u0632\u0647\u0648\u0631 \u0641\u064a \u0641\u062a\u062d\u0629 \u0645\u0646 \u0635\u062f\u0631\u0647. \u0641\u064a \u062a\u0644\u0643 \u0627\u0644\u0633\u0646\u0629 \u0639\u0631\u0636 \u0641\u0631\u0627\u0646\u0633\u0648\u0627 \u0639\u0644\u0649 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648\n\u0645\u0628\u0644\u063a\u0627 \u0633\u062e\u064a\u064b\u0627 \u0644\u0644\u0627\u0646\u062a\u0642\u0627\u0644 \u0625\u0644\u0649 \u0641\u0631\u0646\u0633\u0627 \u0648\u0627\u0644\u0639\u0645\u0644 \u0645\u0633\u062a\u0634\u0627\u0631\u064b\u0627 \u0644\u0647.",
+            "DOT_26_HEADER": "\u0631\u0633\u0648\u0645\u0627\u062a \"\u0627\u0644\u0637\u0648\u0641\u0627\u0646\"",
+            "DOT_26_TEXT": "\u0641\u064a \u0635\u064a\u0641 \u0639\u0627\u0645 1516\u060c \u0639\u0628\u0631 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u064a\u0644\u0648 \u062c\u0628\u0627\u0644 \u0627\u0644\u0623\u0644\u0628 \u062a\u0644\u0628\u064a\u0629 \u0644\u062f\u0639\u0648\u0629 \u0645\u0646 \u0645\u0644\u0643 \u0641\u0631\u0646\u0633\u0627 \u0641\u0631\u0627\u0646\u0633\u0648\u0627 \u0627\u0644\u0623\u0648\u0644 \u0644\u0644\u0627\u0646\u0636\u0645\u0627\u0645 \u0625\u0644\u0649 \u0628\u0627\u062d\u062a\u0647.\n\u0641\u064a \u0641\u0631\u0646\u0633\u0627\u060c \u0631\u0633\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0633\u0644\u0633\u0644\u0629 \u0645\u0646 \u0631\u0633\u0648\u0645\u0627\u062a \u0627\u0644\u0641\u064a\u0636\u0627\u0646 \u0628\u0623\u0628\u0639\u0627\u062f \u0647\u0627\u0626\u0644\u0629.\n\u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \"\u0643\u064a\u0641\u064a\u0629 \u0631\u0633\u0645 \u0627\u0644\u0641\u064a\u0636\u0627\u0646\u061f\" - \u0639\u0644\u0649 \u064a\u0645\u064a\u0646\u0643\u060c \u0633\u062a\u062a\u0639\u0631\u0641\u0648\u0646 \u0639\u0644\u0649 \u0647\u0630\u0647 \u0627\u0644\u0631\u0633\u0648\u0645\u0627\u062a \u0639\u0646 \u0643\u062b\u0628.",
+            "DOT_27_HEADER": "\u0627\u0644\u0631\u0627\u0639\u064a \u0627\u0644\u0623\u062e\u064a\u0631",
+            "DOT_27_TEXT": "\u0643\u0627\u0646 \u0631\u0627\u0639\u064a \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0627\u0644\u0623\u062e\u064a\u0631\u060c \u0641\u0631\u0627\u0646\u0633\u0648\u0627 \u0627\u0644\u0623\u0648\u0644 \u064a\u0642\u064a\u0645 \u0641\u064a \u0634\u0627\u062a\u0648 \u062f\u064a \u0643\u0644\u0648\u0643\u0633\u060c \u0628\u0627\u0644\u0642\u0631\u0628 \u0645\u0646 \u0642\u0635\u0631\u0647 \u0641\u064a \u0623\u0645\u0628\u0648\u0627\u0632 \u0641\u064a \u0648\u0627\u062f\u064a \u0644\u0648\u0627\u0631.\n\u0642\u0636\u0649 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0646 \u0631\u0627\u0641\u0642\u0647 \u0633\u0646\u0648\u0627\u062a\u0647 \u0627\u0644\u0623\u062e\u064a\u0631\u0629 \u0628\u0634\u0643\u0644 \u0645\u0631\u064a\u062d \u0644\u0644\u063a\u0627\u064a\u0629 \u0628\u0633\u0628\u0628 \u0643\u0631\u0645 \u0641\u0631\u0627\u0646\u0633\u0648\u0627 \u0627\u0644\u0630\u064a \u0642\u062f\u0651\u0631 \u0645\u0639\u0631\u0641\u0629 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0648\u0645\u0647\u0627\u0631\u0627\u062a\u0647.",
+            "DOT_28_HEADER": "\u064a\u0633\u062a\u0645\u0631 \u0628\u0627\u0644\u062a\u0633\u0627\u0624\u0644",
+            "DOT_28_TEXT": "\u0639\u0644\u0649 \u0627\u0644\u0631\u063a\u0645 \u0645\u0646 \u062a\u062f\u0647\u0648\u0631 \u062d\u0627\u0644\u062a\u0647 \u0627\u0644\u0635\u062d\u064a\u0629\u060c \u0644\u0645 \u064a\u062a\u0648\u0642\u0641 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0639\u0646 \u0627\u0644\u0628\u062d\u062b \u0648\u0627\u0644\u062f\u0631\u0627\u0633\u0629\u060c \u062d\u062a\u0649 \u0641\u064a \u0633\u0646\u0648\u0627\u062a\u0647 \u0627\u0644\u0623\u062e\u064a\u0631\u0629.\n\u0641\u064a \u0623\u0633\u0641\u0644 \u0645\u0627 \u0642\u062f \u064a\u0643\u0648\u0646 \u0625\u062d\u062f\u0649 \u0635\u0641\u062d\u0627\u062a \u062f\u0641\u0627\u062a\u0631\u0647 \u0627\u0644\u0623\u062e\u064a\u0631\u0629\u060c \u0648\u0627\u0644\u062a\u064a \u0628\u062d\u062b \u0641\u064a\u0647\u0627 \u0645\u0633\u0627\u062d\u0629 \u0627\u0644\u0645\u062b\u0644\u062b \u0627\u0644\u0642\u0627\u0626\u0645 \u0627\u0644\u0632\u0627\u0648\u064a\u0629\u060c\n\u062a\u0638\u0647\u0631 \u0639\u0628\u0627\u0631\u0629 \"\u0644\u0623\u0646 \u0627\u0644\u062d\u0633\u0627\u0621 \u064a\u0628\u0631\u062f\" \u064a\u0634\u0631\u062d \u0641\u064a\u0647 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0644\u0645\u0627\u0630\u0627 \u064a\u062c\u0628 \u0623\u0646 \u064a\u0633\u062a\u064a\u0642\u0638 \u0648\u064a\u0630\u0647\u0628 ...",
+            "DOT_29_HEADER": "\u062f\u0641\u0627\u062a\u0631 \u0645\u0641\u0642\u062f\u0648\u0629",
+            "DOT_29_TEXT": "\u0648\u064e\u0631\u064e\u0651\u062b \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u062e\u0637\u0648\u0637\u0627\u062a\u0647 \u0648\u062f\u0641\u0627\u062a\u0631\u0647 \u0644\u062a\u0644\u0645\u064a\u0630\u0647 \u0641\u0631\u0627\u0646\u0634\u064a\u0633\u0643\u0648 \u0645\u0627\u0644\u0632\u064a. \u0628\u0639\u062f \u0648\u0641\u0627\u0629 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a 2 \u0623\u0628\u0631\u064a\u0644 1519\u060c\n\u0639\u0627\u062f \u0645\u0627\u0644\u0632\u064a \u0645\u0639 \u0645\u0624\u0644\u0641\u0627\u062a \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0625\u0644\u0649 \u0625\u064a\u0637\u0627\u0644\u064a\u0627\u060c \u062d\u064a\u062b \u0625\u062d\u062a\u0641\u0638 \u0628\u0647\u0627 \u0644\u0643\u0646\u0647 \u0644\u0645 \u064a\u0646\u0634\u0631\u0647\u0627. \u0639\u0646\u062f\u0645\u0627 \u062a\u0648\u0641\u064a \u0645\u0627\u0644\u0632\u064a \u0646\u0641\u0633\u0647 \u0641\u064a \u0639\u0627\u0645 1570\u060c\n\u062a\u0631\u0643\u0647\u0627 \u0644\u0627\u0628\u0646\u0647\u060c \u0627\u0644\u0630\u064a \u0644\u0645 \u064a\u0641\u0647\u0645 \u0642\u064a\u0645\u062a\u0647\u0627 \u0648\u0642\u0627\u0645 \u0628\u0628\u064a\u0639 \u0628\u0639\u0636\u0647\u0627 \u0628\u062d\u064a\u062b \u0625\u0646\u062a\u0634\u0631\u062a \u0641\u064a \u062c\u0645\u064a\u0639 \u0623\u0646\u062d\u0627\u0621 \u0623\u0648\u0631\u0648\u0628\u0627.",
+            "DOT_2_HEADER": "\u0630\u0643\u0631\u0649 \u0637\u0641\u0648\u0644\u0629 \u062b\u0627\u0646\u064a\u0629 \u0648\u0631\u0645\u0632 \u0644\u0644\u0641\u0636\u0648\u0644",
+            "DOT_2_TEXT": "\u0643\u0637\u0641\u0644\u060c \u0625\u0639\u062a\u0627\u062f \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0623\u0646 \u064a\u062a\u062c\u0648\u0644 \u0648\u062d\u062f\u0647 \u0641\u064a \u0627\u0644\u0628\u0631\u064a\u0629. \u064a\u0635\u0641 \u0641\u064a \u0643\u062a\u0627\u0628\u0627\u062a\u0647 \u0623\u0646\u0647 \u0648\u0635\u0644 \u0641\u064a \u0623\u062d\u062f \u062a\u062c\u0648\u0627\u0644\u0627\u062a\u0647 \u0627\u0644\u0649\n\u0645\u062f\u062e\u0644 \u0643\u0647\u0641\u064d \u0648\u0639\u0644\u0649 \u0627\u0644\u0631\u063a\u0645 \u0645\u0646 \u0623\u0646\u0647 \u0643\u0627\u0646 \u064a\u062e\u0634\u0649 \u0627\u0644\u062f\u062e\u0648\u0644 \u0628\u0645\u0641\u0631\u062f\u0647 \u0627\u0644\u0649 \u0627\u0644\u0645\u0643\u0627\u0646 \u0627\u0644\u0645\u0638\u0644\u0645 \u0648\u0627\u0644\u0645\u062c\u0647\u0648\u0644\u060c\n\u0628\u0641\u0636\u0644 \u0641\u0636\u0648\u0644\u0647\u060c \u0643\u0627\u0646\u062a \u0644\u062f\u064a\u0647 \u0627\u0644\u0634\u062c\u0627\u0639\u0629 \u0644\u0627\u0643\u062a\u0634\u0627\u0641 \u0645\u0627 \u0643\u0627\u0646 \u064a\u062e\u062a\u0628\u0626 \u0641\u064a\u0647 \u0648\u0648\u062c\u062f \u0641\u064a\u0647 \u0623\u062d\u0641\u0648\u0631\u0629 \u0644\u0633\u0645\u0643\u0629 \u0643\u0628\u064a\u0631\u0629 \u0647\u0646\u0627\u0643.",
+            "DOT_3_HEADER": "\u0627\u0644\u0625\u0646\u062a\u0642\u0627\u0644 \u0644\u0641\u0644\u0648\u0631\u0646\u0633\u0627",
+            "DOT_3_TEXT": "\u0641\u064a \u0633\u0646 \u0627\u0644\u062b\u0627\u0646\u064a\u0629 \u0639\u0634\u0631\u0629\u060c \u0625\u0646\u062a\u0642\u0644 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u0639 \u0648\u0627\u0644\u062f\u0647 \u0628\u064a\u064a\u0631\u0648\u060c \u0648\u0647\u0648 \u0643\u0627\u062a\u0628 \u0639\u062f\u0644 \u0645\u062d\u062a\u0631\u0645 \u0627\u0644\u0649 \u0641\u0644\u0648\u0631\u0646\u0633\u0627. \u0646\u0638\u0631\u0627\u064b \u0644\u0623\u0646 \u0648\u0627\u0644\u062f\u064a\u0647\n\u0644\u0645 \u064a\u0643\u0648\u0646\u0627 \u0645\u062a\u0632\u0648\u062c\u064a\u0646\u060c \u0641\u0642\u062f \u062a\u0645 \u0631\u0641\u0636 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u0646 \u0627\u0644\u0627\u0644\u062a\u062d\u0627\u0642 \u0628\u0627\u0644\u0645\u0624\u0633\u0633\u0627\u062a \u0627\u0644\u062a\u0639\u0644\u064a\u0645\u064a\u0629 \u0627\u0644\u0645\u062a\u0642\u062f\u0645\u0629\u060c \u0648\u0623\u0635\u0628\u062d \u0641\u064a \u0627\u0644\u0631\u0627\u0628\u0639\u0629 \u0639\u0634\u0631\u0629 \u0645\u0646\n \u0639\u0645\u0631\u0647 \u0645\u062a\u062f\u0631\u0628\u0627\u064b \u0641\u064a \u0648\u0631\u0634\u0629 \u0623\u0646\u062f\u0631\u064a\u0627 \u062f\u064a\u0644 \u0648\u0627\u0631\u0648\u0634\u064a\u0648\u060c \u062d\u064a\u062b \u0625\u0633\u062a\u0645\u062f \u0645\u0647\u0627\u0631\u0627\u062a\u0647 \u0641\u064a \u0627\u0644\u0631\u0633\u0645 \u0648\u0627\u0644\u0647\u0646\u062f\u0633\u0629 \u0648\u0627\u0644\u062d\u0650\u0631\u0641 \u0627\u0644\u0623\u062e\u0631\u0649.",
+            "DOT_4_HEADER": "\u0641\u0646\u0627\u0646 \u0641\u064a \u0648\u0631\u0634\u0629 \u0641\u0631\u0648\u0643\u064a\u0648",
+            "DOT_4_TEXT": "\u0643\u0627\u0646\u062a \u0648\u0631\u0634\u0629 \u0639\u0645\u0644 \u0623\u0646\u062f\u0631\u064a\u0627 \u062f\u0644 \u0641\u0631\u0648\u0643\u064a\u0648 \u0645\u062b\u0644 \u063a\u064a\u0631\u0647\u0627 \u0645\u0646 \u0648\u0631\u0634\u0627\u062a \u0627\u0644\u0646\u0647\u0636\u0629\u060c \u0630\u0627\u062a \u0642\u062f\u0631\u0627\u062a \u062a\u0642\u0646\u064a\u0629 \u0645\u062a\u0646\u0648\u0639\u0629.\n\u0643\u062c\u0632\u0621 \u0645\u0646 \u0639\u0645\u0644\u0647 \u0641\u064a \u0648\u0631\u0634\u0629 \u0627\u0644\u0639\u0645\u0644\u060c \u0634\u0627\u0631\u0643 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u062a\u0631\u0643\u064a\u0628 \u0643\u0631\u0629 \u0645\u0639\u062f\u0646\u064a\u0629 \u0630\u0647\u0628\u064a\u0629 \u062a\u0632\u064a\u0646 \u0642\u0628\u0629 \u0627\u0644\u0643\u0627\u062a\u062f\u0631\u0627\u0626\u064a\u0629 \u0641\u064a \u0641\u0644\u0648\u0631\u0646\u0633\u0627.\n\u064a\u0639\u062a\u0628\u0631 \u062a\u0631\u0643\u064a\u0628 \u0627\u0644\u0642\u0628\u0629 \u0641\u064a \u0639\u0627\u0645 1469 \u0623\u0645\u0631\u0627 \u0635\u0639\u0628\u0627\u064b \u0648\u0645\u0631\u0643\u0628\u0627\u064b\u060c \u062d\u064a\u062b \u0643\u0627\u0646 \u064a\u062c\u0628 \u0631\u0641\u0639 \u0627\u0644\u0643\u0631\u0629 \u0625\u0644\u0649 \u0639\u0644\u0648\u064d \u064a\u0632\u064a\u062f \u0639\u0646 \u0627\u0644\u0640 100 \u0645\u062a\u0631.",
+            "DOT_5_HEADER": "\u0631\u0633\u0645\u0629 \"\u0627\u0644\u0628\u0634\u0627\u0631\u0629\"",
+            "DOT_5_TEXT": "\u0645\u0646 \u0639\u0627\u0645 1472 \u0625\u0644\u0649 1475 \u0631\u0633\u0645 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0628\u0634\u0627\u0631\u0629 \u0627\u0644\u0645\u0644\u0627\u0643 \u0644\u0644\u0633\u064a\u062f\u0629 \u0627\u0644\u0639\u0630\u0631\u0627\u0621 \u0648\u0627\u0644\u062a\u064a \u0643\u0627\u0646\u062a \u0623\u0648\u0644\u0649 \u0627\u0644\u0644\u0648\u062d\u0627\u062a \u0627\u0644\u0645\u0646\u0633\u0648\u0628\u0629 \u0625\u0644\u064a\u0647.\n\u0627\u0644\u064a\u0648\u0645\u060c \u064a\u062a\u0645 \u0639\u0631\u0636 \u0627\u0644\u0644\u0648\u062d\u0629 \u0641\u064a \u0645\u0639\u0631\u0636 \u0623\u0648\u0641\u064a\u0632\u064a \u0641\u064a \u0641\u0644\u0648\u0631\u0646\u0633\u0627. \u0645\u0642\u0627\u064a\u064a\u0633 \u0628\u0639\u0636 \u0627\u0644\u0623\u063a\u0631\u0627\u0636 \u0641\u064a \u0627\u0644\u0631\u0633\u0645\u0629 \u0645\u0644\u0627\u0626\u0645\u0629 \u0644\u0644\u0646\u0638\u0631 \u0625\u0644\u064a\u0647\u0627\n\u0645\u0646 \u062c\u0647\u0629 \u0645\u0639\u064a\u0646\u0629 (\u0645\u0646 \u0627\u0644\u064a\u0645\u064a\u0646) \u0643\u0645\u0627 \u064a\u0645\u0643\u0646\u0643\u0645 \u0623\u0646 \u062a\u0644\u0627\u062d\u0638\u0648\u0627 \u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629.",
+            "DOT_6_HEADER": "\u0631\u0633\u0645\u0629 \u0645\u0646\u0638\u0631 \u0637\u0628\u064a\u0639\u064a",
+            "DOT_6_TEXT": "\u0641\u064a 5 \u0623\u063a\u0633\u0637\u0633 1473\u060c \u0623\u0643\u0645\u0644 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0631\u0633\u0645\u0627\u064b \u0628\u0627\u0644\u062d\u0628\u0631 \u0644\u0645\u0646\u0638\u0631 \u0637\u0628\u064a\u0639\u064a \u0641\u064a \u062a\u0648\u0633\u0643\u0627\u0646\u0627 \u0628\u0627\u0644\u0642\u0631\u0628 \u0645\u0646 \u0646\u0647\u0631 \u0623\u0631\u0646\u0648 \u0627\u0644\u0630\u064a \u0646\u0634\u0623 \u0641\u064a\u0647.\n\u064a\u0645\u0643\u0646 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u0646\u0633\u062e\u0629 \u0643\u0628\u064a\u0631\u0629 \u0627\u0644\u0623\u0628\u0639\u0627\u062f \u0644\u0647\u0630\u0627 \u0627\u0644\u0631\u0633\u0645\u060c \u0645\u0639 \u0634\u0631\u062d \u0645\u0641\u0635\u0644 \u0641\u064a \u0627\u0644\u0645\u0639\u0631\u0636 \u0641\u064a \u0627\u0644\u0645\u0646\u0637\u0642\u0629 \"\u062a\u0634\u0627\u0628\u0647\u0627\u062a \u0641\u064a \u0627\u0644\u0637\u0628\u064a\u0639\u0629\".",
+            "DOT_7_HEADER": "\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0627\u0644\u0645\u0648\u0633\u064a\u0642\u064a",
+            "DOT_7_TEXT": "\u0628\u0627\u0644\u0625\u0636\u0627\u0641\u0629 \u0625\u0644\u0649 \u0645\u0648\u0627\u0647\u0628\u0647 \u0627\u0644\u0623\u062e\u0631\u0649 \u0628\u0631\u0639 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0643\u0639\u0627\u0632\u0641 \u0644\u0644\u064a\u0631\u0627- Lirra da Braccio\u060c \u0648\u0647\u064a \u0622\u0644\u0629 \u0645\u0648\u0633\u064a\u0642\u064a\u0629 \u062a\u0634\u0628\u0647 \u0625\u0644\u0649 \u062d\u062f \u0645\u0627\n\u0627\u0644\u0643\u0645\u0627\u0646 \u0627\u0644\u0645\u0639\u0631\u0648\u0641 \u0627\u0644\u064a\u0648\u0645. \u062d\u062a\u0649 \u0623\u0646\u0647 \u0635\u0645\u0645 \u0648\u0642\u0627\u0645  \u0628\u0628\u0646\u0627\u0621 \u0625\u0635\u062f\u0627\u0631\u0627\u062a \u062e\u0627\u0635\u0629 \u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0622\u0644\u0629 \u0627\u0644\u0645\u0648\u0633\u064a\u0642\u064a\u0629. \u0628\u0641\u0636\u0644 \u0645\u0648\u0627\u0647\u0628\u0647 \u0627\u0644\u0645\u0648\u0633\u064a\u0642\u064a\u0629\u060c\n\u0648\u0635\u0644 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0625\u0644\u0649 \u0645\u064a\u0644\u0627\u0646\u0648 \u0639\u0627\u0645 1482 \u0645\u0639 \u0648\u0641\u062f \u0645\u0646 \u0641\u0644\u0648\u0631\u0646\u0633\u0627 \u0648\u0623\u0635\u0628\u062d \u062c\u0632\u0621\u0627\u064b \u0645\u0646 \u0628\u0627\u062d\u0629 \u062f\u0648\u0642 \u0645\u064a\u0644\u0627\u0646 \u0644\u0648\u062f\u0648\u0641\u064a\u0643 \u0633\u0641\u0648\u0631\u0632\u0627.",
+            "DOT_8_HEADER": "\u0625\u0643\u0645\u0627\u0644 \u062a\u0639\u0644\u064a\u0645\u0647",
+            "DOT_8_TEXT": "\u062e\u0644\u0627\u0644 \u0641\u062a\u0631\u0629 \u062a\u0648\u0627\u062c\u062f\u0647 \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648\u060c \u0628\u062f\u0623 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0628\u0625\u0633\u062a\u0643\u0645\u0627\u0644 \u062a\u0639\u0644\u064a\u0645\u0647 \u0648\u0645\u0639\u0631\u0641\u062a\u0647 \u0627\u0644\u0639\u0627\u0645\u0629 \u0648\u0628\u062f\u0623 \u0641\u064a \u062f\u0631\u0627\u0633\u0629 \u0627\u0644\u0644\u0627\u062a\u064a\u0646\u064a\u0629 \u0648\u0642\u0631\u0627\u0621\u0629\n\u0627\u0644\u0646\u0635\u0648\u0635 \"\u0627\u0644\u0643\u0644\u0627\u0633\u064a\u0643\u064a\u0629\" \u0645\u0646 \u0627\u0644\u0639\u0635\u0648\u0631 \u0627\u0644\u0642\u062f\u064a\u0645\u0629. \u0625\u0633\u062a\u0639\u0627\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u062e\u0644\u0627\u0644 \u062d\u064a\u0627\u062a\u0647 \u0628\u0645\u062f\u0631\u0633\u064a\u0646 \u062e\u0628\u0631\u0627\u0621 \u062a\u0639\u0644\u0645 \u0645\u0646\u0647\u0645 \u0648\u062a\u0639\u0627\u0648\u0646 \u0645\u0639\u0647\u0645.\n\u062e\u0644\u0627\u0644 \u062d\u064a\u0627\u062a\u0647\u060c \u062c\u0645\u0639 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0645\u0643\u062a\u0628\u0629 \u0631\u0627\u0626\u0639\u0629 \u062a\u0636\u0645 \u0623\u0643\u062b\u0631 \u0645\u0646 100 \u0643\u062a\u0627\u0628 \u062d\u0648\u0644 \u0645\u0648\u0627\u0636\u064a\u0639 \u0645\u062a\u0646\u0648\u0639\u0629.",
+            "DOT_9_HEADER": "\u0627\u0644\u0622\u0644\u0627\u062a \u0627\u0644\u0637\u0627\u0626\u0631\u0629",
+            "DOT_9_TEXT": "\u062e\u0644\u0627\u0644 \u0633\u0646\u0648\u0627\u062a \u0639\u0645\u0644\u0647 \u0641\u064a \u0645\u064a\u0644\u0627\u0646\u0648\u060c \u0634\u0627\u0631\u0643 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u062a\u0635\u0645\u064a\u0645 \u0622\u0644\u0627\u062a \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0628\u0646\u0627\u0621\u0627\u064b \u0639\u0644\u0649 \u0645\u0634\u0627\u0647\u062f\u0627\u062a\u0647 \u0644\u0644\u0637\u064a\u0648\u0631 \u0648\u0645\u0647\u0627\u0631\u0627\u062a\u0647 \u0627\u0644\u0647\u0646\u062f\u0633\u064a\u0629.\n\u0644\u0627 \u0646\u0639\u0631\u0641 \u0645\u0627 \u0625\u0630\u0627 \u0643\u0627\u0646 \u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0642\u062f \u0623\u062c\u0631\u0649 \u0628\u0627\u0644\u0641\u0639\u0644 \u0623\u064a\u0651 \u062a\u062c\u0631\u0628\u0629\u064d \u062d\u0642\u064a\u0642\u064a\u0629 \u0641\u064a \u0645\u062c\u0627\u0644 \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0627\u0644\u0628\u0634\u0631\u064a.\n\u064a\u0645\u0643\u0646\u0643 \u0645\u0639\u0631\u0641\u0629 \u0627\u0644\u0645\u0632\u064a\u062f \u0639\u0646 \u0623\u0639\u0645\u0627\u0644 \u0627\u0644\u0637\u064a\u0631\u0627\u0646 \u0644\u0644\u064a\u0648\u0646\u0627\u0631\u062f\u0648 \u0641\u064a \u0642\u0633\u0645 \"\u0627\u0644\u0646\u0638\u0627\u0626\u0631/ \u0627\u0644\u062a\u0634\u0627\u0628\u0647\u0627\u062a \u0641\u064a \u0627\u0644\u0637\u0628\u064a\u0639\u0629\" \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0636."
+        },
+        "en": {
+            "DOT_10_HEADER": "Leonardo's Horse (1489 \u2013 1494)",
+            "DOT_10_TEXT": "In 1493 Leonardo presented a full-size (7 meter) clay model of a statue in memory of Francesco Sforza, the Duke of Milan\u2019s father.\nThe final statue was meant to be of bronze, but it was never cast as France invaded the Duchy of Milan and the bronze was \nused for cannons. The horse head weight behind you is based on a sketch Leonardo prepared for the casting of the statue.",
+            "DOT_11_HEADER": "The Vitruvian Man  (1492)",
+            "DOT_11_TEXT": "Vitruvius, the Roman architect, claimed that a man with perfect proportions can be sketched within a circle at the center\nof which is the man\u2019s navel, and within a square. Leonardo solved the ancient riddle by adding a pair of arms \nand a pair of legs that reflect his view of man as a dynamic, lively creature.",
+            "DOT_12_HEADER": "Illustrations for The Divine Proportion",
+            "DOT_12_TEXT": "In 1496 Luca Pacioli, the famous Franciscan monk and mathematician, arrived in Milan and was introduced to Leonardo.\nAs a result of their meeting, Leonardo illustrated his book, The Divine Proportion, including a famous series of \ncomplex polyhedrons. The collaboration between the two led Leonardo to a lifelong study of geometry.",
+            "DOT_13_HEADER": "Madrid Codices",
+            "DOT_13_TEXT": "The notebooks currently known as Codex Madrid I (1493 \u2013 1498) and Codex Madrid II (1493 \u2013 1505) were begun by\nLeonardo during his Milan period. They focus on studies of basic mechanic components and drawings of \ninnovative mechanisms. The sketches for many of the mechanical exhibits on this floor appear in these codices.",
+            "DOT_14_HEADER": "The Last Supper",
+            "DOT_14_TEXT": "Between 1495 and 1498 Leonardo painted the famous scene of the Last Supper in the refrectory of a convent in Milan.\nThe wall painting was commissioned by Ludovico Sforza, who grew impatient with the slow pace of Leonardo\u2019s work.\nThe painting is famous for its clever use of the laws of perspective, and in the way the apostles are positioned with gestures typical of each one\u2019s character.",
+            "DOT_15_HEADER": "Military Engineer (1502 \u2013 winter of 1503)",
+            "DOT_15_TEXT": "As a gesture by the governors of Florence, Leonardo was sent as a military engineer to assist the cruel and cunning\nCesare Borgia who commanded the Pope\u2019s military forces. Leonardo designed a makeshift bridge for him built of \nwooden logs (see the Leonardo\u2019s Bridge exhibit in the Why Don\u2019t Buildings Fall?  Exhibition on this floor).",
+            "DOT_16_HEADER": "Leonardo and Machiavelli",
+            "DOT_16_TEXT": "While serving under Cesare Borgia (from 1502 until the winter of 1503), Leonardo collaborated with famous\nstatesman and author Niccolo Machiavelli, who was also accompanying Borgia as a representative of Florence.\nAmong other things the two planned to divert the river Arno around the city of Pisa, Florence\u2019s rival.",
+            "DOT_17_HEADER": "The Mona Lisa",
+            "DOT_17_TEXT": "Leonardo began to paint the Mona Lisa in 1504. It is a portrait of Lisa Gherardini, wife of Francesco del Giocondo,\na cloth merchant from Florence. Leonardo continued to work on this painting untill the end of his life.\nYou can learn more about the Mona Lisa in the How to Draw an Aerial Perspective exhibition.",
+            "DOT_18_HEADER": "Leonardo and Michelangelo",
+            "DOT_18_TEXT": "In Florence, Leonardo and Michelangelo \u2013 who was twenty years younger \u2013 were invited to paint two of the city's historic\nbattles. The paintings did not survive, but copies made of them show the stylistic differences between the two artists.\nLeonardo also took part in the discussions regarding where to locate Michelangelo's famous statue \u2013 David.",
+            "DOT_19_HEADER": "The Codex on the Flight of Birds",
+            "DOT_19_TEXT": "The lack of political stability in Milan drove Leonardo to return to Florence in the year 1500. Between 1503 and 1506 \nLeonardo wrote a treaty describing his insights on the flight of birds and the components for building a flying machine.\nA digital version of the Codex can be viewed in the Analogies in Nature area of the Exhibition.",
+            "DOT_1_HEADER": "Birth and earliest childhood memory",
+            "DOT_1_TEXT": "Leonardo was born in the town of Vinci in Tuscany on April 15th, 1452, to Piero da Vinci and Caterina di Lippi.\nIn his writings Leonardo mentions that when he was a baby, a bird landed on his cradle and opened his mouth with its tail.\nLeonardo viewed this memory as a sign, anticipating  his lifelong interest in birds and  aviation.",
+            "DOT_20_HEADER": "Codex Leicester",
+            "DOT_20_TEXT": "During the first decade of the 16th century (1502 to 1508) Leonardo wrote a treatise known now as Codex Leicester.\nThe Codex focuses on the flow of water and geology, and also on Leonardo\u2019s assumptions regarding moonlight.\nMore on Leonardo\u2019s discoveries on fossils can be seen in the exhibition How are Fossils Formed? in the Analogies in Nature area of the exhibition.",
+            "DOT_21_HEADER": "First Mechanical Lion (1509)",
+            "DOT_21_TEXT": "We know from sources contemporary to  Leonardo\u2019s lifetime, as well as  later sources, that during his lifetime Leonardo \ndesigned and built three different mechanical lions for special pageants. Unfortunately, Leonardo\u2019s designs of the lions \ndid not survive. The first lion was built in honor of French King Louis XII\u2019s visit to Milan, to which Leonardo returned in 1506.",
+            "DOT_22_HEADER": "Later anatomical studies",
+            "DOT_22_TEXT": "Leonardo studied anatomy in general and especially human anatomy, at various periods of his life.\nBetween 1508 and 1513 Leonardo reached his greatest achievements in this field, especially in the study of the heart.\nYou can learn more about this in the Analogies in Nature area of the Exhibition.",
+            "DOT_23_HEADER": "Mirrors and Quarrels (1514 \u2013 1515)",
+            "DOT_23_TEXT": "During his stay in Rome (1513-1516), where he was in the service of Guilano de Medici, the brother of Pope Leo X,\nLeonardo studied the optics of mirrors and techniques for producing them. His writings of that period relate tensions \nand quarrels between him and one of his assistants, as well as between Leonardo and a competitor by the name of Giovanni degli Specchi.",
+            "DOT_24_HEADER": "Polishing Mirrors",
+            "DOT_24_TEXT": "During his time in Rome, Leonardo designed various machines for polishing concave mirrors. Concave mirrors, \nthat are able to focus light and heat in specific points, were of interest to Leonardo who hoped to use them \nas sources of heat for industrial and military uses.  ",
+            "DOT_25_HEADER": "Second Mechanical Lion",
+            "DOT_25_TEXT": "In 1515 Leonardo designed a second mechanical lion, to welcome the new King of France, Francis I, to Lyon.\nThe \"lion\", reportedly, walked, sat, and produced flowers from its chest.\nThat same year, Francois invited Leonardo to join him in France.",
+            "DOT_26_HEADER": "Drawings of the Deluge",
+            "DOT_26_TEXT": "In the summer of 1516 Leonardo and his entourage crossed the Alps at the invitation of Francois I, \nKing of France, to join his court. In France Leonardo created a series of drawings of deluge  on an apocalyptic scale.\nIn the exhibit How to Draw a Deluge? Immediately to your right, you can take a close look at these drawings.",
+            "DOT_27_HEADER": "Last patron",
+            "DOT_27_TEXT": "Leonardo\u2019s last patron, Francois I, housed him in the Ch\u00e2teaux de Cloux, near the royal palace in \nAmboise in the Loire Valley. Leonardo, in the company of his entourage, spent his final years in \ncomfort thanks to the generosity of Francois, who greatly admired Leonardo\u2019s knowledge and skills.",
+            "DOT_28_HEADER": "Continuously Curious",
+            "DOT_28_TEXT": "Although his health continued to decline, Leonardo never stopped studying and learning, even in his last years.\nAt the bottom of what is possibly one of the last pages of his notebook, in which he studied the area of a right-triangle,\nhe wrote \u2018because the soup is getting cold\u2019, explaining why he had to end\u2026",
+            "DOT_29_HEADER": "Lost notebooks",
+            "DOT_29_TEXT": "Leonardo bequeathed his notebooks to his student Francesco Melzi. Melzi returned to Italy after Leonardo\u2019s death\non April 2, 1519, taking the notebooks with him. In Italy, Melzi safeguarded the notebooks but did not publish them.\nWhen Melzi himself passed away in 1570 he left the notebooks to his son, who did not appreciate their value. The son divided the notebooks and sold them and  they were dispersed throughout Europe.",
+            "DOT_2_HEADER": "Second childhood memory and early curiosity ",
+            "DOT_2_TEXT": "As a child Leonardo would explore the natural landscape around Vinci where he grew up. In his writings he describes that \nwhile wandering he came across a cave. Although he was scared of entering a dark and unfamiliar place by himself, \nhe was so curious to find out what it held that he went in despite his fear. Inside, Leonardo found a fossil of a large fish.",
+            "DOT_3_HEADER": "Move to Florence",
+            "DOT_3_TEXT": "At the age of twelve, Leonardo moved to Florence to his father Piero, a respected notary. As his parents were not married,\nLeonardo was barred from institutes of formal education and at the age of 14 he became an apprentice at the workshop\nof Andrea del Verrocchio. There, he studiously developed his skills in painting, sculpting and other crafts.",
+            "DOT_4_HEADER": "Artisan in Verrocchio\u2019s workshop",
+            "DOT_4_TEXT": "Andrea del Verrocchio\u2019s workshop, similar to other workshops during the Renaissance, employed varied technical skills.\nAs part of his work at the workshop, in 1469, Leonardo helped install the gilded metal sphere that decorated the dome \nof the Florentine cathedral. Installing the sphere was a challenge, as the it had to be lifted to a height of over 100 meters.",
+            "DOT_5_HEADER": "Painting The Annunciation",
+            "DOT_5_TEXT": "Between the years 1472 and 1475 Leonardo painted \"The Annunciation\", one of his earliest paintings. The painting is currently\ndisplayed at the Uffizi gallery in Florence. The dimensions of certain elements in the painting are intended for viewing from\na certain viewpoint (on the right), as you can learn about in the Exhibit \"Why is your nose so big?\"",
+            "DOT_6_HEADER": "Early Landscape",
+            "DOT_6_TEXT": "On August 5th, 1473, Leonardo completed an ink drawing of a Tuscan landscape in the region of the Arno river, near which he \nwas raised. A large scale reproduction of the the drawing appears over the Analogies in Nature area of the Exhibition",
+            "DOT_7_HEADER": "Leonardo the musician",
+            "DOT_7_TEXT": "In addition to his other skills Leonardo excelled at playing the Lira da Braccio \u2013 a string instrument similar to the modern violin.\nHe even designed and built himself unique versions of it. Thanks to his musical abilities Leonardo arrived in Milan in 1482\nwith a delegation from Florence. Once there, he joined the court of the Duke of Milan, Ludovico Sforza.",
+            "DOT_8_HEADER": "Completing his education",
+            "DOT_8_TEXT": "During his time in Milan Leonardo began to complete his general education. He began to learn Latin and read \u2018classical\u2019 antique texts.\nThroughout his life, Leonardo was assisted by expert teachers from whom he learned and who he collaborated with, \nand he amassed an impressive library of over 100 books on varied topics.",
+            "DOT_9_HEADER": "Flying machines",
+            "DOT_9_TEXT": "During the years he was in Milan Leonardo was very engaged with designing flying machines relying on his observations of birds \nand on his engineering skills. We do not know if Leonardo conducted an actual experiment in human flight.\nYou can learn more about Leonardo\u2019s work on aviation in the Analogies in Nature area of the Exhibition."
+        },
+        "he": {
+            "DOT_10_HEADER": "\u05ea\u05db\u05e0\u05d5\u05df \u05e4\u05e1\u05dc \u05e1\u05d5\u05e1 \u05e2\u05e0\u05e7 (1494-1489)",
+            "DOT_10_TEXT": "\u05d1\u05e9\u05e0\u05ea 1493 \u05d4\u05e6\u05d9\u05d2 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d3\u05d2\u05dd \u05d7\u05d9\u05de\u05e8 \u05d1\u05d2\u05d5\u05d3\u05dc \u05de\u05dc\u05d0 (\u05db-7 \u05de\u05d8\u05e8\u05d9\u05dd) \u05e9\u05dc \u05e4\u05e1\u05dc \u05e9\u05d9\u05d5\u05e2\u05d3 \u05dc\u05d6\u05d9\u05db\u05e8\u05d5 \u05e9\u05dc \u05e4\u05e8\u05e0\u05e6'\u05e1\u05e7\u05d5 \u05e1\u05e4\u05d5\u05e8\u05e6\u05d4, \u05d0\u05d1\u05d9\u05d5 \u05e9\u05dc \u05d3\u05d5\u05db\u05e1 \u05de\u05d9\u05dc\u05d0\u05df.\n\u05d4\u05e4\u05e1\u05dc \u05d4\u05e1\u05d5\u05e4\u05d9, \u05de\u05d0\u05e8\u05d3,  \u05de\u05e2\u05d5\u05dc\u05dd \u05dc\u05d0 \u05e0\u05d5\u05e6\u05e7 \u05e2\u05e7\u05d1 \u05e4\u05dc\u05d9\u05e9\u05ea \u05e6\u05e8\u05e4\u05ea \u05dc\u05d3\u05d5\u05db\u05e1\u05d5\u05ea.\n\u05de\u05e9\u05e7\u05d5\u05dc\u05ea \u05e8\u05d0\u05e9 \u05d4\u05e1\u05d5\u05e1 \u05e9\u05de\u05d0\u05d7\u05d5\u05e8\u05d9\u05db\u05dd \u05de\u05d1\u05d5\u05e1\u05e1\u05ea \u05e2\u05dc \u05e8\u05d9\u05e9\u05d5\u05dd \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05e7\u05e8\u05d0\u05ea \u05d9\u05e6\u05d9\u05e7\u05ea \u05e4\u05e1\u05dc \u05d4\u05d0\u05e8\u05d3.",
+            "DOT_11_HEADER": "\u05e8\u05d9\u05e9\u05d5\u05dd \"\u05d4\u05d0\u05d3\u05dd \u05d4\u05d5\u05d5\u05d9\u05d8\u05e8\u05d5\u05d1\u05d9\" (1492)",
+            "DOT_11_TEXT": "\u05d5\u05d9\u05d8\u05e8\u05d5\u05d1\u05d9\u05d5\u05e1, \u05d4\u05d0\u05d3\u05e8\u05d9\u05db\u05dc \u05d4\u05e8\u05d5\u05de\u05d0\u05d9, \u05d8\u05e2\u05df \u05e9\u05d0\u05d3\u05dd \u05d1\u05e2\u05dc \u05e4\u05e8\u05d5\u05e4\u05d5\u05e8\u05e6\u05d9\u05d5\u05ea \u05de\u05d5\u05e9\u05dc\u05de\u05d5\u05ea \u05d0\u05e4\u05e9\u05e8 \u05dc\u05e9\u05e8\u05d8\u05d8 \u05d1\u05d5 \u05d1\u05d6\u05de\u05df \u05d1\u05ea\u05d5\u05da \u05de\u05e2\u05d2\u05dc\n\u05e9\u05de\u05e8\u05db\u05d6\u05d5 \u05d9\u05d5\u05e9\u05d1 \u05e2\u05dc \u05d8\u05d1\u05d5\u05e8\u05d5 \u05e9\u05dc \u05d4\u05d0\u05d3\u05dd, \u05d5\u05d1\u05ea\u05d5\u05da \u05e8\u05d9\u05d1\u05d5\u05e2.\n\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e4\u05ea\u05e8 \u05d0\u05ea \u05d4\u05d7\u05d9\u05d3\u05d4 \u05d4\u05e7\u05d3\u05d5\u05de\u05d4 \u05d1\u05db\u05da \u05e9\u05d4\u05d5\u05e1\u05d9\u05e3 \u05d6\u05d5\u05d2 \u05d9\u05d3\u05d9\u05d9\u05dd \u05d5\u05d6\u05d5\u05d2 \u05e8\u05d2\u05dc\u05d9\u05d9\u05dd \u05d4\u05b7\u05de\u05bc\u05b0\u05e9\u05c1\u05b7\u05e7\u05bc\u05b0\u05e4\u05b4\u05d9\u05dd \u05d0\u05ea \u05ea\u05e4\u05d9\u05e1\u05ea\u05d5 \u05e9\u05dc \u05d4\u05d0\u05d3\u05dd \u05db\u05d9\u05e6\u05d5\u05e8 \u05d3\u05d9\u05e0\u05de\u05d9 \u05d5\u05de\u05dc\u05d0 \u05d7\u05d9\u05d5\u05bc\u05ea.",
+            "DOT_12_HEADER": "\u05d0\u05d9\u05d5\u05e8\u05d9\u05dd \u05dc\"\u05e4\u05e8\u05d5\u05e4\u05d5\u05e8\u05e6\u05d9\u05d4 \u05d4\u05d0\u05dc\u05d5\u05d4\u05d9\u05ea\" (1498-1496)",
+            "DOT_12_TEXT": "\u05d1-1496 \u05d4\u05d2\u05d9\u05e2 \u05dc\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05d4\u05e0\u05d6\u05d9\u05e8 \u05d4\u05e4\u05e8\u05e0\u05e6\u05d9\u05e1\u05e7\u05e0\u05d9 \u05d5\u05d4\u05de\u05ea\u05de\u05d8\u05d9\u05e7\u05d0\u05d9 \u05d4\u05d9\u05d3\u05d5\u05e2 \u05dc\u05d5\u05bc\u05e7\u05d4 \u05e4\u05e6'\u05d9\u05d5\u05dc\u05d9. \u05d4\u05d5\u05d0 \u05d5\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d4\u05ea\u05d7\u05d1\u05e8\u05d5, \u05d5\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05d9\u05d9\u05e8\n\u05d0\u05ea \u05e1\u05e4\u05e8\u05d5 \u05e9\u05dc \u05e4\u05e6'\u05d9\u05d5\u05dc\u05d9 \"\u05d4\u05e4\u05e8\u05d5\u05e4\u05d5\u05e8\u05e6\u05d9\u05d4 \u05d4\u05d0\u05dc\u05d5\u05d4\u05d9\u05ea\", \u05dc\u05e8\u05d1\u05bc\u05d5\u05ea \u05e1\u05d3\u05e8\u05d4 \u05de\u05e4\u05d5\u05e8\u05e1\u05de\u05ea \u05e9\u05dc \u05d0\u05d9\u05d5\u05e8\u05d9 \u05e4\u05bc\u05b0\u05d0\u05d5\u05b9\u05e0\u05b4\u05d9\u05dd \u05de\u05e9\u05d5\u05db\u05dc\u05dc\u05d9\u05dd.\n\u05d4\u05d4\u05d9\u05db\u05e8\u05d5\u05ea \u05d1\u05d9\u05df \u05d4\u05e9\u05e0\u05d9\u05d9\u05dd \u05d4\u05d5\u05d1\u05d9\u05dc\u05d4 \u05d0\u05ea \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d4\u05ea\u05e2\u05de\u05e7 \u05d1\u05d2\u05d9\u05d0\u05d5\u05de\u05d8\u05e8\u05d9\u05d4, \u05d0\u05d5\u05ea\u05d4 \u05d7\u05b8\u05e7\u05b7\u05e8 \u05db\u05dc \u05d7\u05d9\u05d9\u05d5.",
+            "DOT_13_HEADER": "\u05e7\u05d5\u05d3\u05e7\u05e1 \u05de\u05d3\u05e8\u05d9\u05d3",
+            "DOT_13_TEXT": "\u05d4\u05b7\u05de\u05bc\u05b7\u05d7\u05b0\u05d1\u05bc\u05b8\u05e8\u05d5\u05b9\u05ea \u05d4\u05b7\u05de\u05bc\u05b0\u05db\u05bb\u05e0\u05bc\u05d5\u05b9\u05ea \u05db\u05d9\u05d5\u05dd \u05e7\u05d5\u05d3\u05e7\u05e1 \u05de\u05d3\u05e8\u05d9\u05d3 I (1498-1493) \u05d5\u05e7\u05d5\u05d3\u05e7\u05e1 \u05de\u05d3\u05e8\u05d9\u05d3 II (1505-1493), \u05d0\u05d5\u05ea\u05df \u05d4\u05d7\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05ea\u05e7\u05d5\u05e4\u05ea\u05d5 \u05d1\u05de\u05d9\u05dc\u05d0\u05e0\u05d5,\n\u05d4\u05ea\u05de\u05e7\u05d3\u05d5 \u05d1\u05d7\u05b5\u05e7\u05b6\u05e8 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05de\u05db\u05d0\u05e0\u05d9\u05d9\u05dd \u05d1\u05e1\u05d9\u05e1\u05d9\u05d9\u05dd \u05d5\u05d0\u05d9\u05d5\u05e8 \u05de\u05e0\u05d2\u05e0\u05d5\u05e0\u05d9\u05dd \u05d7\u05d3\u05e9\u05e0\u05d9\u05d9\u05dd.\n\u05d4\u05e8\u05d9\u05e9\u05d5\u05de\u05d9\u05dd \u05dc\u05e8\u05d1\u05bc\u05d9\u05dd \u05de\u05d4\u05de\u05d5\u05e6\u05d2\u05d9\u05dd \u05d4\u05de\u05db\u05d0\u05e0\u05d9\u05d9\u05dd \u05d1\u05e7\u05d5\u05de\u05d4 \u05d6\u05d5 \u05e9\u05dc \u05d4\u05ea\u05e2\u05e8\u05d5\u05db\u05d4 \u05de\u05d5\u05e4\u05d9\u05e2\u05d9\u05dd \u05d1\u05e7\u05d5\u05d3\u05e7\u05e1\u05d9\u05dd \u05d0\u05dc\u05d4.",
+            "DOT_14_HEADER": "\"\u05d4\u05e1\u05e2\u05d5\u05d3\u05d4 \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d4\"",
+            "DOT_14_TEXT": "\u05d1\u05d9\u05df \u05d4\u05e9\u05e0\u05d9\u05dd 1498-1495 \u05e6\u05d9\u05d9\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05d7\u05d3\u05e8 \u05d4\u05d0\u05d5\u05db\u05dc \u05d1\u05de\u05e0\u05d6\u05e8 \u05e9\u05d1\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05d0\u05ea \u05e1\u05e6\u05d9\u05e0\u05ea \"\u05d4\u05e1\u05e2\u05d5\u05d3\u05d4 \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d4\" \u05d4\u05de\u05e4\u05d5\u05e8\u05e1\u05de\u05ea.\n\u05e6\u05d9\u05d5\u05e8 \u05d4\u05e7\u05d9\u05e8 \u05d4\u05d5\u05d6\u05de\u05df \u05e2\u05dc-\u05d9\u05d3\u05d9 \u05d4\u05d3\u05d5\u05db\u05e1 \u05e1\u05e4\u05d5\u05e8\u05e6\u05d4, \u05d0\u05e9\u05e8 \u05d2\u05d9\u05dc\u05d4 \u05d7\u05d5\u05e1\u05e8 \u05e1\u05d1\u05dc\u05e0\u05d5\u05ea \u05e0\u05d5\u05db\u05d7 \u05d0\u05d9\u05d8\u05d9\u05d5\u05bc\u05ea \u05de\u05dc\u05d0\u05db\u05ea\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5.\n\u05e7\u05e1\u05de\u05d5 \u05e9\u05dc \u05d4\u05e6\u05d9\u05d5\u05e8 \u05e0\u05d5\u05d1\u05e2 \u05de\u05e9\u05d9\u05de\u05d5\u05e9 \u05d7\u05db\u05dd \u05d1\u05d7\u05d5\u05e7\u05d9 \u05d4\u05e4\u05e8\u05e1\u05e4\u05e7\u05d8\u05d9\u05d1\u05d4, \u05d5\u05de\u05d0\u05d5\u05e4\u05df \u05d4\u05e6\u05d1\u05ea \u05d4\u05d3\u05de\u05d5\u05d9\u05d5\u05ea \u05e2\u05dd \u05de\u05d7\u05d5\u05d5\u05b9\u05ea \u05de\u05d5\u05ea\u05d0\u05de\u05d5\u05ea \u05dc\u05d0\u05d5\u05e4\u05d9 \u05e9\u05dc \u05db\u05dc \u05d0\u05d7\u05ea \u05de\u05d4\u05df.",
+            "DOT_15_HEADER": "\"\u05de\u05d4\u05e0\u05d3\u05e1 \u05e6\u05d1\u05d0\u05d9\" (1502-\u05d7\u05d5\u05e8\u05e3 1503)",
+            "DOT_15_TEXT": "\u05db\u05de\u05d7\u05d5\u05d5\u05d4 \u05e9\u05dc \u05e9\u05dc\u05d8\u05d5\u05e0\u05d5\u05ea \u05e4\u05d9\u05e8\u05e0\u05e6\u05d4 \u05e0\u05e9\u05dc\u05d7 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05e1\u05d9\u05d9\u05e2, \u05db\u05de\u05d4\u05e0\u05d3\u05e1 \u05e6\u05d1\u05d0\u05d9,\n\u05dc\u05e1\u05d6\u05d0\u05e8 \u05d1\u05d5\u05e8\u05d2'\u05d9\u05d4 \u05d4\u05e2\u05e8\u05de\u05d5\u05de\u05d9 \u05d5\u05d4\u05d0\u05db\u05d6\u05e8 \u05e9\u05e2\u05de\u05d3 \u05d1\u05e8\u05d0\u05e9 \u05e6\u05d1\u05d0\u05d5\u05ea \u05d4\u05d0\u05e4\u05d9\u05e4\u05d9\u05d5\u05e8 \u05d1\u05de\u05e1\u05e2\u05d5\u05ea \u05d4\u05db\u05d9\u05d1\u05d5\u05e9 \u05e9\u05dc\u05d5.\n\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05ea\u05db\u05e0\u05df \u05e2\u05d1\u05d5\u05e8\u05d5 \u05d1\u05d9\u05df \u05d4\u05e9\u05d0\u05e8 \u05d2\u05e9\u05e8 \u05de\u05d0\u05d5\u05dc\u05ea\u05e8 \u05de\u05e7\u05d5\u05e8\u05d5\u05ea \u05e2\u05e5 (\u05e8\u05d0\u05d5 \u05de\u05d5\u05e6\u05d2 \"\u05d2\u05e9\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5\" \u05d1\u05ea\u05e2\u05e8\u05d5\u05db\u05ea \"\u05dc\u05de\u05d4 \u05d1\u05e0\u05d9\u05d9\u05e0\u05d9\u05dd \u05dc\u05d0 \u05e0\u05d5\u05e4\u05dc\u05d9\u05dd\" \u05d1\u05e7\u05d5\u05de\u05d4 \u05d6\u05d5).",
+            "DOT_16_HEADER": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d5\u05de\u05e7\u05d9\u05d0\u05d5\u05d5\u05dc\u05d9",
+            "DOT_16_TEXT": "\u05d1\u05d6\u05de\u05df \u05e9\u05e9\u05d9\u05e8\u05ea \u05d0\u05ea \u05e1\u05d6\u05d0\u05e8 \u05d1\u05d5\u05e8\u05d2'\u05d9\u05d4 (1502-\u05d7\u05d5\u05e8\u05e3 1503), \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e9\u05d9\u05ea\u05e3 \u05e4\u05e2\u05d5\u05dc\u05d4 \u05e2\u05dd \u05d4\u05de\u05d3\u05d9\u05e0\u05d0\u05d9 \u05d5\u05d4\u05e1\u05d5\u05e4\u05e8 \u05d4\u05de\u05e4\u05d5\u05e8\u05e1\u05dd \u05e0\u05d9\u05e7\u05d5\u05dc\u05d5\n\u05de\u05e7\u05d9\u05d0\u05d5\u05d5\u05dc\u05d9 \u05e9\u05d4\u05ea\u05dc\u05d5\u05d5\u05d4 \u05d2\u05dd \u05d4\u05d5\u05d0 \u05dc\u05d1\u05d5\u05e8\u05d2'\u05d9\u05d4 \u05db\u05e0\u05e6\u05d9\u05d2 \u05d4\u05e2\u05d9\u05e8 \u05e4\u05d9\u05e8\u05e0\u05e6\u05d4.\n\u05d1\u05d9\u05df \u05d4\u05e9\u05d0\u05e8 \u05ea\u05db\u05e0\u05e0\u05d5 \u05d4\u05e9\u05e0\u05d9\u05d9\u05dd \u05dc\u05d4\u05d8\u05d5\u05ea \u05d0\u05ea \u05e0\u05d4\u05e8 \u05d4\u05d0\u05e8\u05e0\u05d5 \u05e1\u05d1\u05d9\u05d1 \u05d4\u05e2\u05d9\u05e8 \u05e4\u05d9\u05d6\u05d4, \u05d9\u05e8\u05d9\u05d1\u05ea\u05d4 \u05e9\u05dc \u05e4\u05d9\u05e8\u05e0\u05e6\u05d4.",
+            "DOT_17_HEADER": "\u05d4\"\u05de\u05d5\u05e0\u05d4 \u05dc\u05d9\u05d6\u05d4\"",
+            "DOT_17_TEXT": "\u05d1\u05de\u05d4\u05dc\u05da 1504 \u05d4\u05ea\u05d7\u05d9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05e6\u05d9\u05d9\u05e8 \u05d0\u05ea \u05d4\"\u05de\u05d5\u05e0\u05d4 \u05dc\u05d9\u05d6\u05d4\", \u05e4\u05d5\u05e8\u05d8\u05e8\u05d8 \u05e9\u05dc \u05dc\u05d9\u05d6\u05d4 \u05d2'\u05e8\u05e8\u05d3\u05d9\u05e0\u05d9, \u05d0\u05d9\u05e9\u05ea\u05d5 \u05e9\u05dc \u05e4\u05e8\u05e0\u05e6'\u05e1\u05e7\u05d5 \u05d3\u05dc \u05d2'\u05d5\u05e7\u05d5\u05e0\u05d3\u05d5,\n\u05e1\u05d5\u05d7\u05e8 \u05d1\u05d3\u05d9\u05dd \u05de\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4. \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d4\u05de\u05e9\u05d9\u05da \u05dc\u05e2\u05d1\u05d5\u05d3 \u05e2\u05dc \u05e6\u05d9\u05d5\u05e8 \u05d6\u05d4 \u05e2\u05d3 \u05e2\u05e8\u05d5\u05d1 \u05d9\u05de\u05d9\u05d5.\n\u05e2\u05d5\u05d3 \u05e2\u05dc \u05d4\"\u05de\u05d5\u05e0\u05d4 \u05dc\u05d9\u05d6\u05d4\" \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05dc\u05de\u05d5\u05d3 \u05d1\u05de\u05d5\u05e6\u05d2 \"\u05d0\u05d9\u05da \u05dc\u05e6\u05d9\u05d9\u05e8 \u05e4\u05e8\u05e1\u05e4\u05e7\u05d8\u05d9\u05d1\u05d4 \u05d0\u05d5\u05d5\u05d9\u05e8\u05d9\u05ea?\"",
+            "DOT_18_HEADER": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d5\u05de\u05d9\u05db\u05d0\u05dc\u05d0\u05e0\u05d2'\u05dc\u05d5 (1504)",
+            "DOT_18_TEXT": "\u05d1\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4, \u05d4\u05d5\u05d6\u05de\u05e0\u05d5 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d5\u05de\u05d9\u05db\u05d0\u05dc\u05d0\u05e0\u05d2'\u05dc\u05d5, \u05e9\u05d4\u05d9\u05d4 \u05e6\u05e2\u05d9\u05e8 \u05de\u05de\u05e0\u05d5 \u05d1-20 \u05e9\u05e0\u05d4, \u05dc\u05e6\u05d9\u05d9\u05e8 \u05e9\u05e0\u05d9 \u05e7\u05e8\u05d1\u05d5\u05ea \u05de\u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05e2\u05d9\u05e8.\n\u05d4\u05e6\u05d9\u05d5\u05e8\u05d9\u05dd \u05dc\u05d0 \u05e9\u05e8\u05d3\u05d5, \u05d0\u05d1\u05dc \u05e2\u05d5\u05ea\u05e7\u05d9\u05dd \u05de\u05d4\u05dd \u05de\u05e6\u05d9\u05d2\u05d9\u05dd \u05d0\u05ea \u05d4\u05d1\u05d3\u05dc\u05d9 \u05d4\u05e1\u05d2\u05e0\u05d5\u05e0\u05d5\u05ea \u05d1\u05d9\u05df \u05e9\u05e0\u05d9 \u05d4\u05d0\u05d5\u05de\u05e0\u05d9\u05dd.\n\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d2\u05dd \u05d4\u05d9\u05d4 \u05e9\u05d5\u05ea\u05e3 \u05d1\u05d3\u05d9\u05d5\u05df \u05e9\u05e2\u05e1\u05e7 \u05d1\u05de\u05d9\u05e7\u05d5\u05dd \u05e4\u05bc\u05b0\u05e1\u05b0\u05dc\u05d5\u05b9 \u05d4\u05de\u05e4\u05d5\u05e8\u05e1\u05dd \u05e9\u05dc \u05de\u05d9\u05db\u05d0\u05dc\u05d0\u05e0\u05d2'\u05dc\u05d5 \u2013 \u05d3\u05bc\u05b8\u05d5\u05b4\u05d3.",
+            "DOT_19_HEADER": "\u05d4\u05e7\u05d5\u05d3\u05e7\u05e1 \u05e2\u05dc \u05ea\u05e2\u05d5\u05e4\u05ea \u05e6\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd",
+            "DOT_19_TEXT": "\u05d7\u05d5\u05e1\u05e8 \u05d4\u05d9\u05e6\u05d9\u05d1\u05d5\u05ea \u05d4\u05e4\u05d5\u05dc\u05d9\u05d8\u05d9\u05ea \u05d1\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05d4\u05e0\u05d9\u05e2 \u05d0\u05ea \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d7\u05d6\u05d5\u05e8 \u05dc\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4 \u05d1\u05e9\u05e0\u05ea 1500.\n\u05d1\u05d9\u05df \u05d4\u05e9\u05e0\u05d9\u05dd 1506-1503 \u05d7\u05d9\u05d1\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e7\u05d5\u05d3\u05e7\u05e1 \u05d4\u05de\u05ea\u05d0\u05e8 \u05d0\u05ea \u05ea\u05d5\u05d1\u05e0\u05d5\u05ea\u05d9\u05d5 \u05d1\u05e0\u05d5\u05e9\u05d0 \u05ea\u05e2\u05d5\u05e4\u05ea \u05d4\u05e6\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d5\u05ea\u05db\u05e0\u05d5\u05df \u05e9\u05dc \u05e8\u05db\u05d9\u05d1\u05d9\u05dd\n\u05dc\u05d1\u05e0\u05d9\u05d9\u05ea \u05de\u05db\u05d5\u05e0\u05d4 \u05de\u05e2\u05d5\u05e4\u05e4\u05ea. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05e2\u05d9\u05d9\u05df \u05d1\u05d2\u05e8\u05e1\u05d4 \u05d3\u05d9\u05d2\u05d9\u05d8\u05dc\u05d9\u05ea \u05e9\u05dc \u05d4\u05e7\u05d5\u05d3\u05e7\u05e1 \u05d1\u05d0\u05d6\u05d5\u05e8 \"\u05d0\u05e0\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05d8\u05d1\u05e2\" \u05e9\u05d1\u05ea\u05e2\u05e8\u05d5\u05db\u05d4.",
+            "DOT_1_HEADER": "\u05d4\u05ea\u05d7\u05dc\u05d4 \u05d5\u05d6\u05d9\u05db\u05e8\u05d5\u05df \u05d9\u05dc\u05d3\u05d5\u05ea \u05e8\u05d0\u05e9\u05d5\u05df",
+            "DOT_1_TEXT": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e0\u05d5\u05dc\u05d3 \u05d1\u05e2\u05d9\u05d9\u05e8\u05d4 \u05d5\u05d9\u05e0\u05e6'\u05d9 \u05e9\u05d1\u05d8\u05d5\u05e1\u05e7\u05e0\u05d4 \u05d1-15 \u05dc\u05d0\u05e4\u05e8\u05d9\u05dc 1452, \u05dc\u05e4\u05d9\u05d9\u05e8\u05d5 \u05d3\u05d4 \u05d5\u05d9\u05e0\u05e6'\u05d9 \u05d5\u05e7\u05ea\u05e8\u05d9\u05e0\u05d4 \u05dc\u05d9\u05e4\u05d9.\n\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e0\u05d6\u05db\u05e8 \u05d1\u05db\u05ea\u05d1\u05d9\u05d5, \u05e9\u05db\u05e9\u05d4\u05d9\u05d4 \u05ea\u05d9\u05e0\u05d5\u05e7 \u05e0\u05d7\u05ea\u05d4 \u05e6\u05d9\u05e4\u05d5\u05e8 \u05e2\u05dc \u05e2\u05e8\u05d9\u05e1\u05ea\u05d5 \u05d5\u05e4\u05ea\u05d7\u05d4 \u05d0\u05ea \u05e4\u05d9\u05d5 \u05d1\u05d6\u05e0\u05d1\u05d4.\n\u05d6\u05d9\u05db\u05e8\u05d5\u05df \u05d6\u05d4 \u05d4\u05d9\u05d5\u05d5\u05d4 \u05dc\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05d5\u05ea \u05d5\u05e1\u05d9\u05de\u05df \u05dc\u05e2\u05d9\u05e1\u05d5\u05e7\u05d5 \u05d4\u05e0\u05e8\u05d7\u05d1 \u05d1\u05e6\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d5\u05ea\u05e2\u05d5\u05e4\u05d4.",
+            "DOT_20_HEADER": "\u05e7\u05d5\u05d3\u05e7\u05e1 \u05dc\u05e1\u05d8\u05e8",
+            "DOT_20_TEXT": "\u05d1\u05e2\u05e9\u05d5\u05e8 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df \u05e9\u05dc \u05d4\u05de\u05d0\u05d4 \u05d4-16 (1508-1502) \u05d7\u05d9\u05d1\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e7\u05d5\u05d3\u05e7\u05e1 \u05e7\u05e6\u05e8 \u05d4\u05b7\u05de\u05bc\u05bb\u05db\u05bc\u05b8\u05e8 \u05db\u05d9\u05d5\u05dd \u05db\u05e7\u05d5\u05d3\u05e7\u05e1 \u05dc\u05e1\u05d8\u05e8.\n\u05e7\u05d5\u05d3\u05e7\u05e1 \u05d6\u05d4 \u05de\u05ea\u05de\u05e7\u05d3 \u05d1\u05d6\u05e8\u05d9\u05de\u05ea \u05de\u05d9\u05dd \u05d5\u05d2\u05d9\u05d0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4, \u05d5\u05d0\u05e3 \u05d1\u05d4\u05e9\u05e2\u05e8\u05d5\u05ea\u05d9\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05e0\u05d5\u05d2\u05e2 \u05dc\u05d0\u05d5\u05e8 \u05d4\u05d9\u05e8\u05d7!\n\u05e2\u05d5\u05d3 \u05e2\u05dc \u05d2\u05d9\u05dc\u05d5\u05d9\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05ea\u05d7\u05d5\u05dd \u05d4\u05de\u05d0\u05d5\u05d1\u05e0\u05d9\u05dd \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05dc\u05de\u05d5\u05d3 \u05d1\u05de\u05d5\u05e6\u05d2 \"\u05d0\u05d9\u05da \u05e0\u05d5\u05e6\u05e8 \u05de\u05d0\u05d5\u05d1\u05df?\" \u05d1\u05d0\u05d6\u05d5\u05e8 \"\u05d0\u05e0\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05d8\u05d1\u05e2\" \u05e9\u05dc \u05d4\u05ea\u05e2\u05e8\u05d5\u05db\u05d4.",
+            "DOT_21_HEADER": "\u05d0\u05e8\u05d9\u05d4 \u05de\u05db\u05d0\u05e0\u05d9 \u05e8\u05d0\u05e9\u05d5\u05df (1509)",
+            "DOT_21_TEXT": "\u05de\u05de\u05e7\u05d5\u05e8\u05d5\u05ea \u05de\u05ea\u05e7\u05d5\u05e4\u05ea\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d5\u05d0\u05d7\u05e8\u05d9\u05d4 \u05d0\u05e0\u05d5 \u05dc\u05de\u05d3\u05d9\u05dd \u05e9\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05ea\u05db\u05e0\u05df \u05d5\u05d2\u05dd \u05d1\u05e0\u05d4 \u05d1\u05de\u05e8\u05d5\u05e6\u05ea \u05d4\u05e9\u05e0\u05d9\u05dd \u05e9\u05dc\u05d5\u05e9\u05d4 \u05d0\u05e8\u05d9\u05d5\u05ea \u05de\u05db\u05d0\u05e0\u05d9\u05d9\u05dd \u05e9\u05d5\u05e0\u05d9\u05dd\n\u05dc\u05db\u05d1\u05d5\u05d3 \u05de\u05d5\u05e4\u05e2\u05d9\u05dd \u05d7\u05d2\u05d9\u05d2\u05d9\u05d9\u05dd. \u05dc\u05e6\u05e2\u05e8\u05e0\u05d5, \u05e8\u05d9\u05e9\u05d5\u05de\u05d9\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d0\u05e8\u05d9\u05d5\u05ea \u05dc\u05d0 \u05e9\u05e8\u05d3\u05d5.\n\u05d4\u05d0\u05e8\u05d9\u05d4 \u05d4\u05e8\u05d0\u05e9\u05d5\u05df \u05e0\u05d1\u05e0\u05d4 \u05dc\u05db\u05d1\u05d5\u05d3 \u05db\u05e0\u05d9\u05e1\u05ea\u05d5 \u05e9\u05dc \u05d4\u05de\u05dc\u05da \u05d4\u05e6\u05e8\u05e4\u05ea\u05d9 \u05dc\u05d5\u05d0\u05d9 \u05d4-XII \u05dc\u05e2\u05d9\u05e8 \u05de\u05d9\u05dc\u05d0\u05e0\u05d5, \u05d0\u05dc\u05d9\u05d4 \u05e9\u05d1 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1-1506.",
+            "DOT_22_HEADER": "\u05de\u05d7\u05e7\u05e8\u05d9\u05dd \u05d0\u05e0\u05d8\u05d5\u05de\u05d9\u05d9\u05dd \u05de\u05d0\u05d5\u05d7\u05e8\u05d9\u05dd",
+            "DOT_22_TEXT": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d7\u05d6\u05e8 \u05d5\u05d7\u05e7\u05e8 \u05d0\u05e0\u05d8\u05d5\u05de\u05d9\u05d4 \u05d1\u05db\u05dc\u05dc, \u05d5\u05d0\u05ea \u05d4\u05d0\u05e0\u05d8\u05d5\u05de\u05d9\u05d4 \u05d4\u05d0\u05e0\u05d5\u05e9\u05d9\u05ea \u05d1\u05e4\u05e8\u05d8, \u05d1\u05ea\u05e7\u05d5\u05e4\u05d5\u05ea \u05e9\u05d5\u05e0\u05d5\u05ea \u05d1\u05d7\u05d9\u05d9\u05d5.\n\u05d1\u05d9\u05df \u05d4\u05e9\u05e0\u05d9\u05dd 1513-1508 \u05d4\u05d2\u05d9\u05e2 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d4\u05d9\u05e9\u05d2\u05d9\u05d5 \u05d4\u05d2\u05d3\u05d5\u05dc\u05d9\u05dd \u05d1\u05d9\u05d5\u05ea\u05e8 \u05d1\u05ea\u05d7\u05d5\u05dd \u05d6\u05d4, \u05d1\u05de\u05d9\u05d5\u05d7\u05d3 \u05d1\u05d7\u05b5\u05e7\u05b6\u05e8 \u05d4\u05dc\u05d1.\n\u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05dc\u05de\u05d5\u05d3 \u05e2\u05dc \u05db\u05da \u05e2\u05d5\u05d3 \u05d1\u05d0\u05d6\u05d5\u05e8 \"\u05d0\u05e0\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05d8\u05d1\u05e2\" \u05d1\u05ea\u05e2\u05e8\u05d5\u05db\u05d4.",
+            "DOT_23_HEADER": "\"\u05de\u05e8\u05d0\u05d5\u05ea \u05d5\u05de\u05ea\u05d7\u05d9\u05dd\" (1515-1514)",
+            "DOT_23_TEXT": "\u05d1\u05ea\u05e7\u05d5\u05e4\u05ea\u05d5 \u05d1\u05e8\u05d5\u05de\u05d0, \u05db\u05e9\u05e9\u05d9\u05e8\u05ea \u05d0\u05ea \u05d2'\u05d5\u05dc\u05d9\u05d0\u05e0\u05d5 \u05d3\u05d4 \u05de\u05d3\u05d9\u05e6'\u05d9, \u05d0\u05d7\u05d9\u05d5 \u05e9\u05dc \u05d4\u05d0\u05e4\u05d9\u05e4\u05d9\u05d5\u05e8 \u05dc\u05d9\u05d0\u05d5 \u05d4-X, \u05d7\u05e7\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05ea \u05d4\u05d0\u05d5\u05e4\u05d8\u05d9\u05e7\u05d4\n\u05e9\u05dc \u05de\u05e8\u05d0\u05d5\u05ea \u05d5\u05d8\u05db\u05e0\u05d9\u05e7\u05d5\u05ea \u05e9\u05dc \u05d9\u05d9\u05e6\u05d5\u05e8\u05df. \u05db\u05ea\u05d1\u05d9\u05d5 \u05de\u05d0\u05d5\u05ea\u05d4 \u05ea\u05e7\u05d5\u05e4\u05d4 \u05de\u05b0\u05e1\u05b7\u05e4\u05bc\u05b0\u05e8\u05b4\u05d9\u05dd \u05e2\u05dc \u05de\u05ea\u05d9\u05d7\u05d5\u05bc\u05ea \u05d5\u05e1\u05db\u05e1\u05d5\u05db\u05d9\u05dd \u05d1\u05d9\u05e0\u05d5 \u05d5\u05d1\u05d9\u05df \u05d0\u05d7\u05d3 \u05de\u05e2\u05d5\u05d6\u05e8\u05d9\u05d5,\n\u05d5\u05db\u05df \u05d1\u05d9\u05e0\u05d5 \u05d5\u05d1\u05d9\u05df \u05d1\u05d5\u05e0\u05d4 \u05de\u05e8\u05d0\u05d5\u05ea \u05de\u05ea\u05d7\u05e8\u05d4 \u05d1\u05e9\u05dd Giovanni degli Specchi.",
+            "DOT_24_HEADER": "\u05de\u05db\u05d5\u05e0\u05ea \u05dc\u05d9\u05d8\u05d5\u05e9 \u05de\u05e8\u05d0\u05d5\u05ea",
+            "DOT_24_TEXT": "\u05d1\u05ea\u05e7\u05d5\u05e4\u05ea\u05d5 \u05d1\u05e8\u05d5\u05de\u05d0 \u05ea\u05db\u05e0\u05df \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05de\u05db\u05d5\u05e0\u05d5\u05ea \u05e9\u05d5\u05e0\u05d5\u05ea \u05dc\u05dc\u05d8\u05d5\u05e9 \u05de\u05e8\u05d0\u05d5\u05ea \u05e7\u05e2\u05d5\u05e8\u05d5\u05ea. \n\u05de\u05e8\u05d0\u05d5\u05ea \u05d0\u05dc\u05d5, \u05d4\u05d9\u05db\u05d5\u05dc\u05d5\u05ea \u05dc\u05e8\u05db\u05d6 \u05d0\u05d5\u05e8 \u05d5\u05d7\u05d5\u05dd \u05d1\u05e0\u05e7\u05d5\u05d3\u05d4 \u05de\u05e1\u05d5\u05d9\u05de\u05ea, \n\u05e2\u05e0\u05d9\u05d9\u05e0\u05d5 \u05d0\u05ea \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e9\u05e7\u05d9\u05d5\u05d5\u05d4 \u05dc\u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d4\u05dd \u05db\u05de\u05e0\u05d2\u05e0\u05d5\u05df \u05d7\u05d9\u05de\u05d5\u05dd \u05dc\u05e9\u05d9\u05de\u05d5\u05e9\u05d9\u05dd \u05ea\u05e2\u05e9\u05d9\u05d9\u05ea\u05d9\u05d9\u05dd \u05d5\u05e6\u05d1\u05d0\u05d9\u05d9\u05dd.  ",
+            "DOT_25_HEADER": "\u05d0\u05e8\u05d9\u05d4 \u05de\u05db\u05d0\u05e0\u05d9 \u05e9\u05e0\u05d9",
+            "DOT_25_TEXT": "\u05d11515 \u05d1\u05e0\u05d4 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05e8\u05d9\u05d4 \u05de\u05db\u05e0\u05d9 \u05e9\u05e0\u05d9, \u05e2\u05d1\u05d5\u05e8 \u05e7\u05d1\u05dc\u05ea \u05e4\u05e0\u05d9\u05dd \u05e9\u05d4\u05e2\u05d9\u05e8 \u05dc\u05d9\u05d5\u05df \u05e2\u05e8\u05db\u05d4 \u05dc\u05de\u05dc\u05da \u05e6\u05e8\u05e4\u05ea \u05d4\u05d7\u05d3\u05e9 \u05e4\u05e8\u05e0\u05e1\u05d5\u05d0\u05d4 \u05d4-I.\n\u05e2\u05dc \u05e4\u05d9 \u05e2\u05d3\u05d5\u05d9\u05d5\u05ea, \u05d4\"\u05d0\u05e8\u05d9\u05d4\" \u05d4\u05d9\u05dc\u05da, \u05d4\u05ea\u05d9\u05d9\u05e9\u05d1 \u05d5\u05d1\u05e4\u05ea\u05d7 \u05d1\u05d7\u05d6\u05d4 \u05e9\u05dc\u05d5 \u05d4\u05d5\u05e4\u05d9\u05e2\u05d5 \u05e4\u05e8\u05d7\u05d9\u05dd.\n\u05d1\u05d0\u05d5\u05ea\u05d4 \u05e9\u05e0\u05d4 \u05d4\u05e6\u05d9\u05e2 \u05e4\u05e8\u05e0\u05e1\u05d5\u05d0\u05d4 \u05dc\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e7\u05e6\u05d1\u05d4 \u05e0\u05d3\u05d9\u05d1\u05d4 \u05dc\u05e2\u05d1\u05d5\u05e8 \u05dc\u05e6\u05e8\u05e4\u05ea \u05d5\u05dc\u05e9\u05de\u05e9 \u05db\u05d9\u05d5\u05e2\u05e6\u05d5.",
+            "DOT_26_HEADER": "\u05e6\u05d9\u05d5\u05e8\u05d9 \u05d4\"\u05de\u05d1\u05d5\u05dc\"",
+            "DOT_26_TEXT": "\u05d1\u05e7\u05d9\u05e5 1516 \u05d7\u05e6\u05d5 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d5\u05de\u05dc\u05d5\u05d5\u05d9\u05d5 \u05d0\u05ea \u05d4\u05e8\u05d9 \u05d4\u05d0\u05dc\u05e4\u05d9\u05dd \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05e2\u05e0\u05d5\u05ea \u05dc\u05d4\u05d6\u05de\u05e0\u05ea\u05d5 \u05e9\u05dc \u05de\u05dc\u05da \u05e6\u05e8\u05e4\u05ea, \u05e4\u05e8\u05e0\u05e1\u05d5\u05d0\u05d4 \u05d4-I,  \u05dc\u05d4\u05e6\u05d8\u05e8\u05e3 \u05dc\u05d7\u05e6\u05e8\u05d5.\n\u05d1\u05e6\u05e8\u05e4\u05ea \u05d9\u05e6\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e1\u05d3\u05e8\u05ea \u05e8\u05d9\u05e9\u05d5\u05de\u05d9\u05dd \u05e9\u05dc \u05e9\u05d9\u05d8\u05e4\u05d5\u05e0\u05d5\u05ea \u05d1\u05e7\u05e0\u05d4 \u05de\u05d9\u05d3\u05d4 \u05d0\u05e4\u05d5\u05e7\u05dc\u05d9\u05e4\u05d8\u05d9.\n\u05d1\u05de\u05d5\u05e6\u05d2 \"\u05d0\u05d9\u05da \u05dc\u05e6\u05d9\u05d9\u05e8 \u05de\u05d1\u05d5\u05dc?\" \u05de\u05de\u05e9 \u05de\u05d9\u05de\u05d9\u05e0\u05db\u05dd, \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05d4\u05d1\u05d9\u05d8 \u05d1\u05e8\u05d9\u05e9\u05d5\u05de\u05d9\u05dd \u05d0\u05dc\u05d4 \u05de\u05e7\u05e8\u05d5\u05d1.",
+            "DOT_27_HEADER": "\u05e4\u05d8\u05e8\u05d5\u05b9\u05df \u05d0\u05d7\u05e8\u05d5\u05df",
+            "DOT_27_TEXT": "\u05e4\u05d8\u05e8\u05d5\u05e0\u05d5 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5, \u05e4\u05e8\u05e0\u05e1\u05d5\u05d0\u05d4 \u05d4-I, \u05e9\u05d9\u05db\u05df \u05d0\u05d5\u05ea\u05d5 \u05d1-Ch\u00e2teaux de Cloux \u05e9\u05d1\u05e1\u05de\u05d5\u05da \u05dc\u05d0\u05e8\u05de\u05d5\u05e0\u05d5 \u05d1-Amboise \u05e9\u05d1\u05e2\u05de\u05e7 \u05d4\u05dc\u05d5\u05d0\u05e8.\n\u05d0\u05ea \u05e9\u05e0\u05d5\u05ea\u05d9\u05d5 \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d5\u05ea \u05d4\u05e2\u05d1\u05d9\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d9\u05d7\u05d3 \u05e2\u05dd \u05d1\u05e0\u05d9 \u05dc\u05d5\u05d5\u05d9\u05d9\u05ea\u05d5 \u05d1\u05e0\u05d5\u05b9\u05d7\u05d5\u05bc\u05ea \u05e8\u05d1\u05d4 \u05d4\u05d5\u05d3\u05d5\u05ea \u05dc\u05e0\u05d3\u05d9\u05d1\u05d5\u05ea\u05d5 \u05e9\u05dc \u05e4\u05e8\u05e0\u05e1\u05d5\u05d0\u05d4\n\u05e9\u05d4\u05e2\u05e8\u05d9\u05da \u05de\u05d0\u05d5\u05d3 \u05d0\u05ea \u05d9\u05d3\u05d9\u05e2\u05d5\u05ea\u05d9\u05d5 \u05d5\u05db\u05d9\u05e9\u05d5\u05e8\u05d9\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5.",
+            "DOT_28_HEADER": "\u05de\u05de\u05e9\u05d9\u05da \u05dc\u05e9\u05d0\u05d5\u05dc",
+            "DOT_28_TEXT": "\u05dc\u05de\u05e8\u05d5\u05ea \u05e9\u05d1\u05e8\u05d9\u05d0\u05d5\u05ea\u05d5 \u05d4\u05dc\u05db\u05d4 \u05d5\u05d4\u05d9\u05d3\u05e8\u05d3\u05e8\u05d4 \u05dc\u05d0 \u05d7\u05d3\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d7\u05e7\u05d5\u05e8 \u05d5\u05dc\u05dc\u05de\u05d5\u05d3, \u05d2\u05dd \u05d1\u05e9\u05e0\u05d5\u05ea\u05d9\u05d5 \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d5\u05ea.\n\u05d1\u05ea\u05d7\u05ea\u05d9\u05ea\u05d5 \u05e9\u05dc \u05de\u05d4 \u05e9\u05d4\u05d5\u05d0 \u05d0\u05d5\u05dc\u05d9 \u05d0\u05d7\u05d3 \u05de\u05d3\u05e4\u05d9 \u05de\u05d7\u05d1\u05e8\u05ea\u05d5 \u05d4\u05d0\u05d7\u05e8\u05d5\u05e0\u05d9\u05dd, \u05e9\u05d1\u05d5 \u05d7\u05e7\u05e8 \u05d0\u05ea \u05e9\u05d8\u05d7\u05d5 \u05e9\u05dc \u05de\u05e9\u05d5\u05dc\u05e9 \u05d9\u05e9\u05e8 \u05d6\u05d5\u05d5\u05d9\u05ea,\n\u05de\u05d5\u05e4\u05d9\u05e2 \u05d4\u05de\u05e9\u05e4\u05d8 \"\u05d1\u05d2\u05dc\u05dc \u05e9\u05d4\u05de\u05e8\u05e7 \u05de\u05ea\u05e7\u05e8\u05e8\" \u05d1\u05d5 \u05de\u05e1\u05d1\u05d9\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05de\u05d3\u05d5\u05e2 \u05e2\u05dc\u05d9\u05d5 \u05dc\u05e7\u05d5\u05dd \u05d5\u05dc\u05dc\u05db\u05ea...",
+            "DOT_29_HEADER": "\u05de\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d1\u05d5\u05d3\u05d5\u05ea",
+            "DOT_29_TEXT": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d4\u05d5\u05e8\u05d9\u05e9 \u05d0\u05ea \u05db\u05ea\u05d1\u05d9\u05d5 \u05dc\u05ea\u05dc\u05de\u05d9\u05d3\u05d5 \u05e4\u05e8\u05e0\u05e6'\u05e1\u05e7\u05d5 \u05de\u05dc\u05e6\u05d9. \u05d0\u05d7\u05e8\u05d9 \u05de\u05d5\u05ea\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1-2 \u05d1\u05d0\u05e4\u05e8\u05d9\u05dc 1519, \n\u05e9\u05d1 \u05de\u05dc\u05e6\u05d9 \u05e2\u05dd \u05de\u05d7\u05d1\u05e8\u05d5\u05ea\u05d9\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d0\u05d9\u05d8\u05dc\u05d9\u05d4, \u05e9\u05c1\u05b8\u05dd \u05e9\u05de\u05e8 \u05e2\u05dc\u05d9\u05d4\u05df \u05d0\u05da \u05dc\u05d0 \u05e4\u05e8\u05e1\u05dd \u05d0\u05d5\u05ea\u05df. \u05db\u05e9\u05de\u05dc\u05e6\u05d9 \u05e2\u05e6\u05de\u05d5 \u05e0\u05e4\u05d8\u05e8 \u05d1-1570\n\u05d4\u05d5\u05d0 \u05d4\u05d5\u05e8\u05d9\u05e9 \u05d0\u05ea \u05d4\u05de\u05d7\u05d1\u05e8\u05d5\u05ea \u05dc\u05d1\u05e0\u05d5, \u05e9\u05dc\u05d0 \u05d4\u05db\u05d9\u05e8 \u05d1\u05e2\u05e8\u05db\u05df. \u05d4\u05d1\u05df \u05d7\u05d9\u05dc\u05e7 \u05d0\u05ea \u05d4\u05de\u05d7\u05d1\u05e8\u05d5\u05ea \u05d5\u05de\u05db\u05e8 \u05d0\u05d5\u05ea\u05df, \u05db\u05da \u05e9\u05d4\u05ea\u05e4\u05d6\u05e8\u05d5 \u05d1\u05e8\u05d7\u05d1\u05d9 \u05d0\u05d9\u05e8\u05d5\u05e4\u05d4.",
+            "DOT_2_HEADER": "\u05d6\u05d9\u05db\u05e8\u05d5\u05df \u05d9\u05dc\u05d3\u05d5\u05ea \u05e9\u05e0\u05d9 \u05d5\u05e8\u05de\u05d6 \u05dc\u05e1\u05e7\u05e8\u05e0\u05d5\u05ea",
+            "DOT_2_TEXT": "\u05d1\u05d9\u05dc\u05d3\u05d5\u05ea\u05d5 \u05e0\u05d4\u05d2 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05e9\u05d5\u05d8\u05d8 \u05dc\u05d1\u05d3\u05d5 \u05d1\u05d8\u05d1\u05e2 \u05e9\u05e1\u05d1\u05d9\u05d1 \u05d5\u05d9\u05e0\u05e6'\u05d9 \u05d1\u05d4 \u05d2\u05d3\u05dc.\n\u05d1\u05db\u05ea\u05d1\u05d9\u05d5 \u05d4\u05d5\u05d0 \u05de\u05ea\u05d0\u05e8 \u05e9\u05d1\u05d0\u05d7\u05d3 \u05de\u05e9\u05d9\u05d8\u05d5\u05d8\u05d9\u05d5 \u05d4\u05d2\u05d9\u05e2 \u05dc\u05e4\u05ea\u05d7 \u05de\u05e2\u05e8\u05d4, \u05d5\u05dc\u05de\u05e8\u05d5\u05ea \u05e9\u05d7\u05e9\u05e9 \u05dc\u05d4\u05d9\u05db\u05e0\u05e1 \u05dc\u05d1\u05d3\u05d5 \u05dc\u05de\u05e7\u05d5\u05dd \u05d4\u05d7\u05e9\u05d5\u05da \u05d5\u05d4\u05dc\u05d0 \u05de\u05d5\u05db\u05e8,\n\u05d1\u05d6\u05db\u05d5\u05ea \u05e1\u05e7\u05e8\u05e0\u05d5\u05ea\u05d5, \u05d0\u05d6\u05e8 \u05d0\u05d5\u05de\u05e5 \u05dc\u05d4\u05d9\u05db\u05e0\u05e1 \u05d5\u05dc\u05d1\u05d3\u05d5\u05e7 \u05de\u05d4 \u05e6\u05e4\u05d5\u05df \u05d1\u05d4. \u05d1\u05ea\u05d5\u05db\u05d4 \u05d2\u05d9\u05dc\u05d4 \u05de\u05d0\u05d5\u05d1\u05df \u05e9\u05dc \u05d3\u05d2 \u05d2\u05d3\u05d5\u05dc.",
+            "DOT_3_HEADER": "\u05de\u05b7\u05e2\u05b2\u05d1\u05b8\u05e8 \u05dc\u05e4\u05b4\u05d9\u05e8\u05b6\u05e0\u05b0\u05e6\u05b6\u05d4",
+            "DOT_3_TEXT": "\u05d1\u05d2\u05d9\u05dc 12 \u05e2\u05d1\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d2\u05d5\u05e8 \u05d1\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4 \u05e2\u05dd \u05d0\u05d1\u05d9\u05d5 \u05e4\u05d9\u05d9\u05e8\u05d5 \u05e9\u05d4\u05d9\u05d4 \u05e0\u05d5\u05d8\u05e8\u05d9\u05d5\u05df \u05de\u05db\u05d5\u05d1\u05d3.\n\u05db\u05d9\u05d5\u05d5\u05df \u05e9\u05d4\u05d5\u05e8\u05d9\u05d5 \u05dc\u05d0 \u05d4\u05d9\u05d5 \u05e0\u05e9\u05d5\u05d0\u05d9\u05dd \u05e0\u05de\u05e0\u05e2\u05d4 \u05de\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e7\u05d1\u05dc\u05d4 \u05dc\u05de\u05d5\u05e1\u05d3\u05d5\u05ea \u05d7\u05d9\u05e0\u05d5\u05da \u05de\u05ea\u05e7\u05d3\u05de\u05d9\u05dd, \u05d5\u05d1\u05d2\u05d9\u05dc 14 \u05e0\u05d4\u05d9\u05d4 \u05e9\u05c1\u05d5\u05bc\u05dc\u05b0\u05d9\u05b8\u05d4\n\u05d1\u05d1\u05d9\u05ea \u05d4\u05de\u05dc\u05d0\u05db\u05d4 \u05e9\u05dc \u05d0\u05e0\u05d3\u05e8\u05d0\u05d4 \u05d3\u05dc \u05d5\u05d5\u05e8\u05d5\u05e7\u05d9\u05d5\u05b9. \u05e9\u05dd \u05e9\u05c1\u05b8\u05e7\u05b7\u05d3 \u05e2\u05dc \u05db\u05d9\u05e9\u05d5\u05e8\u05d9\u05d5 \u05d1\u05ea\u05d7\u05d5\u05de\u05d9 \u05d4\u05e6\u05d9\u05d5\u05e8, \u05d4\u05d4\u05e0\u05d3\u05e1\u05d4 \u05d5\u05de\u05dc\u05d0\u05db\u05d5\u05b9\u05ea \u05e0\u05d5\u05e1\u05e4\u05d5\u05ea.",
+            "DOT_4_HEADER": "\u05d0\u05d5\u05de\u05df \u05d1\u05d1\u05d9\u05ea \u05d4\u05de\u05dc\u05d0\u05db\u05d4 \u05e9\u05dc \u05d5\u05d5\u05e8\u05d5\u05e7\u05d9\u05d5\u05b9",
+            "DOT_4_TEXT": "\u05dc\u05d1\u05d9\u05ea \u05d4\u05de\u05dc\u05d0\u05db\u05d4 \u05e9\u05dc \u05d0\u05e0\u05d3\u05e8\u05d0\u05d4 \u05d3\u05dc \u05d5\u05d5\u05e8\u05d5\u05e7\u05d9\u05d5, \u05db\u05de\u05d5 \u05dc\u05d1\u05ea\u05d9 \u05de\u05dc\u05d0\u05db\u05d4 \u05d0\u05d7\u05e8\u05d9\u05dd \u05d1\u05ea\u05e7\u05d5\u05e4\u05ea \u05d4\u05e8\u05e0\u05e1\u05e0\u05e1, \u05d4\u05d9\u05d5 \u05d9\u05db\u05d5\u05dc\u05d5\u05ea \u05d8\u05db\u05e0\u05d9\u05d5\u05ea \u05de\u05d2\u05d5\u05d5\u05e0\u05d5\u05ea.\n\u05d1\u05de\u05e1\u05d2\u05e8\u05ea \u05e2\u05d1\u05d5\u05d3\u05ea\u05d5 \u05d1\u05d1\u05d9\u05ea \u05d4\u05de\u05dc\u05d0\u05db\u05d4 \u05d4\u05e9\u05ea\u05ea\u05e3 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05d4\u05ea\u05e7\u05e0\u05ea \u05db\u05d3\u05d5\u05e8 \u05de\u05ea\u05db\u05ea\u05d9 \u05de\u05d5\u05d6\u05d4\u05d1 \u05e9\u05de\u05e2\u05d8\u05e8 \u05e2\u05d3 \u05d4\u05d9\u05d5\u05dd \u05d0\u05ea \u05db\u05d9\u05e4\u05ea \u05d4\u05e7\u05ea\u05d3\u05e8\u05dc\u05d4 \u05d1\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4.\n\u05d4\u05d4\u05ea\u05e7\u05e0\u05d4 \u05d1\u05e9\u05e0\u05ea 1469 \u05d4\u05d9\u05d9\u05ea\u05d4 \u05de\u05d0\u05ea\u05d2\u05e8\u05ea, \u05e9\u05c1\u05b6\u05db\u05bc\u05b5\u05df \u05d4\u05d9\u05d4 \u05e6\u05e8\u05d9\u05da \u05dc\u05d4\u05e8\u05d9\u05dd \u05d0\u05ea \u05d4\u05db\u05d3\u05d5\u05e8 \u05dc\u05d2\u05d5\u05d1\u05d4 \u05e9\u05dc \u05d9\u05d5\u05ea\u05e8 \u05de\u05de\u05d0\u05d4 \u05de\u05d8\u05e8\u05d9\u05dd.",
+            "DOT_5_HEADER": "\u05e6\u05d9\u05d5\u05e8 \"\u05d4\u05d1\u05e9\u05c2\u05d5\u05e8\u05d4\"",
+            "DOT_5_TEXT": "\u05d1\u05d9\u05df \u05d4\u05e9\u05e0\u05d9\u05dd 1475-1472 \u05e6\u05d9\u05d9\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05ea \"\u05d1\u05e9\u05c2\u05d5\u05b9\u05e8\u05ea \u05d4\u05de\u05dc\u05d0\u05da \u05dc\u05de\u05e8\u05d9\u05dd\", \u05e9\u05d4\u05d9\u05d4 \u05d0\u05d7\u05d3 \u05d4\u05e6\u05d9\u05d5\u05e8\u05d9\u05dd \u05d4\u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd \u05d4\u05de\u05d9\u05d5\u05d7\u05e1\u05d9\u05dd \u05dc\u05d5.\n\u05db\u05d9\u05d5\u05dd \u05de\u05d5\u05e6\u05d2 \u05d4\u05e6\u05d9\u05d5\u05e8 \u05d1\u05d2\u05dc\u05e8\u05d9\u05d4 \u05d0\u05d5\u05bc\u05e4\u05b4\u05d9\u05e6\u05b4\u05d9 \u05e9\u05d1\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4. \u05de\u05d9\u05d3\u05d5\u05ea\u05d9\u05d4\u05dd \u05e9\u05dc \u05d0\u05dc\u05de\u05e0\u05d8\u05d9\u05dd \u05de\u05e1\u05d5\u05d9\u05de\u05d9\u05dd \u05d1\u05e6\u05d9\u05d5\u05e8 \u05de\u05d5\u05ea\u05d0\u05de\u05d5\u05ea\n\u05dc\u05d4\u05ea\u05d1\u05d5\u05e0\u05e0\u05d5\u05ea \u05de\u05e0\u05e7\u05d5\u05d3\u05ea \u05de\u05d1\u05d8 \u05de\u05e1\u05d5\u05d9\u05de\u05ea (\u05de\u05e6\u05d3 \u05d9\u05de\u05d9\u05df) \u05db\u05e4\u05d9 \u05e9\u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05dc\u05de\u05d5\u05d3 \u05d1\u05de\u05d5\u05e6\u05d2 \"\u05dc\u05de\u05d4 \u05d4\u05d0\u05e3 \u05d2\u05d3\u05d5\u05dc?\".",
+            "DOT_6_HEADER": "\"\u05e6\u05d9\u05d5\u05e8 \u05e0\u05d5\u05e3\"",
+            "DOT_6_TEXT": "\u05d1-5 \u05d1\u05d0\u05d5\u05d2\u05d5\u05e1\u05d8 1473 \u05e1\u05d9\u05d9\u05dd \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e8\u05d9\u05e9\u05d5\u05dd \u05d3\u05d9\u05d5 \u05e9\u05dc \u05e0\u05d5\u05e3 \u05d8\u05d5\u05e1\u05e7\u05e0\u05d9 \u05d1\u05e1\u05d1\u05d9\u05d1\u05ea \u05e0\u05d4\u05e8 \u05d4\u05d0\u05b7\u05e8\u05b0\u05e0\u05d5\u05b9 \u05e9\u05dc\u05d9\u05d3\u05d5 \u05d2\u05d3\u05dc.\n\u05d4\u05e2\u05ea\u05e7 \u05d2\u05d3\u05d5\u05dc \u05de\u05de\u05d3\u05d9\u05dd \u05e9\u05dc \u05d4\u05e8\u05d9\u05e9\u05d5\u05dd, \u05e2\u05dd \u05d4\u05e1\u05d1\u05e8 \u05de\u05e4\u05d5\u05e8\u05d8 \u05dc\u05d2\u05d1\u05d9\u05d5, \u05de\u05e6\u05d5\u05d9 \u05d1\u05ea\u05e2\u05e8\u05d5\u05db\u05d4 \u05d1\u05d0\u05d6\u05d5\u05e8 \"\u05d0\u05e0\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05d8\u05d1\u05e2\".",
+            "DOT_7_HEADER": "\u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d4\u05de\u05d5\u05d6\u05d9\u05e7\u05d0\u05d9",
+            "DOT_7_TEXT": "\u05e0\u05d5\u05e1\u05e3 \u05e2\u05dc \u05db\u05d9\u05e9\u05d5\u05e8\u05d9\u05d5 \u05d4\u05d0\u05d7\u05e8\u05d9\u05dd \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d4\u05e6\u05d8\u05d9\u05d9\u05df \u05db\u05e0\u05d2\u05df Lirra da Braccio \u2013 \u05db\u05dc\u05d9 \u05de\u05d9\u05ea\u05e8 \u05d4\u05d3\u05d5\u05de\u05d4 \u05de\u05e2\u05d8 \u05dc\u05db\u05d9\u05e0\u05d5\u05e8 \u05e9\u05dc \u05d9\u05de\u05d9\u05e0\u05d5.\n\u05d4\u05d5\u05d0 \u05d0\u05e3 \u05ea\u05db\u05e0\u05df \u05d5\u05d1\u05e0\u05d4 \u05dc\u05e2\u05e6\u05de\u05d5 \u05d2\u05e8\u05e1\u05d0\u05d5\u05ea \u05de\u05d9\u05d5\u05d7\u05d3\u05d5\u05ea \u05e9\u05dc \u05db\u05dc\u05d9 \u05e0\u05d2\u05d9\u05e0\u05d4 \u05d6\u05d4. \u05d1\u05d6\u05db\u05d5\u05ea \u05db\u05d9\u05e9\u05d5\u05e8\u05d9\u05d5 \u05d4\u05de\u05d5\u05d6\u05d9\u05e7\u05dc\u05d9\u05d9\u05dd \u05d4\u05d2\u05d9\u05e2 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5\n\u05dc\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05d1-1482 \u05e2\u05dd \u05de\u05e9\u05dc\u05d7\u05ea \u05de\u05e4\u05d9\u05e8\u05e0\u05e6\u05d4, \u05d5\u05e0\u05d4\u05d9\u05d4 \u05d7\u05dc\u05e7 \u05de\u05d7\u05e6\u05e8\u05d5 \u05e9\u05dc \u05d3\u05d5\u05db\u05e1 \u05de\u05d9\u05dc\u05d0\u05e0\u05d5, \u05dc\u05d5\u05d3\u05d1\u05d9\u05e7\u05d5 \u05e1\u05e4\u05bc\u05d5\u05b9\u05e8\u05e6\u05b6\u05d4.",
+            "DOT_8_HEADER": "\u05d4\u05e9\u05dc\u05de\u05ea \u05d4\u05e9\u05db\u05dc\u05d4",
+            "DOT_8_TEXT": "\u05d1\u05ea\u05e7\u05d5\u05e4\u05ea\u05d5 \u05d1\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05d4\u05d7\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05dc\u05d4\u05e9\u05dc\u05d9\u05dd \u05d0\u05ea \u05d4\u05e9\u05db\u05dc\u05ea\u05d5 \u05d4\u05db\u05dc\u05dc\u05d9\u05ea \u05d5\u05d9\u05d3\u05d9\u05e2\u05d5\u05ea\u05d9\u05d5, \u05d4\u05ea\u05d7\u05d9\u05dc \u05dc\u05dc\u05de\u05d5\u05d3 \u05dc\u05d8\u05d9\u05e0\u05d9\u05ea \u05d5\u05e7\u05e8\u05d0 \u05d8\u05e7\u05e1\u05d8\u05d9\u05dd\n\"\u05e7\u05dc\u05d0\u05e1\u05d9\u05d9\u05dd\" \u05de\u05d4\u05e2\u05ea \u05d4\u05e2\u05ea\u05d9\u05e7\u05d4. \u05d1\u05de\u05d4\u05dc\u05da \u05d7\u05d9\u05d9\u05d5 \u05e0\u05e2\u05d6\u05e8 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05de\u05d5\u05e8\u05d9\u05dd \u05de\u05d5\u05de\u05d7\u05d9\u05dd \u05de\u05d4\u05dd \u05dc\u05de\u05d3 \u05d5\u05d0\u05d9\u05ea\u05dd \u05e9\u05d9\u05ea\u05e3 \u05e4\u05e2\u05d5\u05dc\u05d4,\n\u05d5\u05d2\u05d9\u05d1\u05e9 \u05e1\u05e4\u05e8\u05d9\u05d9\u05d4 \u05de\u05e8\u05e9\u05d9\u05de\u05d4 \u05e9\u05dc \u05d9\u05d5\u05ea\u05e8 \u05de-100 \u05e1\u05e4\u05e8\u05d9\u05dd \u05d1\u05e0\u05d5\u05e9\u05d0\u05d9\u05dd \u05de\u05d2\u05d5\u05d5\u05e0\u05d9\u05dd.",
+            "DOT_9_HEADER": "\u05de\u05db\u05d5\u05e0\u05d5\u05ea \u05de\u05e2\u05d5\u05e4\u05e4\u05d5\u05ea",
+            "DOT_9_TEXT": "\u05d1\u05e9\u05e0\u05d5\u05ea\u05d9\u05d5 \u05d1\u05de\u05d9\u05dc\u05d0\u05e0\u05d5 \u05e2\u05e1\u05e7 \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05e8\u05d1\u05d5\u05ea \u05d1\u05ea\u05db\u05e0\u05d5\u05df \u05de\u05db\u05d5\u05e0\u05d5\u05ea \u05de\u05e2\u05d5\u05e4\u05e4\u05d5\u05ea \u05e9\u05d4\u05ea\u05d1\u05e1\u05e1\u05d5 \u05e2\u05dc \u05ea\u05e6\u05e4\u05d9\u05d5\u05ea\u05d9\u05d5 \u05d1\u05e6\u05d9\u05e4\u05d5\u05e8\u05d9\u05dd \u05d5\u05e0\u05e1\u05de\u05db\u05d5 \u05e2\u05dc \u05db\u05d9\u05e9\u05d5\u05e8\u05d9\u05d5 \u05d4\u05d4\u05e0\u05d3\u05e1\u05d9\u05d9\u05dd.\n\u05d0\u05d9\u05e0\u05e0\u05d5 \u05d9\u05d5\u05d3\u05e2\u05d9\u05dd \u05d0\u05dd \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d0\u05db\u05df \u05e2\u05e8\u05da \u05e0\u05d9\u05e1\u05d5\u05d9 \u05de\u05de\u05e9\u05d9 \u05db\u05dc\u05e9\u05d4\u05d5 \u05d1\u05ea\u05d7\u05d5\u05dd \u05ea\u05e2\u05d5\u05e4\u05ea \u05d4\u05d0\u05d3\u05dd.\n\u05e2\u05d5\u05d3 \u05e2\u05dc \u05e2\u05d9\u05e1\u05d5\u05e7\u05d5 \u05e9\u05dc \u05dc\u05d0\u05d5\u05e0\u05e8\u05d3\u05d5 \u05d1\u05e0\u05d5\u05e9\u05d0 \u05d4\u05ea\u05e2\u05d5\u05e4\u05d4 \u05ea\u05d5\u05db\u05dc\u05d5 \u05dc\u05dc\u05de\u05d5\u05d3 \u05d1\u05d0\u05d6\u05d5\u05e8 \"\u05d0\u05e0\u05dc\u05d5\u05d2\u05d9\u05d5\u05ea \u05d1\u05d8\u05d1\u05e2\" \u05e9\u05dc \u05d4\u05ea\u05e2\u05e8\u05d5\u05db\u05d4."
+        }
+    },
+    "touch": true,
+    "touchDeviceName": "Touch",
+    "touchMaxX": 4096,
+    "touchMaxY": 4096
 }
