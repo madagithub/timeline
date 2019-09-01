@@ -14,8 +14,10 @@ from common.Utilities import Utilities
 from common.Button import Button
 from common.TouchScreen import TouchScreen
 from common.LanguageButton import LanguageButton
+from common.Log import Log
 
 CONFIG_FILENAME = 'assets/config/config.json'
+LOG_FILE_PATH = 'timeline.log'
 
 DOT_TEXT_COLOR = (252, 175, 138)
 DOT_SELECTED_TEXT_COLOR = (0, 65, 40)
@@ -23,6 +25,8 @@ TEXT_COLOR = (0, 65, 40)
 
 class Timeline:
 	def __init__(self):
+		Log.init(LOG_FILE_PATH)
+		Log.getLogger().info('START')
 		self.touchPos = (0,0)
 
 	def start(self):
@@ -86,6 +90,8 @@ class Timeline:
 		self.selectedDotIndex = 0
 		self.loadDot()
 
+		Log.getLogger().info('INIT')
+
 		self.loop()
 
 	def loadFonts(self):
@@ -96,11 +102,13 @@ class Timeline:
 		self.smallTextFont = pygame.font.Font(languageData['fonts']['smallTextFont']['filename'], languageData['fonts']['smallTextFont']['size'])
 
 	def dotClicked(self, index):
+		Log.getLogger().info('DOT_CLICKED,' + str(index + 1))
 		self.selectedDotIndex = index
 		self.loadDot()
 
 	def languageClicked(self, index):
 		self.config.changeLanguage(index)
+		Log.getLogger().info('LANGUAGE_CHANGED,' + self.config.languagePrefix)
 		self.loadFonts()
 		self.onLanguageChanged()
 		self.loadDot()
@@ -160,56 +168,58 @@ class Timeline:
 			button.draw()
 
 	def loop(self):
-		isGameRunning = True
-		clock = pygame.time.Clock()
-		lastTime = pygame.time.get_ticks()
-		font = pygame.font.Font(None, 30)
+		try:
+			isGameRunning = True
+			clock = pygame.time.Clock()
+			lastTime = pygame.time.get_ticks()
+			font = pygame.font.Font(None, 30)
 
-		while isGameRunning:
-			for event in pygame.event.get():
-				if event.type == MOUSEBUTTONDOWN:
-					if not self.config.isTouch():
-						self.onMouseDown(event.pos)
-				elif event.type == MOUSEBUTTONUP:
-					if not self.config.isTouch():
-						self.onMouseUp(event.pos)
-				elif event.type == KEYDOWN:
-					if event.key == K_ESCAPE:
-						isGameRunning = False
+			while isGameRunning:
+				for event in pygame.event.get():
+					if event.type == MOUSEBUTTONDOWN:
+						if not self.config.isTouch():
+							self.onMouseDown(event.pos)
+					elif event.type == MOUSEBUTTONUP:
+						if not self.config.isTouch():
+							self.onMouseUp(event.pos)
+					elif event.type == KEYDOWN:
+						if event.key == K_ESCAPE:
+							isGameRunning = False
 
-			if self.config.isTouch():
-				event = self.touchScreen.readUpDownEvent()
-				while event is not None:
-					if event['type'] == TouchScreen.DOWN_EVENT:
-						self.onMouseDown(event['pos'])
-					elif event['type'] == TouchScreen.UP_EVENT:
-						self.onMouseUp(event['pos'])
+				if self.config.isTouch():
 					event = self.touchScreen.readUpDownEvent()
+					while event is not None:
+						if event['type'] == TouchScreen.DOWN_EVENT:
+							self.onMouseDown(event['pos'])
+						elif event['type'] == TouchScreen.UP_EVENT:
+							self.onMouseUp(event['pos'])
+						event = self.touchScreen.readUpDownEvent()
 
-			if not self.config.isTouch():
-				self.onMouseMove(pygame.mouse.get_pos())
-			else:
-				pos = self.touchScreen.getPosition()
-				self.onMouseMove(pos)
+				if not self.config.isTouch():
+					self.onMouseMove(pygame.mouse.get_pos())
+				else:
+					pos = self.touchScreen.getPosition()
+					self.onMouseMove(pos)
 
-			self.screen.fill([0,0,0])
-			currTime = pygame.time.get_ticks()
-			dt = currTime - lastTime
-			lastTime = currTime
+				self.screen.fill([0,0,0])
+				currTime = pygame.time.get_ticks()
+				dt = currTime - lastTime
+				lastTime = currTime
 
-			self.draw(dt / 1000)
+				self.draw(dt / 1000)
 
-			if not self.config.isTouch() and self.blitCursor:
-				self.screen.blit(self.cursor, (pygame.mouse.get_pos()))
+				if not self.config.isTouch() and self.blitCursor:
+					self.screen.blit(self.cursor, (pygame.mouse.get_pos()))
 
-			if self.config.showFPS():
-				fps = font.render(str(int(clock.get_fps())), True, Color('white'))
-				self.screen.blit(fps, (50, 50))
+				if self.config.showFPS():
+					fps = font.render(str(int(clock.get_fps())), True, Color('white'))
+					self.screen.blit(fps, (50, 50))
 
-			pygame.display.flip()
-			clock.tick(60)
+				pygame.display.flip()
+				clock.tick(60)
 
-		pygame.quit()
-
+			pygame.quit()
+		except Exception as e:
+			Log.getLogger().exception('ERROR,Error occured!')
 if __name__ == '__main__':
 	Timeline().start()
