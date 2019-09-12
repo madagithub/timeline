@@ -83,7 +83,7 @@ class Timeline:
 			x = dot['x']
 			y = dot['y']
 			dotButton = Button(self.screen, Rect(x - self.dotImage.get_width() // 2, y - self.dotImage.get_height() // 2, self.dotImage.get_width(), self.dotImage.get_height()), 
-				self.dotImage, self.dotTappedImage, str(i + 1), DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, self.numbersFont, partial(self.dotClicked, i))
+				self.dotImage, self.dotTappedImage, str(i + 1), DOT_TEXT_COLOR, DOT_SELECTED_TEXT_COLOR, self.numbersFont, partial(self.dotClicked, i), 1.5)
 			self.dotButtons.append(dotButton)
 			self.buttons.append(dotButton)
 
