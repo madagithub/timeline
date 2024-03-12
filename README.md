@@ -123,14 +123,14 @@ The best way to find out the proper value, is to add print statements in the Tou
 Like this:
 ```
 elif event.type == ecodes.EV_ABS:
-					absEvent = categorize(event)
+	absEvent = categorize(event)
 
-					if absEvent.event.code == 0:
-						currX = absEvent.event.value
-					elif absEvent.event.code == 1:
-						currY = absEvent.event.value
+	if absEvent.event.code == 0:
+		currX = absEvent.event.value
+	elif absEvent.event.code == 1:
+		currY = absEvent.event.value
 
-					print(currx, curry)
+	print(currx, curry)
 ```
 
 Then, run the exhibit, and touch various corners of the screen. It will be very easy to conclude on the max value sknowing they are a power of 2.
