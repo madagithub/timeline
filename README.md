@@ -143,6 +143,7 @@ The exhibit supports a rotating log named timeline.log in the root directory, th
 * LANGUAGE_CHANGED,prefix (lngaugaed changed to prefix: en/ar/he)
 * ERROR,Error occured! (when an error occured)
 
+Each event will be prefixed by a timestamp (year-month-day hour:minute:seconds.mili with year as 4 digit, all rest as 2 digit and milliseconds as 3 digits) then a comma, following the event as specified above.
 
 ## Translations
 The exhibit contains all texts in the config file.
